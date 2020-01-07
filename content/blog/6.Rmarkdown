@@ -1,0 +1,20 @@
++++
+title = "Cours 8 - Résolution du problème d'encodage"
+date = 2019-11-06
+weight = 6
+toc = true  # Show table of contents? true/false
+type = "docs"  # Do not modify.
+[menu.blog]
++++
+
+
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = NA, highlight = TRUE, cache= TRUE)
+```
+
+<font size="4">Lors de la détection de l'encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n'était pas un type d'encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :</font>
+
+<br>
+
+<img src="/blog/_index_files/encodage.png">
+

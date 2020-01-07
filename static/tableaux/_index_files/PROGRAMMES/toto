@@ -1,0 +1,13 @@
+HTTP/2 404 
+content-type: text/html; charset=utf-8
+date: Tue, 07 Jan 2020 08:01:12 GMT
+server: Apache
+cache-control: public, must-revalidate, no-cache="Set-Cookie", s-maxage=900
+expires: Tue, 07 Jan 2020 08:16:12 GMT
+strict-transport-security: max-age=15768000
+last-modified: Tue, 07 Jan 2020 08:01:12 GMT
+x-cache: Error from cloudfront
+via: 1.1 0b0cf39231f2e8a928723d3a28df13cd.cloudfront.net (CloudFront)
+x-amz-cf-pop: CDG3-C2
+x-amz-cf-id: qDct9iWwmJUgtMEFCjN7BN71O6rWoV4qsDcqHh3XHAikwoNF_luKiA==
+

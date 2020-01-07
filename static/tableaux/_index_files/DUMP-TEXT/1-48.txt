@@ -1,0 +1,495 @@
+   #Lexology
+
+   (BUTTON) Toggle navigation
+
+     * Search ____________________ Search
+     * Login
+     * Register
+
+     * PRO
+          + Explore all PRO content
+          + PRO subscription plans
+       Premium content
+          + Curated articles
+          + In-depth
+          + Market intelligence
+          + Practice guides
+       Analysis tools
+          + Lexology GTDT
+          + Ask Lexy
+
+     * PRO
+
+     * Latest
+     * GTDT
+     * Research
+     * Learn
+     * Webinars
+     * Instruct
+
+     * Store
+     * Blog
+     * Events
+     * Popular
+     * Influencers
+     * About
+
+     * Compare
+     * Topics
+     * Intelligence
+     * Guides
+
+   Getting The Deal Through joins Lexology
+   GTDT and Lexology Navigator have merged
+   [GTDT-logo.svg]
+
+CONTENT DEVELOPMENT
+
+   Become your target audience’s go-to resource for today’s hottest
+   topics.
+     * Trending Topics New
+     * Discover Content
+     * Horizons Beta
+     * Ideation
+
+CLIENT INTELLIGENCE
+
+   Understand your clients’ strategies and the most pressing issues they
+   are facing.
+     * Track Sectors
+     * Track Clients
+     * Mandates New
+     * Discover Companies
+     * Insight Reports
+
+COMPETITOR INTELLIGENCE
+
+   Keep a step ahead of your key competitors and benchmark against them.
+     * Benchmarking
+     * Competitor Mandates Coming soon
+
+Lexology PRO
+
+   Power up your legal research with modern workflow tools, AI conceptual
+   search and premium content sets that leverage Lexology's archive of
+   900,000+ articles contributed by the world's leading law firms.
+   Explore all PRO content
+
+Premium content
+
+     * Curated articles
+     * In-depth
+     * Market intelligence
+     * Practice guides
+
+Analysis tools
+
+     * Lexology GTDT
+     * Ask Lexy
+
+   Explore all PRO content
+   PRO subscription plans
+
+     * About
+     * Find experts
+     * Firms
+
+   Back Forward
+     * Save & file
+     * View original
+     * Forward
+     * Print
+     * Share
+          + Facebook
+          + Twitter
+          + Linked In
+     * Follow
+       Please login to follow content.
+     * Like
+
+   add to folder:
+   [ajax-loader-spin.gif]
+     * My saved (default)
+     * Read later [ajax-loader-spin.gif]
+
+   Folders shared with you
+     * [ajax-loader-spin.gif]
+
+Register now for your free, tailored, daily legal newsfeed service.
+
+   Questions? Please contact customerservices@lexology.com
+   Register
+
+中美贸易战对中国企业来说到底意味着什么？
+Blog China Law Insight
+
+   King & Wood Mallesons
+   King & Wood Mallesons logo
+   Xiao Jin
+   China, USA March 26 2018
+
+   “贸易战”的主要内容
+
+   2018年3月1日，美国总统特朗普宣布，为了维护美国的国家安全，美国政府将长时间内对进口的钢铁和铝产品分别加征25%和10%的关税，直至美国财
+   政部长认为不再必要[1]。不出一个月，3月22日，特朗普政府再次“出招”，这一次矛头直指中国，指责中国强迫美国企业转让技术以及非法入侵美国公司
+   网络等“经济侵略”行为[2]，并且“招数”远不止加征关税那么简单，包括：
+     * 对中国歧视性的技术许可做法在世界贸易组织（WTO）提起诉讼；
+     * 对包括航空航天，信息通讯技术，机械产品在内可能高达价值600亿美元进口额的中国产品加征25%关税；
+     * 对中国收购重点技术或产业的投资行为采取限制措施[3]。
+
+   特朗普政府以上举措并非心血来潮，而是蓄谋已久——对钢铁和铝产品加征关税的措施是根据2017年4月发起的“232调查”结论而采取的；针对中国“经
+   济侵略”行为的措施则是根据2017年8月发起的“301调查”结论而采取的。虽然两项举措看似都是美国为维护贸易利益而采取的措施，但二者的法律基础
+   不同，适用范围也不同。
+
+   在法律基础方面，“232调查”是美国商务部基于《1962年贸易扩展法》第232节的授权，对特定进口商品进行的全面调查，以确定该进口商品对美国国
+   家安全是否产生影响；“301调查”则是由美国贸易代表基于《1974年贸易法》第301节的授权，对某一特定国家“不公平”的贸易做法进行调查。根据
+   美国法律的授权，美国总统有权基于两项调查的结果采取特定措施。在适用范围方面，美国总统基于232调查做出的对钢铁和铝产品的征税决定不仅适用于中国
+   ，还将适用于其他第三国（除非该国得到豁免）；而美国总统基于301调查采取的措施仅针对中国适用。
+
+   在特朗普宣布以上措施之时，美国商务部长罗斯称：“我们对钢铁和铝采取的措施或多或少是针对现在的问题，而此次针对知识产权采取的措施着眼于未来”。[
+   4]美国的动机昭然若揭：对钢铝产品加征关税只是解燃眉之急，对中国高新技术产业的贸易和投资的全面打压，才是争夺21世纪经济技术领导权的关键。所谓
+   项庄舞剑，意在沛公。
+
+   中美贸易的“世纪大战”已是山雨欲来。在此情况下，中国企业将受到什么样的现实影响，又该如何���动来保护自身的商业利益？
+
+   “贸易战”对中国企业的现实影响
+
+   如前所述，美国掀起对华贸易战的核心目的只有一个：维护美国在研究和技术方面的领先地位，遏制中国产业从劳动密集型向资本技术密集型转型升级，延缓中国
+   制造业在全球价值链中从下游向中上游的移动。现阶段，各界最关心的莫过于这份“加征25%关税所涉的600亿商品清单”。根据特朗普总统的指示，美国贸
+   易代表办公室将于2018年4月7日前对外公布加征关税的产品范围清单的征求意见稿，并给予公众30天评论期限。[5]
+
+   虽然清单还未公布，但是通过研究美国贸易代表莱特希泽参加美国众议院筹款委员会和美国参议院财政委员会的两场听证会的证词可以从中看出端倪。在两场国会
+   听证会中，美国贸易代表莱特希泽解释了如何确定加征关税的产品清单的重要原则。他表示：
+     * 将运用一套算法，计算出“给中国带来最大压力，给美国消费者造成最小影响”的产品，这些产品应被加征关税。
+     * 对于《中国制造2025》中所列的十大高科技行业，如果到2025年“中国的这十大行业领先世界，则对美国不利”，因此要对这些行业的出口产品
+       加征关税，无论这些产品是否被算法的结论覆盖。
+
+   结合莱特希泽的上述证词，我们可以做出以下初步判断：
+
+   1.高技术附加值的电子通信设备与机械设备将成为“受害者”
+
+   根据中国商务部公布的数据，美国自中国的进口商品以机电产品为主，2017年进口2566.3亿美元，占美国自中国进口总额的50.8%，其中电机和电
+   气产品进口1470亿美元，机械设备进口1096.3亿美元[6]。我们判断，为达到美国的关税措施影响“600亿美金进口商品”的目标，并同时打击中
+   国高新技术企业的发展，这些机电产品中的高科技产品最有可能被列入加征关税的清单之中。短时间内，我们预计这些行业的出口企业订单数量会迅速下降，或�
+   进口报价被严重压低，导致这些行业中的生产和出口企业遭受利润损失。
+
+   2.《中国制造2025》十大技术产业相关出口商品可能被加征关税。征税的短期影响微弱，长期负面影响较大
+
+   这些产业包括新一代信息技术、高档数控机床和工业机器人、航空航天设备、海洋工程装备、高技术船舶、新能源装备、高铁装备、农机装备、新材料、生物医药
+   和高性能医疗器械。莱特希泽在美国国会听证会中专门指出，如果让中国的这十大行业占据世界领先地位，则对美国非常不利，因此要对这些行业加征关税。
+
+   我们认为，目前这些高新科技行业尚处于研发和应用的进程中，根据中国商务部数据，现阶段相关行业产品对美国的出口很少。从这个角度来说，加征关税后对于
+   行业的短期影响较小。然而，新兴行业的发展需要足够大的市场需求拉动。如果中国的高科技企业很早就失去了美国这个全球最大的市场，对行业培育将造成一定
+   程度的不利影响，影响的大小将取决于相关行业对美出口的依赖性。
+
+   3.家具、玩具、纺织品、塑料、陶瓷、玻璃、轻工产品等劳动密集型商品，正常情况下应不会被加征关税
+
+   根据莱特希泽选择提高关税产品的原则，必须确保“给美国消费者造成最小影响”。以上商品虽属于中国出口到美国的主要商品，但是它们与美国民众的日常生活
+   密切相关，加征关税意味着价格上涨，导致美国家庭开支增加，民众的福利水平下降。另一方面，这些行业的技术附加值低；即使加税也不会对中国的技术进步产
+   生实质性冲击。因此我们判断这些商品正常情况下应不在600亿清单内。
+
+   4.中国企业赴美投资高新技术行业将受到限制
+
+   根据特朗普签署的《中国经济侵略备忘录》中的要求，美国财政部长将会同有关部门共同考虑如何“利用现有机制”或“提出新的措施”对中国企业投资美国重要
+   行业或技术的行为进行限制，并在备忘录签署后两个月内（即5月23日前）向总统进行汇报。[7]这一举措很显然旨在限制中国企业获得美国核心敏感技术的
+   投资，高新技术企业的兼并收购将面临更大困难。虽然目前美国财政部长尚未提出具体措施或公布“敏感技术”的行业清单，但我们推测《中国制造2025》中
+   列举的十大高科技产业的相关投资必将受到严格审查。
+
+   此外，美方也可能对现有的投资安全审查机制进行修改，进一步扩大美国外国投资委员会（简称CFIUS）的权力，将只涉及并购少数股权和合资公司的交易，
+   或者包括被CFIUS认定为涉及“新兴技术”的交易也纳入审查的范围，进一步增加中国投资者赴美投资高科技行业的难度及不确定性。[8]
+
+   结束语
+
+   中美贸易战的第一枪已经打响。美国政府依据“301调查”的结论拟采取的措施也在逐一的落实当中。美国政府已于2018年3月23日向WTO提起诉讼，
+   指控中国与技术转让相关的法律法规违反了WTO纪律。[9]
+   如前所述，美国政府还将在近期采取一系列措施落实特朗普总统关于提高关税和限制中国企业对美重要产业投资的指示。金杜团队将密切跟踪上述事态的发展进程
+   。
+
+   虽然美方发动这场“贸易战”背后的主要动机是为了遏制中国高科技领域的发展速度，打压中国工业化、信息化的发展势头，但“贸易战”造成的结果，很显然会
+   对中美双边经贸关系，乃至全球经济秩序带来重大负面影响。我们认为，如果贸易战已经不可避免，对于中国来说，最好的应战策略是以战止战。
+
+   事实上，对于美国挑起的“贸易战”，中国政府已然做好了充分的应对准备。3月23日一早，中国商务部即发布了针对美国进口钢铁和铝产品232措施的中止
+   减让产品清单，拟对鲜水果、干果及坚果制品、葡萄酒、改性乙醇、花旗参、无缝钢管等产品加征15%的关税；拟对猪肉及制品、回收铝等产品加征25%的关
+   税[10]。表面上看这些产品所涉的进口额仅30亿美金，但事实上这些将要受到影响的产品大多产自特朗普的“票仓”——美国的农业州。毫无疑问，一旦提
+   高关税措施生效，特朗普总统将会面临来自这些选区的极大压力。
+
+   在“贸易战”的大背景下，我们建议可能受到影响的中国企业增加与行业协会、商会、政府的沟通以寻求支持，及时咨询专业律师了解美国最新的立法动态和政策
+   风向，积极参与相关措施的征求意见评论过程，同时也可以发动美国相关利益方游说美国政府。企业应当尽早规划、调整投资项目和出口决策，才能最大程度避免
+   损失和风险。
+
+   [1]请见《关于调整的美国进口钢产品关税的总统公告》：https://www.whitehouse.gov/presidential-acti
+   ons/presidential-proclamation-adjusting-imports-steel-united-states/
+
+   [2]
+   请见美国白宫网站发布的总统声明：https://www.whitehouse.gov/briefings-statements/remarks
+   -president-trump-signing-presidential-memorandum-targeting-chinas-econo
+   mic-aggression/
+
+   [3]
+   请见美国贸易代表《301调查事实清单》：https://ustr.gov/sites/default/files/USTR%20301%20F
+   act%20Sheet.pdf
+
+   [4] 请见脚注2。
+
+   [5]
+   请见美国白宫网站发布的《中国经济侵略备忘录》：https://www.whitehouse.gov/presidential-actions/
+   presidential-memorandum-actions-united-states-related-section-301-inves
+   tigation/
+
+   [6]请见中国商务部网站：https://countryreport.mofcom.gov.cn/record/view110209.asp?
+   news_id=58151
+
+   [7]请见美国白宫网站发布的《中国经济侵略备忘录》：https://www.whitehouse.gov/presidential-actio
+   ns/presidential-memorandum-actions-united-states-related-section-301-in
+   vestigation/
+
+   [8]请参见华尔街日报报道： https://cn.wsj.com/articles/CN-BGH-20180130102935
+
+   [9]
+   请见美国贸易代表网站：https://ustr.gov/about-us/policy-offices/press-office/press-
+   releases/2018/march/following-president-trump%E2%80%99s-section
+
+   [10]
+   请见商务部网站新闻：http://www.mofcom.gov.cn/article/ae/ag/201803/20180302722664.
+   shtml
+
+   作者：肖瑾 苏畅 李政浩 金杜律师事务所争议解决部
+
+   “贸易战”的主要内容
+
+   2018年3月1日，美国总统特朗普宣布，为了维护美国的国家安全，美国政府将长时间内对进口的钢铁和铝产品分别加征25%和10%的关税，直至美国财
+   政部长认为不再必要[1]。不出一个月，3月22日，特朗普政府再次“出招”，这一次矛头直指中国，指责中国强迫美国企业转让技术以及非法入侵美国公司
+   网络等“经济侵略”行为[2]，并且“招数”远不止加征关税那么简单，包括：
+     * 对中国歧视性的技术许可做法在世界贸易组织（WTO）提起诉讼；
+     * 对包括航空航天，信息通讯技术，机械产品在内可能高达价值600亿美元进口额的中国产品加征25%关税；
+     * 对中国收购重点技术或产业的投资行为采取限制措施[3]。
+
+   特朗普政府以上举措并非心血来潮，而是蓄谋已久——对钢铁和铝产品加征关税的措施是根据2017年4月发起的“232调查”结论而采取的；针对中国“经
+   济侵略”行为的措施则是根据2017年8月发起的“301调查”结论而采取的。虽然两项举措看似都是美国为维护贸易利益而采取的措施，但二者的法律基础
+   不同，适用范围也不同。
+
+   在法律基础方面，“232调查”是美国商务部基于《1962年贸易扩展法》第232节的授权，对特定进口商品进行的全面调查，以确定该进口商品对美国国
+   家安全是否产生影响；“301调查”则是由美国贸易代表基于《1974年贸易法》第301节的授权，对某一特定国家“不公平”的贸易做法进行调查。根据
+   美国法律的授权，美国总统有权基于两项调查的结果采取特定措施。在适用范围方面，美国总统基于232调查做出的对钢铁和铝产品的征税决定不仅适用于中国
+   ，还将适用于其他第三国（除非该国得到豁免）；而美国总统基于301调查采取的措施仅针对中国适用。
+
+   在特朗普宣布以上措施之时，美国商务部长罗斯称：“我们对钢铁和铝采取的措施或多或少是针对现在的问题，而此次针对知识产权采取的措施着眼于未来”。[
+   4]美国的动机昭然若揭：对钢铝产品加征关税只是解燃眉之急，对中国高新技术产业的贸易和投资的全面打压，才是争夺21世纪经济技术领导权的关键。所谓
+   项庄舞剑，意在沛公。
+
+   中美贸易的“世纪大战”已是山雨欲来。在此情况下，中国企业将受到什么样的现实影响，又该如何行动来保护自身的商业利益？
+
+   “贸易战”对中国企业的现实影响
+
+   如前所述，美国掀起对华贸易战的核心目的只有一个：维护美国在研究和技术方面的领先地位，遏制中国产业从劳动密集型向资本技术密集型转型升级，延缓中国
+   制造业在全球价值链中从下游向中上游的移动。现阶段，各界最关心的莫过于这份“加征25%关税所涉的600亿商品清单”。根据特朗普总统的指示，美国贸
+   易代表办公室将于2018年4月7日前对外公布加征关税的产品范围清单的征求意见稿，并给予公众30天评论期限。[5]
+
+   虽然清单还未公布，但是通过研究美国贸易代表莱特希泽参加美国众议院筹款委员会和美国参议院财政委员会的两场听证会的证词可以从中看出端倪。在两场国会
+   听证会中，美国贸易代表莱特希泽解释了如何确定加征关税的产品清单的重要原则。他表示：
+     * 将运用一套算法，计算出“给中国带来最大压力，给美国消费者造成最小影响”的产品，这些产品应被加征关税。
+     * 对于《中国制造2025》中所列的十大高科技行业，如果到2025年“中国的这十大行业领先世界，则对美国不利”，因此要对这些行业的出口产品
+       加征关税，无论这些产品是否被算法的结论覆盖。
+
+   结合莱特希泽的上述证词，我们可以做出以下初步判断：
+
+   1.高技术附加值的电子通信设备与机械设备将成为“受害者”
+
+   根据中国商务部公布的数据，美国自中国的进口商品以机电产品为主，2017年进口2566.3亿美元，占美国自中国进口总额的50.8%，其中电机和电
+   气产品进口1470亿美元，机械设备进口1096.3亿美元[6]。我们判断，为达到美国的关税措施影响“600亿美金进口商品”的目标，并同时打击中
+   国高新技术企业的发展，这些机电产品中的高科技产品最有可能被列入加征关税的清单之中。短时间内，我们预计这些行业的出口企业订单数量会迅速下降，或�
+   进口报价被严重压低，导致这些行业中的生产和出口企业遭受利润损失。
+
+   2.《中国制造2025》十大技术产业相关出口商品可能被加征关税。征税的短期影响微弱，长期负面影响较大
+
+   这些产业包括新一代信息技术、高档数控机床和工业机器人、航空航天设备、海洋工程装备、高技术船舶、新能源装备、高铁装备、农机装备、新材料、生物医药
+   和高性能医疗器械。莱特希泽在美国国会听证会中专门指出，如果让中国的这十大行业占据世界领先地位，则对美国非常不利，因此要对这些行业加征关税。
+
+   我们认为，目前这些高新科技行业尚处于研发和应用的进程中，根据中国商务部数据，现阶段相关行业产品对美国的出口很少。从这个角度来说，加征关税后对于
+   行业的短期影响较小。然而，新兴行业的发展需要足够大的市场需求拉动。如果中国的高科技企业很早就失去了美国这个全球最大的市场，对行业培育将造成一定
+   程度的不利影响，影响的大小将取决于相关行业对美出口的依赖性。
+
+   3.家具、玩具、纺织品、塑料、陶瓷、玻璃、轻工产品等劳动密集型商品，正常情况下应不会被加征关税
+
+   根据莱特希泽选择提高关税产品的原则，必须确保“给美国消费者造成最小影响”。以上商品虽属于中国出口到美国的主要商品，但是它们与美国民众的日常生活
+   密切相关，加征关税意味着价格上涨，导致美国家庭开支增加，民众的福利水平下降。另一方面，这些行业的技术附加值低；即使加税也不会对中国的技术进步产
+   生实质性冲击。因此我们判断这些商品正常情况下应不在600亿清单内。
+
+   4.中国企业赴美投资高新技术行业将受到限制
+
+   根据特朗普签署的《中国经济侵略备忘录》中的要求，美国财政部长将会同有关部门共同考虑如何“利用现有机制”或“提出新的措施”对中国企业投资美国重要
+   行业或技术的行为进行限制，并在备忘录签署后两个月内（即5月23日前）向总统进行汇报。[7]这一举措很显然旨在限制中国企业获得美国核心敏感技术的
+   投资，高新技术企业的兼并收购将面临更大困难。虽然目前美国财政部长尚未提出具体措施或公布“敏感技术”的行业清单，但我们推测《中国制造2025》中
+   列举的十大高科技产业的相关投资必将受到严格审查。
+
+   此外，美方也可能对现有的投资安全审查机制进行修改，进一步扩大美国外国投资委员会（简称CFIUS）的权力，将只涉及并购少数股权和合资公司的交易，
+   或者包括被CFIUS认定为涉及“新兴技术”的交易也纳入审查的范围，进一步增加中国投资者赴美投资高科技行业的难度及不确定性。[8]
+
+   结束语
+
+   中美贸易战的第一枪已经打响。美国政府依据“301调查”的结论拟采取的措施也在逐一的落实当中。美国政府已于2018年3月23日向WTO提起诉讼，
+   指控中国与技术转让相关的法律法规违反了WTO纪律。[9]
+   如前所述，美国政府还将在近期采取一系列措施落实特朗普总统关于提高关税和限制中国企业对美重要产业投资的指示。金杜团队将密切跟踪上述事态的发展进程
+   。
+
+   虽然美方发动这场“贸易战”背后的主要动机是为了遏制中国高科技领域的发展速度，打压中国工业化、信息化的发展势头，但“贸易战”造成的结果，很显然会
+   对中美双边经贸关系，乃至全球经济秩序带来重大负面影响。我们认为，如果贸易战已经不可避免，对于中国来说，最好的应战策略是以战止战。
+
+   事实上，对于美国挑起的“贸易战”，中国政府已然做好了充分的应对准备。3月23日一早，中国商务部即发布了针对美国进口钢铁和铝产品232措施的中止
+   减让产品清单，拟对鲜水果、干果及坚果制品、葡萄酒、改性乙醇、花旗参、无缝钢管等产品加征15%的关税；拟对猪肉及制品、回收铝等产品加征25%的关
+   税[10]。表面上看这些产品所涉的进口额仅30亿美金，但事实上这些将要受到影响的产品大多产自特朗普的“票仓”——美国的农业州。毫无疑问，一旦提
+   高关税措施生效，特朗普总统将会面临来自这些选区的极大压力。
+
+   在“贸易战”的大背景下，我们建议可能受到影响的中国企业增加与行业协会、商会、政府的沟通以寻求支持，及时咨询专业律师了解美国最新的立法动态和政策
+   风向，积极参与相关措施的征求意见评论过程，同时也可以发动美国相关利益方游说美国政府。企业应当尽早规划、调整投资项目和出口决策，才能最大程度避免
+   损失和风险。
+   To view all formatting for this article (eg, tables, footnotes), please
+   access the original here.
+   King & Wood Mallesons - Xiao Jin
+   Back Forward
+     * Save & file
+     * View original
+     * Forward
+     * Print
+     * Share
+          + Facebook
+          + Twitter
+          + Linked In
+     * Follow
+       Please login to follow content.
+     * Like
+
+   add to folder:
+   [ajax-loader-spin.gif]
+     * My saved (default)
+     * Read later [ajax-loader-spin.gif]
+
+   Folders shared with you
+     * [ajax-loader-spin.gif]
+
+Filed under
+
+     * China
+     * USA
+     * Trade & Customs
+     * King & Wood Mallesons
+
+Tagged with
+
+     * US Congress
+     * US Secretary of the Treasury
+     * CFIUS
+
+Popular articles from this firm
+
+    1.
+
+On Calculation of Monthly Salary in the Case of Absence *
+    2.
+
+关于《电子商务法》中知识产权保护及“避风港原则”的解析 *
+    3.
+
+LPR来了，你准备好了吗？——一文看懂LPR改革及对商业贷款协议的影响 *
+    4.
+
+九民纪要和资产证券化没关系？错！ *
+    5.
+
+Employers: Be Cautious with Pay Cuts *
+
+   If you would like to learn how Lexology can drive your content
+   marketing strategy forward, please email enquiries@lexology.com.
+   Powered by Lexology
+   55 mins
+   Matthew L. Mazur Matthew L. Mazur
+   Matthew Banham Matthew Banham
+   Navigating cooperation demands of SFO and DOJ in cross-border internal
+   investigations
+   09 January 2020; 16:00 UTC
+   Read more
+   [20191125115323.png]
+   Show all webinars
+
+More from China Law Insight
+
+    1. “大文娱”精英律师的思维导图：跨年晚会，至少需要了解这些
+    2. 14章、226条 | 新《证券法》改了什么（下）
+    3. 《九民纪要》语境下谈资管业务之六：分级化资管产品投资股市和场外配资之界限
+    4. 新鲜出炉：《证券法》2019年大修全文逐条对比！
+    5. 九民纪要和资产证券化没关系？错！
+
+Featured Video
+
+   Dr. Michael Juenemann
+   2:00 min
+
+Dr. Michael Juenemann
+
+Bird & Bird LLP
+
+Why you can count on ICOs and STOs
+
+   Watch now
+
+Related topic hubs
+
+    1. CFIUS
+    2. China
+    3. USA
+    4. Trade & Customs
+
+Related China articles
+
+    1.
+
+中国“扭扭车”如何 “扭”转困局 *
+    2.
+
+监察法1.0时代刑事律师可以这样做 *
+    3.
+
+2016 年 4 月 1 日至 2016 年 4 月 30 日新法规 *
+
+Related international articles
+
+    1.
+
+2018年米国輸入関税の概要 * - USA
+    2.
+
+中国製品への輸入関税に関する意見公募期間の終了迫る * - USA
+    3.
+
+2018年 03月 レックスニュース * - Taiwan
+
+   [Icon-Quote.png] Nadia Martel
+   Senior Legal Counsel
+   C2MI
+   What our clients say
+
+   " I am very pleased with the content of the Lexology newsfeeds. They
+   are a centralized way of getting legal related updates from many
+   jurisdictions and a great way to stay informed with a minimal time
+   commitment."
+
+   Back to Top
+     * Terms of use
+     * Cookies
+     * Disclaimer
+     * Privacy policy
+     * GDPR compliance
+
+     * RSS feeds
+     * Contact
+     * Submissions
+     * About
+
+     * Login
+     * Register
+     * Follow on Twitter
+     * Search
+
+   Law Business Research
+
+   © Copyright 2006 - 2020 Law Business Research

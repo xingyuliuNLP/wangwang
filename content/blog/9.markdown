@@ -1,0 +1,9 @@
++++
+title = "Cours 11 - Analyse du corpus sur iTrameur"
+date = 2019-11-06
+weight = 9
+toc = true  # Show table of contents? true/false
+type = "docs"  # Do not modify.
+[menu.blog]
++++
+

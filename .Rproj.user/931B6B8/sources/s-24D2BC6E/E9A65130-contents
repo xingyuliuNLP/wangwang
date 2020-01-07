@@ -1,0 +1,17 @@
+---
+banner: img/banners/encodage.jpg 
+title: Séance 8 - Résolution du problème d'encodage
+author: Xingyu&Xiaoou
+date: '2019-11-13'
+slug: séance-8-résolution-du-problème-d-encodage
+categories: [programmation]
+tags: [BASH]
+---
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = NA, highlight = TRUE)
+```
+
+<font size="4"><font size="4">Lors de la détection de l'encodage, pour quelques URLs chinois, nous avons détecté TEXT/HTML comme résultat, ce qui n'était pas un type d'encodage et évidemment ne pouvait pas être converti en UTF-8 avec iconv. Il nous faut donc reconstruire nos codes selon le processus ci-après :</font></font>
+<br>
+![](/projet_encadre/blog/2019-11-13-séance-8-résolution-du-problème-d-encodage_files/encodage.png){width=80%}
+

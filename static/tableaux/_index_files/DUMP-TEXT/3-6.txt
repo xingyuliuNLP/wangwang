@@ -1,0 +1,384 @@
+
+   REFRESH(1799 sec):
+   file://localhost/Users/becca/Documents/nlp/coursS1/projetEncadre/PROJET
+   -MOT-SUR-LE-WEB/PAGES-ASPIREES/3-6.html
+   #alternate alternate
+
+   franceinfo
+
+     * vidéos
+     *
+     * radio
+     *
+     * jt
+     *
+     * magazines
+
+   ____________________
+
+   Direct TV
+
+   Direct Radio
+
+     * Accueil
+     * politique
+     * faits-divers
+     * société
+     * éco/conso
+     * monde
+          +
+               o Afrique
+               o Amériques
+               o Asie-Pacifique
+               o Europe
+               o Etats Unis d'Amérique
+               o France
+               o 14-Juillet
+               o Catalogne
+               o Grèce
+          +
+               o Italie
+               o Pays-Bas
+               o Royaume-Uni
+               o Brexit
+               o Mali
+               o Russie
+               o Syrie
+               o Proche-orient
+               o Environnement
+            Les sujets du moment
+          +
+               o Egypte
+               o Environnement africain
+               o Ethiopie
+               o Ghana
+               o Kenya
+          +
+               o Maroc
+               o Migrants
+               o Pacifique
+               o Société africaine
+               o Soudan
+     * culture
+     * sports
+     * santé
+     * sciences
+     * tech/web
+     * environnement
+     * météo
+     * vrai ou fake
+     * Le live
+
+     * Actualités
+     * Monde
+     * Chine
+
+L'article à lire pour comprendre la guerre commerciale entre la Chine et les
+Etats-Unis
+
+   "Les guerres commerciales sont bonnes et faciles à gagner", affirmait
+   Donald Trump en mars 2018. Parce qu'il ne faut pas toujours croire le
+   président américain sur parole, franceinfo vous explique ce qu'il se
+   passe vraiment entre les deux mastodontes.
+   Les présidents américain et chinois, Donald Trump et Xi Jinping, le 29
+   juin 2019 lors du sommet du G20 à Osaka. Les présidents américain et
+   chinois, Donald Trump et Xi Jinping, le 29 juin 2019 lors du sommet du
+   G20 à Osaka. (BRENDAN SMIALOWSKI / AFP)
+
+   avatar
+   Marie-Adélaïde ScigaczFrance Télévisions
+
+   Mis à jour le 11/08/2019 | 07:29
+   publié le 11/08/2019 | 07:29
+
+   "Il va de soi que nous n'avons pas connu de semaines aussi décisives
+   pour le commerce mondial depuis les années 1930." Mardi 5 août, le
+   monde se divise en deux catégories : ceux qui paniquent à la lecture de
+   cette phrase, glissée dans un éditorial du quotidien britannique The
+   Guardian, et ceux qui n'ont rien compris à la guerre commerciale qui
+   oppose les deux premières économies mondiales. En l'espace de quelques
+   jours, les Etats-Unis ont annoncé de nouveaux droits de douane sur les
+   importations chinoises, la Chine a laissé chuter sa devise vis-à-vis du
+   dollar et les marchés financiers se sont jetés par la fenêtre. Or, si
+   le monde vit un moment crucial de son histoire économique, difficile de
+   s'y retrouver pour quiconque ne possède pas la bosse de l'éco !
+
+   Comment le battement d'une aile de portefeuille à Wenzhou est
+   susceptible de provoquer une tempête sur Wall Street ? Pourquoi l'envol
+   d'un tweet de la Maison Blanche fait-il planer la menace d'une
+   récession sur l'Union européenne ou présage d'une remise à plat de
+   l'économie mondiale ? Franceinfo explique cette guerre froide
+   économique aux non-initiés.
+
+Pourquoi Donald Trump en veut-il à la Chine ?
+
+   "China, China, China". Donald Trump n'a pas attendu d'être président
+   des Etats-Unis pour s'en prendre à l'empire du Milieu. Pendant la
+   campagne de 2016, il accusait Pékin "de violer les Etats-Unis" et
+   d'être le "plus grand voleur de l'histoire du monde." Devenue en 2009
+   le premier exportateur de la planète, avant de ravir aux Etats-Unis son
+   titre de première économie mondiale en 2014, la Chine se dresse entre
+   Donald Trump et son désormais célèbre "Make America great
+   again" ("Rendre sa grandeur à l'Amérique").
+
+   Panneaux solaires, iPhone, soja, viande de porc, jouets, vêtements,
+   pianos, pneus, rouge à lèvres... Des conteneurs chargés de biens en
+   tous genres circulent sans interruption entre les deux pays. Or, le
+   milliardaire ne cesse de répéter que cette relation est asymétrique. En
+   commerçant avec la Chine, les Etats-Unis "perdent de l'argent",
+   martèle-t-il.
+
+   Son calcul est le suivant : la Chine a exporté pour 558 milliards de
+   dollars de biens vers les Etats-Unis en 2018. De leur côté, les
+   Etats-Unis n'ont exporté "que" 178 milliards de dollars de biens en
+   direction des consommateurs chinois. Ces 380 milliards de dollars de
+   différence constituent ce qu'on appelle, dans le jargon, "la balance
+   commerciale". Et puisqu'elle est déficitaire coté américain, Trump
+   estime que les Chinois ne la jouent pas "réglo". Ainsi, il
+   s'est donné pour mission de rétablir cet équilibre... Et de faire la
+   leçon à Pékin.
+
+Et il a raison ou il exagère ?
+
+   Disons que, si la Chine a rejoint en 2001 l'Organisation mondiale du
+   commerce (OMC), elle y défend une conception très personnelle de
+   l'économie de marché, héritée de son passé communiste. L'Etat chinois
+   est fréquemment accusé (y compris par l'UE) de subventionner
+   massivement les entreprises chinoises en leur accordant ses marchés
+   publics. Plus généralement, ses partenaires commerciaux lui reprochent
+   de s'asseoir sur les règles du commerce international, en ayant recours
+   par exemple au dumping – une pratique consistant à vendre un bien moins
+   cher à l'étranger afin de gagner des parts de marché. Pour toutes ces
+   raisons, les Etats-Unis ont déposé trente-quatre plaintes contre la
+   Chine devant l'OMC (l'UE en a déposé huit) depuis 2001, relevaient Les
+   Echos il y a près d'un an et demi.
+
+   D'un point de vue stratégique, la Chine tire parti de son atout numéro
+   un : son milliard de consommateurs. Une entreprise étrangère veut
+   s'installer en Chine et percer ce marché démesuré ? Très bien, répond
+   Pékin, à condition que le nouvel arrivant fasse cadeau de sa
+   technologie à la Chine. Toujours plus puissant, le pays rachète aussi
+   des entreprises étrangères afin de s'imposer dans des
+   secteurs-clés : fin 2017, Donald Trump a bloqué le rachat par un fonds
+   d'investissement appuyé par un groupe étatique chinois de la firme
+   électronique américaine Lattice, dont les produits promettent
+   d'éventuelles applications militaires. Ils avaient mis 1,3 milliard de
+   dollars sur la table.
+
+   Après avoir été, dans les années 1990, l'"atelier du monde", la
+   Chine mise sur ses brevets et ses nouvelles connaissances pour
+   moderniser son industrie, dans le cadre du plan "Made in China
+   2025". "Dans la saga de la rivalité sino-américaine, 'Made in China
+   2025' est sur le point de devenir le grand méchant, la vraie menace
+   existentielle pesant sur la domination technologique des Etats-Unis,
+   prévient Lorand Laskai, spécialiste de l'Asie pour le Council of
+   Foreign Relations. Les intentions de la Chine ne sont pas de rejoindre
+   le rang des économies high-tech (...) mais de toutes les
+   remplacer." Pour Trump, l'enjeu de ce bras de fer est colossal. D'où un
+   plan d'attaque à la Chuck Norris : "On va les taxer jusqu'à ce qu'ils
+   se comportent correctement."
+
+Concrètement, ça ressemble à quoi une guerre commerciale ?
+
+   Une guerre commerciale, "c'est comme au ping pong, sauf que les balles
+   sont des dollars et que les raquettes sont des dossiers", pour citer
+   les stratèges de la Cogip. Ici, la Chine et les Etats-Unis s'envoient
+   des droits de douane à la figure. Dès le mois de mars 2018,
+   le président américain a utilisé ce levier contre la Chine en annonçant
+   une taxe à hauteur de 25% sur les importations d'acier et de 10% sur
+   l'aluminium. Pourquoi ça fait mal ? Parce que l'empire du Milieu est
+   le plus gros exportateur d'acier au monde. Dans la foulée, Trump ajoute
+   que 1 300 produits chinois seront taxés.
+
+   En représailles, Pékin dévoile une liste de 128 produits américains
+   taxés en retour. Huit d'entre eux à hauteur de 25% (l'aluminium de
+   récupération, les produits à base de porc...), tandis que le vin
+   américain, les pommes, les baies ou encore les amandes prennent 15%
+   dans la vue. Et ce n'est que le début. Taxes. Contre-taxes. Taxes.
+   Contre-taxes... Fin août, Washington impose des droits de
+   douane majorés de 25% sur un total de plus de 250 milliards de dollars
+   de biens chinois importés. La Chine, elle, surtaxe plus de 5 400
+   produits américains (dont les balles de ping pong et les raquettes de
+   badminton), à hauteur de 110 milliards de dollars.
+
+   Quand le pays de l'Oncle Sam annonce que les importations chinoises
+   jusque-là épargnées seront à leur tour taxées à hauteur de 10% à partir
+   du 1er septembre, Pékin monte au filet et décide tout simplement de ne
+   plus importer (au moins provisoirement) de produits agricoles
+   américain. Le manque à gagner est immense pour les Etats-Unis. Entre le
+   19 juillet et le 2 août, la Chine leur a acheté 130 000 tonnes de soja,
+   120 000 tonnes de sorgho, 60 000 tonnes de blé, 40 000 tonnes de porc
+   et 25 000 tonnes de coton, liste Les Echos.
+
+Comment transforme-t-on des taxes en arme de guerre ?
+
+   "Les droits de douane sont géniaux ! Soit nos partenaires commerciaux
+   négocient des accords équitables avec nous, soit on les attaque à coups
+   de droits de douane. C'est aussi simple que ça",  tweetait le président
+   américain en juillet 2018. Le problème, c'est qu'en économie, rien
+   n'est "aussi simple que ça".
+
+   Quand des marchandises voyagent d'un pays à un autre, elles sont
+   soumises à une taxe, dont le montant est fixé par les différents pays
+   dans le cadre d'accords commerciaux. Mais c'est l'importateur, et non
+   l'exportateur, qui paye ces droits de douane. Si vous êtes un
+   fabriquant de tee-shirts américain et que vous avez besoin d'un tissu
+   chinois, soit vous payez plus cher ce tissu, en sachant que le
+   supplément de taxe tombe dans les caisses de l'Etat américain, soit
+   vous cherchez un autre fournisseur, de préférence un compatriote.
+   L'objectif est de dissuader les Américains d'acheter chinois en rendant
+   le "made in USA" artificiellement plus compétitif. Selon la logique de
+   Donald Trump, les entreprises chinoises devraient également absorber
+   une partie des coûts liés à la hausse de ces droits de douane, afin de
+   préserver le marché américain.
+
+   Or, cela ne suffit pas à rétablir la balance commerciale, car d'autres
+   facteurs entrent en jeu, comme le taux de change. Lundi 5 août, pour
+   esquiver une nouvelle attaque américaine sur ses exportations, Pékin a
+   laissé chuter sa devise au plus bas depuis onze ans (sept yuans pour un
+   dollar, son niveau le plus bas depuis 2008). Résultat : malgré
+   l'augmentation des droits de douane, votre fournisseur de tissu chinois
+   reste donc moins cher que son équivalent en Pennsylvanie.
+
+La Chine peut-elle durablement dévaluer sa monnaie ?
+
+   Concrètement, la banque centrale chinoise fixe chaque jour un taux
+   pivot pour le yuan par rapport au dollar. De part et d'autre de ce
+   taux, elle autorise une fluctuation de plus ou moins 2%. Cette petite
+   marge de manœuvre a permis la baisse brutale du yuan enregistrée
+   mardi. Bien sûr, les Etats-Unis ont traité l'Etat chinois de
+   "manipulateur de monnaie", ce dont ce dernier s'est défendu
+   vigoureusement.
+
+   Pékin a toutefois toujours étroitement contrôlé le cours de sa monnaie.
+   En maintenant artificiellement un yuan bas pendant des années, le pays
+   a développé rapidement son industrie sans attendre que les Chinois
+   soient en mesure de consommer (merci les exportations). A l'inverse,
+   depuis que Pékin veut que son industrie monte en gamme, il cherche �
+   stabiliser sa monnaie pour attirer (et garder) les investisseurs. Car
+   quand la monnaie est fortement dévaluée, ils sont les premiers �
+   retirer leurs billes de l'économie. C'est ce que l'on appelle "la fuite
+   des capitaux". Du coup, la Chine ne pourra pas jouer longtemps la carte
+   monétaire face aux taxes américaines sans mettre en danger son économie
+   et, par ricochet, celles de ses voisins.
+
+   La preuve, dans la foulée de la dépréciation du yuan, les banques
+   centrales d'Inde, de Nouvelle-Zélande et de Thaïlande, sensibles au
+   marché asiatique, ont baissé mercredi leurs taux directeurs, permettant
+   ainsi d'acheter de l'argent moins cher pour favoriser les
+   investissements. Le même jour, la Réserve fédérale américaine (la Fed,
+   l'équivalent d'une Banque centrale) a annoncé la première baisse de ses
+   taux directeurs depuis la crise de 2008. Traditionnellement signe que
+   l'économie va mal, cette mesure a été accueillie avec le sourire par
+   Donald Trump. Le président américain est en effet convaincu qu'une
+   baisse des taux donnera un coup de fouet à l'économie américaine.
+
+Pourquoi cette guerre mine-t-elle aussi l'économie américaine ?
+
+   Les entreprises américaines importatrices de biens chinois souffrent.
+   En janvier, une cinquantaine de lobbies industriels américains ont
+   envoyé une lettre à l'administration Trump pour l'exhorter à mettre fin
+   aux tarifs punitifs sur les importations d'acier et d'aluminium qui
+   pèsent sur leurs activités. Les producteurs de porc américain, lesquels
+   exportaient leur viande vers la Chine, ont également perdu au moins un
+   milliard de dollars du fait de cette guerre commerciale. Les
+   exportations américaines de soja ont dégringolé de 77% entre juillet
+   2018 et mai dernier. Pour soutenir ces fermiers, qui sont au cœur de
+   son électorat, le président américain a promis de leur verser 28
+   milliards de dollars d'aides.
+
+   Et le consommateur dans tout ça ? Pour éviter d'augmenter le prix de
+   vente de leurs biens, certaines entreprises ont rogné sur leurs marges.
+   Mais dans de nombreux secteurs, les clients sont pénalisés. "Nous avons
+   étudié les climatiseurs, les tables à manger en bois, les chauffages
+   d'appoint. Et on s'est aperçus qu'à chaque fois, la hausse des droits
+   de douane se répercutait intégralement sur le consommateur", explique
+   David Weinstein, économiste à l'université Columbia, cité par le média
+   indépendant Pri.org. Selon une étude de l'université de Californie,
+   cette guerre coûterait 69 milliards de dollars par an aux consommateurs
+   américains, soit une moyenne de 213 dollars par personne.
+
+   Censée protéger l'industrie américaine et ses emplois, la stratégie de
+   Donald Trump menace par ailleurs l'activité de petits entrepreneurs
+   dépendants d'une matière première chinoise, explique Pri.org. Selon
+   Reuters, cette tactique de la Maison Blanche face à la Chine va
+   permettre la création de 2 000 emplois dans le seul secteur de l'acier.
+   Mais les industries américaines protégées par les droits de douane ne
+   le sont pas indéfiniment. Et pour cause : les entreprises indonésiennes
+   ou vietnamiennes, capables de produire à bas coût, se verraient bien
+   prendre le relais de la Chine.
+
+Est-ce que ça craint pour nous, en Europe ?
+
+   Dans ce système mondialisé, la guerre commerciale sino-américaine
+   n'épargne aucune économie. "La diminution des échanges entraîne un
+   ralentissement de l'économie globale, qu'on commence déjà à observer. À
+   terme, tout le monde va en pâtir", avertit Françoise Nicolas,
+   chercheuse de l'Ifri citée par Le Parisien.
+
+   Par ailleurs, ce climat de méfiance est très mauvais pour les marchés
+   financiers et donc pour l'économie européenne. Dans l'hypothèse d'un
+   long conflit, "l'Europe serait la grande perdante", peut-on lire dans
+   un éditorial du Monde. "Une lutte sino-américaine pour un dollar et un
+   yuan plus faibles ferait automatiquement grimper l'euro, heurtant ses
+   exportations industrielles, déjà pénalisées par la crise de
+   l'automobile allemande. Il en faudrait peu, alors, pour que le Vieux
+   Continent ne replonge dans la récession", prédit le quotidien. Or, rien
+   ne laisse présager d'une amélioration des relations entre les deux
+   géants, du moins pas tant que Donald Trump occupera le bureau ovale (Xi
+   Jinping, président chinois à vie depuis une modification de la
+   Constitution en 2018, n'est pas sujet à ce genre de contrariété).
+
+   Adeptes de la surenchère, les deux dirigeants pourraient
+   potentiellement envoyer l'économie mondiale dans le mur. Pour les
+   observateurs des marchés financiers, la journée du lundi 5 août 2019
+   partage de nombreux points communs avec celle du 9 août 2007, date qui
+   marqua le coup d'envoi de ce que l'on appellera "la criiiiiiiiiiiiise",
+   soit un tunnel long de près de dix ans, dont certains
+   pays subissent encore les effets.
+
+J'ai eu la flemme de tout lire, vous me faites un résumé ?
+
+   Une nouvelle guerre froide, économique cette fois, se joue entre les
+   deux plus grandes puissances économiques mondiales : la Chine et les
+   Etats-Unis. Les seconds reprochent à la première des pratiques
+   commerciales déloyales et veulent réinstaurer des échanges commerciaux
+   qui lui soient plus favorables. Washington accuse également Pékin
+   d'espionner et de piller ses entreprises innovantes dans le but de les
+   écraser dans quelques années en investissant le secteur des nouvelles
+   technologies.
+
+   Pour booster des secteurs-clés de l'économie américaine, Donald Trump a
+   décidé de taxer les importations chinoises. Mais les taxes imposées par
+   Washington pénalisent les entreprises et les consommateurs américains,
+   lesquels consomment en fait énormément de produits "made in China".
+
+   Bien sûr, la Chine souffre aussi de ces mesures. Après avoir taxé des
+   milliers de produits américains en représailles, Pékin a créé la
+   surprise en sortant l'arme monétaire. Ce coup de poker très risqué
+   consiste à laisser sa monnaie perdre de sa valeur pour relancer les
+   exportations et ainsi annuler les effets des taxes imposées par Donald
+   Trump. En plus de mettre de l'huile sur le feu, cette extension de la
+   guerre commerciale au domaine financier a brièvement fait paniquer les
+   marchés, qui craignent de plus en plus que la bataille entre les deux
+   superpuissances ne fasse de l'Union européenne ou des pays émergents
+   des victimes collatérales.
+
+   A lire aussi
+     * Le footballeur allemand Mesut Ozil apporte son soutien aux
+       Ouïghours, la Chine lui répond
+     * Foot : la télé publique chinoise déprogramme un match d'Arsenal
+       après les commentaires de Mesut Ozil sur les Ouïghours
+     * La Chine suspend des taxes supplémentaires sur des produits
+       américains
+     * Photographie : une année de perte de repères en images
+     * Pékin et Washington annoncent un accord préliminaire après près de
+       deux ans d'une guerre commerciale féroce
+
+   Sujets associés
+     * Etats Unis d'Amérique
+     * Chine
+     * Monde
+     * Emploi
+     * Commerce
+     * Eco / Conso

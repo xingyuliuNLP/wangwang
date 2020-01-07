@@ -1,0 +1,3074 @@
+
+
+
+
+
+
+
+	
+
+
+
+
+
+ 
+ 
+
+
+
+    
+        
+
+        
+        
+    
+        
+
+        
+        
+    
+        
+
+        
+        
+    
+        
+
+        
+        
+    
+        
+
+        
+        
+    
+        
+
+        
+        
+    
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+			
+		
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+
+	
+
+
+
+ 
+ 
+ 
+
+
+	
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+	 
+ 
+
+ 
+	 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+	
+	
+    
+
+
+
+ 
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+	  
+	  
+  
+
+
+	
+	
+	
+
+	
+		
+			
+		
+		
+			
+		
+		
+			
+				
+			
+		
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+
+
+	
+		
+	
+
+
+
+
+<script language="JavaScript">
+var beforeload = (new Date()).getTime();
+var totalTime = 0;
+var clientTime = 0;
+var serverTime = 0;
+var XmlHttpObj1;
+function Sign(X) { return X>0 ? "+" : X<0 ? "-" : " " }
+function CreateXmlHttpObj1() {
+	try {XmlHttpObj1 = new ActiveXObject("Msxml2.XMLHTTP");}
+	catch(e) {try{XmlHttpObj1 = new ActiveXObject("Microsoft.XMLHTTP");}
+		catch(oc) {XmlHttpObj1 = null;}}
+	if(!XmlHttpObj1 && typeof XMLHttpRequest != "undefined") {XmlHttpObj1 = new XMLHttpRequest();}}
+
+function loadingTime() {
+	//calculate the current time in afterload
+	var afterload = (new Date()).getTime();
+	//calculate the seconds
+	clientTime = (afterload-beforeload)/1000;
+	serverTime =  parseFloat(document.getElementById("serverTime").innerHTML);
+	totalTime = (clientTime + serverTime).toFixed(3);
+	document.getElementById("loadingtime").innerHTML = "and delivered in " + totalTime + " seconds";
+}
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+</script>
+	<title>中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ） by Yun Wen, Tao Zhang :: SSRN</title>
+	
+<meta name="description" content="<b>Chinese Abstract:</b> 本文运用全球可计算一般均衡模型（CGE）分析中美贸易战对两国经济以及全球贸易产生的影响。基于中美贸易战政策背景，本文对贸易战不同阶段的政策采取短期、长期闭合模拟。模拟结果表明，中美贸易战对两国宏观经济、行业部门带来不同程度冲击；全球大部分国家经济福利受损，但由于贸易转移">
+<meta name="keywords" content=" SSRN, 中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）, Yun Wen, Tao Zhang">
+<meta name="citation_author" content="Wen, Yun">
+<meta name="citation_author" content="Zhang, Tao">
+<meta name="citation_title" content="中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）">
+<meta name="citation_online_date" content="2019/06/13">
+
+<meta name="citation_publication_date" content="2018/10/20">
+
+<meta name="citation_doi" content="10.2139/ssrn.3393938">
+<meta name="citation_abstract_html_url" content="https://papers.ssrn.com/abstract=3393938">
+<meta name="citation_keywords" content="CGE, the US-China Trade War, Closure, Trade Transfer">
+<meta name="citation_pdf_url" content="https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=3393938"> 
+
+	
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	
+	
+		
+	
+    <link rel="stylesheet" href="https://www.ssrn.com/n/react/mendeley/style.bundle.css" />
+	
+<meta name='free_download_available' content='true'><meta name='free_download_available' content='true'></head>
+
+
+
+
+
+ 
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body class="new-layout ">
+
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+		
+
+		
+		
+
+	
+	
+
+
+
+
+	
+	
+
+
+	
+	
+
+
+
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+		
+			
+			
+		
+
+		
+		
+	
+
+	
+
+	
+
+
+
+	
+	
+	
+	
+
+	<script language="javascript">
+		//Language functions
+		function changeLanguage1(language, response){
+
+			$.ajax({
+				url: '/AltLanguage_ajax.cfm?type=changeLanguage&partid=1&strCode=en',
+				cache: false,
+				success: function(data) {
+					// Update values in cookies
+					Set_Cookie('SITEID',language,'-1','/','.ssrn.com','');
+					Set_Cookie('SITEID',language,'1000','/','.ssrn.com','');
+
+					// Finally, perform redirection
+					if (response == 'reload') {
+						window.location.reload();
+					}
+					else {
+						window.location.href=response;
+					}
+				}
+			});
+		}
+
+		function Set_Cookie( name, value, expires, path, domain, secure ) {
+			// set time, its in milliseconds
+			var today = new Date();
+			today.setTime( today.getTime() );
+
+			/*
+			if the expires variable is set, make the correct
+			expires time, the current script below will set
+			it for x number of days, to make it for hours,
+			delete * 24, for minutes, delete * 60 * 24
+			*/
+			if ( expires ) {
+				expires = expires * 1000 * 60 * 60 * 24;
+			}
+
+			var expires_date = new Date( today.getTime() + (expires) );
+
+			document.cookie = name + "=" +escape( value ) +
+			( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) +
+			( ( path ) ? ";path=" + path : "" ) +
+			( ( domain ) ? ";domain=" + domain : "" ) +
+			( ( secure ) ? ";secure" : "" );
+		}
+
+
+		/*
+		* We use this function when the language should be stripped from an object, like a form RADIO
+		*/
+		function getLanguage ( oObj ) {
+			var specialChars = "!@#$^&%*()+=-[]\/{}|:<>?,.";
+
+			// Need to clean up code if object came from Mura site.
+			sCode = oObj.value;
+			if (sCode.length > 2) {
+				for (var i = 0; i < specialChars.length; i++) {
+					sCode = sCode.replace(new RegExp("\\" + specialChars[i], 'gi'), '');
+				}
+				// After cleaning up special chars, we take the first two chars.
+				sCode = sCode.substring(0,2).trim();
+			}
+
+			return sCode;
+		}
+	</script>
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom-bootstrap.min.css?v=397">
+<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom.min.css?v=397">
+<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/global.min.css?v=397">
+<link href="https://static.ssrn.com/cfincludes/global_header/dist/style.bundle.css?v=397" rel="stylesheet">
+
+<div class="accesibility-link">
+	<a id="skip-to-content" title="Skip to content" href="#maincontent">Skip to main content</a>
+</div>
+
+
+
+
+
+
+<meta name="part_id" content="1">
+<meta name="www_server" content="www.ssrn.com">
+<meta name="static_server" content="static.ssrn.com">
+<meta name="hq_server" content="hq.ssrn.com">
+<meta name="papers_server" content="papers.ssrn.com">
+<meta name="user_name" content="Public User">
+<meta name="is_custom" content="false">
+<meta name="own_design" content="false">
+<meta name="ab_id" content="">
+<meta name="on_behalf" content="False">
+<meta name="login_user_id" content="">
+
+
+
+
+<!--GLOBAL HEADER-->
+<header id="global-header" data-id-plus-auth-enabled="false"></header>
+
+
+
+
+
+	
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">if(typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='https://#strStaticServer#/libraries/JQuery/v1.12.4/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+}</script>
+
+
+<script>
+	function sentEmailValidation(lngLoginID, forwardURL){
+		var parameters = {
+			"lngLoginID" : lngLoginID,
+			"strForwardURL" : forwardURL
+		};
+		$.ajax({
+			type: "POST",
+			url: "https://static.ssrn.com/cfc/webServices/loginServices.cfc?method=sentValidationEmailNew",
+			data: parameters,
+			dataType: "jsonp",
+			async: false,
+			success: function(data) {
+				if(data.RESULT == 1){
+					$("#errorMessageLogin").html(data.MESSAGE);
+				}
+			},
+			error: function(jqXHR, textStatus, errorThrown) {
+				console.log(textStatus, errorThrown);
+			}
+		});
+	};
+</script>
+<script>
+$( document ).ready(function() {
+
+	// Show translation notice on footer on load
+	var hebrewIsSelected = $('.dropdown-lang option:last-child').is(':selected'),
+			$body = $('body'),
+			$loginBox = $('.loginBox'),
+			$menuMain = $('.menu-main'),
+			$profileMenu = $('.profileMenu');
+
+	if (hebrewIsSelected) {
+		toggleTranslationNote();
+	}
+
+    
+    $('#global-header .auth-menu > div > a:first-child').on('click', function() {
+        pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'ssrn-header:register'}});
+    });
+
+    $('#global-header .auth-menu > div > a:last-child').click(function(e) {
+        pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'ssrn-header:sign-in-or-register'}});
+    });
+
+    $('#global-header a[href$="/rankings/Ranking_display.cfm?TRN_gID=10"]').on('click', function() {
+        pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'rankings-top-papers'}});
+    });
+
+    $('#global-header a[href$="/submissions/CreateNewAbstract.cfm"]').on('click', function() {
+        pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'ssrn-header:submit-article'}});
+    });
+
+	$('#btnMenu').on('click', function() {
+		$body.addClass('nav-is-open');
+		$menuMain.addClass('open');
+	});
+
+	$('.mo-nav-close-btn').on('click', function() {
+		$body.removeClass('nav-is-open');
+		$(this).closest('.mo-nav').removeClass('open');
+	});
+
+	$('.mo-nav-search-btn').on('click', function() {
+		$menuMain.find('.menu-search').toggleClass('open');
+	});
+
+	
+	
+	$(document).on('click','#profile', function(e){
+		e.preventDefault();
+		$body.toggleClass('nav-is-open');
+		$profileMenu.toggleClass('open');
+	});
+	
+
+	/* Cleaning the email text*/
+	$('#txtLogin').bind("change keyup input",function() {
+		$(".error_show_login").hide();
+		$("#txtLogin").removeClass("loginError");
+		$("#errorMessageLogin").hide();
+	});
+
+	/* Cleaning the password text*/
+	$('.password-inp').bind("change keyup input",function() {
+		$(".error_show_pass").hide();
+		$("#txtPasswordLogin").removeClass("loginError");
+		$("#errorMessageLogin").hide();
+	});
+
+	/*Function for encrypt*/
+	function encrypt(key1, key2, key3){
+		var key = btoa(key1 + "|" + key2 + "|" + key3);
+		return key;
+	};
+
+	
+	function validateFields (){
+		var emptyLogin = false;
+		var emptyPass = false;
+
+		if(document.getElementById("txtLogin") == null || document.getElementById("txtLogin").value == "")
+		{
+		$("#txtLogin").addClass('loginError');
+		$(".error_show_login").show();
+		emptyLogin = true;
+		}
+		if(document.getElementById("txtPasswordLogin") == null || document.getElementById("txtPasswordLogin").value == "" )
+		{
+			$("#txtPasswordLogin").addClass('loginError');
+			$(".error_show_pass").show();
+			emptyPass = true;
+		}
+		if(emptyLogin == true || emptyPass == true){
+			return false;
+		}
+		return true;
+	};
+
+	
+	$('.password-inp').keypress(function(event) {
+		if (event.keyCode == 13 || event.which == 13) {
+			event.preventDefault();
+			login();
+		}
+	});
+
+	
+	$('#txtLogin').keypress(function(event) {
+		if (event.keyCode == 13 || event.which == 13) {
+			event.preventDefault();
+			login();
+		}
+	});
+
+	
+	$("#signin").click(function() {
+		login();
+	});
+
+	
+	function login(){
+		if (validateFields() != false) {
+			var user = document.getElementById("txtLogin").value;
+			var pass = document.getElementById("txtPasswordLogin").value;
+			var remember = $('.remember-me-check').prop('checked');
+			var keyUser = encrypt(user, pass, remember);
+			var parameters = {
+				"key" : keyUser
+			};
+			$.ajax({
+				type: "POST",
+				url: "https://static.ssrn.com/cfc/webServices/loginServices.cfc?method=signinService",
+				data: parameters,
+				dataType: "jsonp",
+				async: false,
+				success: function(data) {
+					if(data.ILOGINRESULT == 0) {
+						var lngPartLogedIn = data.USER.PART_ID;
+						buildmenu(lngPartLogedIn);
+						$("#name-header div.user-name-overflow").text(data.USER.FULLNAME);
+						$("#name-mo-header").text(data.USER.FULLNAME);
+						$('#profile').show();
+						$("#btnSignin").hide();
+						$("#btnRegister").hide();
+						$loginBox.removeClass('open');
+						$body.removeClass('nav-is-open');
+						
+						pageData.visitor.loginSuccess = "true";
+						pageData.visitor.loginStatus = "logged in";
+						pageData.visitor.accessType = "ss:registered-user";
+						pageData.visitor.userId = data.USER.ENCRYPT_PART_ID;
+						pageDataTracker.trackEvent( 'newPage' , pageData);
+						
+					} else {
+						
+						pageData.visitor.loginSuccess = "false";
+						pageDataTracker.trackEvent( 'newPage' , pageData);
+						
+						$("#errorMessageLogin").html(data.MESSAGETOSHOW);
+						$("#errorMessageLogin").show();
+					}
+				}
+			});
+		} else {
+			return false;
+		};
+	};
+
+	
+	function buildmenu(lngPartLogedIn){
+		$("#personal").attr("href", "https://hq.ssrn.com/Participant.cfm?rectype=edit&partid=" + lngPartLogedIn + "&perinf=y");
+		$("#affil").attr("href", "https://hq.ssrn.com/Affiliations/AffiliationList.cfm?partid=" + lngPartLogedIn);
+		$("#suscr").attr("href", "https://hq.ssrn.com/Subscriptions.cfm?partId=" + lngPartLogedIn);
+		$("#mypapers").attr("href", "https://hq.ssrn.com/submissions/MyPapers.cfm?partid=" + lngPartLogedIn);
+	};
+
+	
+	$(document).click(function(event) {
+		if(!$(event.target).closest('.header-tooltip').length && $(event.target)[0] != $('#btnSignin')[0] && $(event.target)[0] != $('#profile')[0] ) {
+			if($('.header-tooltip').is(":visible") && $('.mo-nav-header').is(":hidden")) {
+				$body.removeClass('nav-is-open');
+				$('.header-tooltip').removeClass('open');
+			}
+		}
+
+		// Makes the submenu links accesible by keyboard
+		$('.has-sub-menu a')
+			.focus(function() {
+				$(this).parents("li").addClass("focus");
+			})
+			.blur(function() {
+				$(this).parents("li").removeClass("focus");
+			});
+	});
+
+	// Show translation notice on change
+	$('.dropdown-lang').on('change', function() {
+		toggleTranslationNote();
+	});
+
+	// Accordion functionality on Footer MO
+	var $collapseBtn = $('h4[data-toggle="collapse"]'),
+			$collapsableContent = $('.collapsable');
+
+	$collapseBtn.on('click', function(){
+		var $this = $(this),
+				$parent = $this.parent(),
+				$thisCollapsable = $parent.find('.collapsable');
+
+		$collapsableContent.slideUp('fast');
+
+		if ( !$thisCollapsable.is(":visible") ) {
+			$thisCollapsable.slideDown('fast');
+		}
+	});
+
+	// Show translation notice on footer
+	function toggleTranslationNote() {
+		$('.translation-notice').toggle();
+	}
+});
+
+	//Language function
+	function changeLanguage(lang){
+        var curretUrl = window.location.href;
+        if(curretUrl.indexOf('&lng') != -1) {
+            var new_url = curretUrl.substring(0, curretUrl.indexOf('&lng'));
+        }else{
+            var new_url = window.location.href;
+        }
+        window.location.href=new_url+'&lng='+lang;
+    }
+</script>
+<script type="text/javascript" src="https://static.ssrn.com/cfincludes/global_header/dist/app.bundle.js?v=397"></script>
+<script type="text/javascript" async="async" src="https://static.ssrn.com/js/image-lazy-load.js"></script>
+
+
+	<!-- new css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/custom.min.css?v=397">
+
+	<!-- new abstract css -->
+	<link rel="stylesheet" type="text/css" href="https://static.ssrn.com/cfincludes/css/abstract.min.css?v=397">
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+			
+
+
+
+
+
+			
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+	
+	
+		
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="genericToastr" class="generic-toastr">
+	<div class="toastr-icon">
+		<i id="toastrIcon"></i>
+	</div>
+	<div id="toastrMessage" class="toastr-mesage"></div>
+	<div class="toastr-close">
+		<i class="icon icon-gizmo-delete" onclick="closeToastr()"></i>
+	</div>
+	<div class="toastr-link"><a id="toastrLink" href="#"></a></div>
+</div>
+
+
+
+ 
+
+
+
+	<div class="container abstract-body" id="maincontent">
+		<div class="row">
+			<div class="col-sm-8 abstract-main-col">
+				
+				
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+<div class="abstract-buttons ">
+
+    
+        
+        
+        
+        
+            
+            
+
+            
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="Delivery.cfm/SSRN_ID3393938_code3545933.pdf?abstractid=3393938&mirid=1" class="button-link primary " data-abstract-id='3393938' data-abstract-title='中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）' >
+                    <span><img alt='PDF icon' src='https://static.ssrn.com/cfincludes/img/icons/icon-adobe-pdf.svg' title='PDF icon' />Download This Paper</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+            
+            
+                
+
+                
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="Delivery.cfm/SSRN_ID3393938_code3545933.pdf?abstractid=3393938&mirid=1&type=2" class="button-link secondary " data-abstract-id='3393938' data-abstract-title='中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）' >
+                    <span>Open PDF in Browser</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+            
+        
+
+    
+
+
+
+
+
+
+    
+        
+    
+
+
+    
+            <div class="star-container">
+            
+                
+            
+            <a href="#" aria-label="Add to your Library" aria-pressed="false" role="button">
+                <i class="icon icon-gizmo-star-outline" data-user-id="1" data-abstract-id="3393938" data-abstract-url="static.ssrn.com" data-abstract-auth="false"></i>
+        <span>Add Paper to My Library</span>
+        </a>
+        </div>
+    
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+ 
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+			</div>
+			<div class="col-sm-4 abstract-side-col">
+				
+				
+				
+					<div class="share-container">
+						Share:
+						<ul class="list-unstyled ">
+							<li><a class="addthis_button_facebook" aria-label="Share on Facebook" role="button"><i class="icon icon-social-facebook" aria-hidden="true"></i></a></li>
+							<li><a class="addthis_button_twitter" aria-label="Share on Twitter" role="button"><i class="icon icon-social-twitter" aria-hidden="true"></i></a></li>
+							
+							<li><a id="socialEmail" href="#" onClick='window.open("Email_Friend.cfm?abid=3393938","Email_Friend","toolbar=no,menubar=no,scrollbars=yes,resizable=yes,width=740,height=600")' aria-label="Share by Email" role="button"><i class="icon icon-gizmo-email" aria-hidden="true"></i></a></li>
+							
+							<li><a id="permalink" href="#" aria-label="Get Permalink" role="button"><i class="icon icon-gizmo-link" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fb149d9407dcd4b"></script>
+					<script type="text/javascript">
+						var paperTitle = "中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）";
+						var addthis_share = addthis_share || {};
+						addthis_share = {
+							url: "https://ssrn.com/abstract=3393938",
+							passthrough : {
+								twitter: {
+									
+										text: paperTitle + " @SSRN"
+									
+								}
+							}
+						}
+
+						function trackEventSocial(platform){
+							pageDataTracker.trackEvent('socialShare', {
+								social: {
+									sharePlatform : platform
+								}
+							});
+						};
+
+						$('.addthis_button_facebook').click(function(e) {
+							trackEventSocial('Facebook');
+						});
+
+						$('.addthis_button_twitter').click(function(e) {
+							trackEventSocial('Twitter');
+						});
+
+						$('#socialEmail').click(function(e) {
+							trackEventSocial('Email');
+						});
+
+						$('#permalink').click(function(e) {
+							trackEventSocial('Permalink');
+						});
+
+					</script>
+				
+				
+				
+				<div class="permalink-tooltip">
+					<div class="tooltip-bg"></div>
+					<div class="tooltip-container">
+					<div class="permalink-title">Permalink</div>
+						<div class="permalink-description">Using the URL or DOI link below will ensure access to this page indefinitely</div>
+						<div class="permalink-url">
+							<input type="text" id="parmalinkURL" readonly class="permalink-input" value="https://ssrn.com/abstract=3393938">
+							<a href="#" id="copyURL" class="btn-blue-outline btn-blue-outline-copy">Copy URL</a>
+						</div>
+						<div class="permalink-doi">
+							<input type="text" id="parmalinkDOI" readonly class="permalink-input" value="https://dx.doi.org/10.2139/ssrn.3393938">
+							<a href="#" id="copyDOI" class="btn-blue-outline btn-blue-outline-copy">Copy URL</a>
+							</div>
+						</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 abstract-main-col">
+				
+				
+
+
+<div class="box-container box-abstract-main">
+	
+	
+		
+	
+
+	
+	
+		
+		
+	
+
+	
+	
+	
+	<h1>中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）</h1>
+	
+    
+        <div class="reference-info">
+            
+            
+
+
+        </div>
+    
+
+	
+
+	
+	<p class="note note-list">
+		
+		
+			<span>11 Pages</span>
+		
+		
+
+		<span>Posted: 13 Jun 2019</span>
+		
+			<span>Last revised: 9 Jul 2019</span>
+		
+		
+				
+	</p>
+	
+		<div class="authors authors-full-width">
+			
+			
+
+
+
+
+	<a class='lead-author-profile-link' href=https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3545933 target='_blank' title='View other papers by this author'><span>See all articles by Yun Wen</span><i class='icon icon-gizmo-navigate-right' aria-hidden='true'></i></a><h2><A HREF=https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3545933 target='_blank' title='View other papers by this author'>Yun Wen</a></h2><p>Infinite-Sum Modeling Inc.; Simon Fraser University (SFU)</p><h2><A HREF=https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3546154 target='_blank' title='View other papers by this author'>Tao Zhang</a></h2><p>Partner/General Manager</p>
+
+		</div>
+	
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	
+		
+		
+	
+	
+		
+			<p>Date Written: October 20, 2018</p>
+		
+	
+
+	
+	
+		
+		
+		
+		
+		
+	
+
+	
+	
+		
+	
+	<div class="abstract-text">
+		<h3>Abstract</h3>
+		<p><b>Chinese Abstract:</b> 本文运用全球可计算一般均衡模型（CGE）分析中美贸易战对两国经济以及全球贸易产生的影响。基于中美贸易战政策背景，本文对贸易战不同阶段的政策采取短期、长期闭合模拟。模拟结果表明，中美贸易战对两国宏观经济、行业部门带来不同程度冲击；全球大部分国家经济福利受损，但由于贸易转移现象也会使部分国家受益。在对宏观经济指标进行分析外，本次研究最重要的贡献在于构建相关的全球CGE模型行业数据库以及量化关税冲击，从微观角度分析贸易战对我国行业部门的影响。研究中采用的数据库建构、政策模拟方法对相关议题的研究提供了更为全面的实证研究方法，也为贸易政策提供可量化数据支持。<br><br><b>English Abstract:</b> This paper uses the global computable general equilibrium model (CGE) to analyze the economic effect of the US-China trade war. Based on the policy background of the trade war, this paper has simulations on the different stages of the trade war by setting four simulation scenarios. The result indicates that both China and the US will be negatively impacted on their macroeconomics and industrial sectors by the tit-for-tat trade conflicts. Most countries’ economic welfare will be impaired, but some countries such as Canada and Mexico will benefit from the US-China trade war to some extent because of trade transfers. In addition to the analysis of macroeconomics, one of the significant contributions of this study lies in the construction of global CGE database that fits in the policy simulation. Meanwhile, it also provides an analysis of the impact on China’s industrial sectors from a microeconomic perspective. The methodology combining the construction of the database and the quantitative methods of setting policy “shocks” enriches relevant policy simulation studies, and provides more quantifying evidence for the research of international trade policy. <br> <P></p>
+	</div>
+	
+
+	<center>
+		
+		
+
+
+	
+
+	
+	
+
+		
+		
+
+	
+	
+
+
+	</center>
+
+	
+	
+	
+		
+			
+		
+	
+	
+		<p><strong>Note:</strong> Downloadable document is in Chinese.</p>
+	
+	
+
+	
+	
+		
+		
+			
+				
+			
+		
+		<p><strong>Keywords:</strong> CGE, the US-China Trade War, Closure, Trade Transfer</p>
+	
+	
+
+		
+
+	
+	
+	
+
+	
+	
+
+	
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    	
+	
+	
+	
+   	
+	
+	
+	
+	
+	            
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+    
+
+	
+
+
+	<p>
+		<strong class="hidden-xs hidden-sm">Suggested Citation:</strong>
+		<a href="#" class="suggested-citation-btn btn-link visible-xs visible-sm">Suggested Citation<i class="icon icon-gizmo-navigate-right"></i></a>
+	</p>
+
+	<div id="selectable" onclick="selectText('selectable')" class="suggested-citation">
+		
+			Wen,  Yun and Zhang,  Tao, 中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ） (October 20, 2018).  Available at SSRN: <a href="https://ssrn.com/abstract=3393938"  target="_blank">https://ssrn.com/abstract=3393938</a> or <a href="https://dx.doi.org/10.2139/ssrn.3393938" class="textlink" target="_blank">http://dx.doi.org/10.2139/ssrn.3393938 </a>
+		
+	</div>
+	
+
+	
+	
+	
+
+	<a href="#" class="show-contact-btn btn-link" role="button" aria-label="Show contact information">
+		<span aria-hidden="true"></span><i class="icon icon-gizmo-navigate-right" aria-hidden="true"></i>
+	</a>
+
+	
+	<div class="contact-information">
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+	
+	
+		
+		
+	
+
+
+
+
+	
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="author">
+
+		
+
+		
+
+		
+		
+		
+
+		
+		
+			
+				
+					
+						<h3><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3545933" target='_blank'>Yun Wen (Contact Author)</a></h3>
+					
+			
+		
+
+		
+		
+		
+		
+
+		
+		<div class="block-quote">
+			
+				
+			
+
+			
+				
+				
+				
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+				
+			
+
+			
+				<h4>Infinite-Sum Modeling Inc.  ( <a href="javascript:void(0)" onClick="pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'article-page:email'}});window.open('GetAuthorEmail.cfm?abid=3393938&pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')">email</a> )</h4>
+			
+
+			
+			
+				
+				
+				<p>
+					<span>#1, 10318 Whalley Blvd<br>surrey, BC - British Columbia V3T4H4<br>Canada<br></span>
+				</p>
+				
+			
+
+			
+
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="author">
+
+		
+
+		
+
+		
+		
+		
+
+		
+		
+			
+		
+
+		
+		
+		
+		
+
+		
+		<div class="block-quote">
+			
+				
+			
+
+			
+				
+				
+				
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+				
+			
+
+			
+				
+				
+				
+
+
+				<h4>Simon Fraser University (SFU)  ( <a href="javascript:void(0)" onClick="pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'article-page:email'}});window.open('GetAuthorEmail.cfm?abid=3393938&pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')">email</a> )</h4>
+			
+
+			
+			
+				
+				
+				<p>
+					<span>8888 University Drive<br>Burnaby, British Columbia V5A 1S6<br>Canada<br></span>
+				</p>
+				
+			
+
+			
+
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="author">
+
+		
+
+		
+
+		
+		
+		
+
+		
+		
+			
+				
+					
+						<h3><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3546154" target='_blank'>Tao Zhang</a></h3>
+					
+			
+		
+
+		
+		
+		
+		
+
+		
+		<div class="block-quote">
+			
+				
+			
+
+			
+				
+				
+				
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+				
+			
+
+			
+				<h4>Partner/General Manager  ( <a href="javascript:void(0)" onClick="pageDataTracker.trackEvent('conversionDriverClick', {conversionDriver:{name : 'article-page:email'}});window.open('GetAuthorEmail.cfm?abid=3393938&pag=papers','Author_Email','toolbar=no,menubar=no,scrollbars=yes,resizable=no,width=700,height=470')">email</a> )</h4>
+			
+
+			
+			
+				
+				
+				<p>
+					<span>16167 Glenbrooks Place<br>surrey, BC - British Columbia v4n1t3<br>Canada<br></span>
+				</p>
+				
+			
+
+			
+				
+				<p>
+					<span>HOME PAGE: <a href="http://www.infsum.com" target="HOMEPAGE" title="http://www.infsum.com">http://www.infsum.com</a></span>
+				</p>
+			
+
+		</div>
+		
+	</div>
+	
+
+
+
+
+
+	</div>
+	
+
+	
+	
+		
+	
+
+	<div id="mendeley-data-widget" data-abstract-id="3393938" data-mendeley-url="https://www.ssrn.com/n/"></div>
+	<script type="text/javascript" src="https://www.ssrn.com/n/react/mendeley/app.bundle.js"></script>
+	
+</div>
+
+				 
+				
+				
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<div class="abstract-buttons bottom">
+
+    
+        
+        
+        
+        
+            
+            
+
+            
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="Delivery.cfm/SSRN_ID3393938_code3545933.pdf?abstractid=3393938&mirid=1" class="button-link primary " data-abstract-id='3393938' data-abstract-title='中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）' >
+                    <span><img alt='PDF icon' src='https://static.ssrn.com/cfincludes/img/icons/icon-adobe-pdf.svg' title='PDF icon' />Download This Paper</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+            
+            
+                
+
+                
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="Delivery.cfm/SSRN_ID3393938_code3545933.pdf?abstractid=3393938&mirid=1&type=2" class="button-link secondary " data-abstract-id='3393938' data-abstract-title='中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China Trade War: A CGE Analysis ）' >
+                    <span>Open PDF in Browser</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+            
+        
+
+    
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+ 
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+				<div class="clearfix"></div>
+				<div>
+					
+						<link rel="stylesheet" href="https://static.ssrn.com/cfincludes/references_widget/dist/style.bundle.css?v=397" type="text/css"/>
+						<script type="text/javascript" async="async" src="https://static.ssrn.com/cfincludes/references_widget/dist/app.bundle.js?v=397"></script>
+						<div id="references-widget" data-server="static.ssrn.com" data-auth="false" data-user-id="1" data-url="https://static.ssrn.com/cfc/abstract/abstract.cfc?method=getReferences&ab_id=3393938&part_lngid=1" data-split="true"></div>
+					
+					<script type="text/javascript" async="async" src="https://static.ssrn.com/cfincludes/add_to_my_library_module/addToMyLibrary.js?v=397"></script>
+					<link rel="stylesheet" href="https://static.ssrn.com/cfincludes/add_to_cart_module/dist/style.bundle.css?v=397" type="text/css"/>
+					<script type="text/javascript" async="async" src="https://static.ssrn.com/cfincludes/add_to_cart_module/dist/app.bundle.js?v=397"></script>
+					<div id="add-to-cart"></div>
+				</div>
+			</div>
+
+			<div class="col-sm-4 abstract-side-col no-padding">
+				
+					<div class="row">
+						
+						
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	    
+
+
+
+
+
+
+
+<div class="box-container box-registration-call-out">
+	<h2 class="section-title">Register to save articles to<br>your library</h2>
+	<dl class="stats row">
+		<a href="https://hq.ssrn.com/login/pubsigninjoin.cfm" class="btn-blue" title="Register">Register</a>
+	</dl>
+</div>
+
+					</div>
+				
+				<div class="row">
+					
+					
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+<div class="box-paper-statics">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>Paper statistics</h2>
+		</div>
+	</div>
+	
+	<div class="stats row">
+		
+
+		
+		
+			 
+				<div class="stat col-lg-4">
+					<div class="lbl">Downloads</div>
+					<div class="number" title="">      265</div>
+				</div>
+			
+		
+
+		
+		
+			<div class="stat col-lg-4">
+				<div class="lbl">Abstract Views</div>
+				<div class="number" title="">     1,082</div>
+			</div>
+		
+
+		
+		 
+		<div class="stat col-lg-4">
+			<div title="SSRN compiles rankings of Papers in our system
+based on a number of measures,
+such as downloads and citations.
+To be ranked, a paper must be a publicly available
+scholarly full-text paper on SSRN.
+Privately available papers
+are not considered in these rankings."
+			class="lbl">rank</div>
+			<div class="number" title="">   118,367</div>
+		</div>
+		
+	</div>
+
+	<div>
+		
+			<!--Citations abstract--->
+			<link rel="stylesheet" href="https://static.ssrn.com/cfincludes/citations_abstract_widget/dist/style.bundle.css?v=397" type="text/css"/>
+			<script type="text/javascript" async="async" src="https://static.ssrn.com/cfincludes/citations_abstract_widget/dist/app.bundle.js?v=397"></script>
+			<div id="citations-widget-abstract" data-url="https://static.ssrn.com/cfc/abstract/abstract.cfc?method=getCitedbys&ab_id=3393938&splitByOrigin=true&splitLimit=2&part_lngid=1" data-url-citations="https://papers.ssrn.com/sol3/Citations.cfm?abid=3393938">
+			</div>
+		
+	</div>
+
+	
+		
+			
+			
+				<div class="references-citations">
+					<a href="#references-widget" title="">
+						<span>        5</span>
+						<span title="This link gives the references in this paper that have been resolved by our automated systems, with hot links to online versions of each paper where we have been able to locate them.">
+						References</span>
+					</a>
+				</div>
+			
+		
+	
+</div>
+<div class="row">
+
+	
+		<div class="stat plumx col-lg-6">
+				<div class="lbl">PlumX Metrics</div>
+				<div class="hidden-xs">
+					<a href="https://plu.mx/ssrn/a/?ssrn_id=3393938" class="plumx-plum-print-popup" data-popup="left" data-hide-when-empty="false" data-site="ssrn" data-hide-usage="false" data-badge="false"></a>
+				</div>
+				<div class="visible-xs">
+					<a href="https://plu.mx/ssrn/a/?ssrn_id=3393938" class="plumx-plum-print-popup" data-popup="right" data-hide-when-empty="false" data-site="ssrn" data-hide-usage="false" data-badge="false"></a>
+				</div>
+			</div>
+	
+</row>
+
+
+<script type="text/javascript">
+//this breaks the add to library of refrences and abstract
+
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// 	anchor.addEventListener('click', function (e) {
+		// e.preventDefault();
+
+		// document.querySelector(this.getAttribute('href')).scrollIntoView({
+		// 	behavior: 'smooth'
+		// });
+// 	});
+// });
+</script>
+				</div>
+				
+				<div class="row">
+					
+
+
+
+
+    
+        <div class="box-container box-related-journals">
+            <h2 class="section-title">Related eJournals</h2>
+        <ul class="quick-links">
+        
+            
+            
+
+            
+
+            
+                
+                
+
+                <li class="related-journal">
+                    <p><a href="https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=1153635">Econometrics: Mathematical Methods & Programming eJournal</a></p>
+                    <div class="rj-btn-container">
+                        
+                        
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="javascript:void(0);" class="button-link primary " onclick=trackEventsArticle('https://hq.ssrn.com/jourInvite.cfm?jourid=CMBO_1153635&abid=3393938','related-journal'); >
+                    <span>Follow</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+                        <i class="icon icon-gizmo-information" aria-hidden="true"></i>
+
+                        <div class="related-journals-tooltip">
+                            <div class="tooltip-bg"></div>
+                            <i class="icon icon-gizmo-delete" aria-label="Close Tooltip" role="button"></i>
+                            <div class="tooltip-container">
+                                <h4 class="rj-title">Econometrics: Mathematical Methods & Programming eJournal</h4>
+                                <p class="rj-description">
+                                    Subscribe to this fee journal for more curated articles on this topic
+                                </p>
+                                <div class="rj-statistics">
+                                    <div class="rj-followers">
+                                        <div class="rjs-title">FOLLOWERS</div>
+                                        <div class="rjs-description">      474</div>
+                                    </div>
+                                    <div class="rj-papers">
+                                        <div class="rjs-title">PAPERS</div>
+                                        <div class="rjs-description">     6,276</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+
+            
+
+            
+        
+            
+            
+
+            
+
+            
+                
+                
+
+                <li class="related-journal">
+                    <p><a href="https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=1939514">Econometric Modeling: International Economics eJournal</a></p>
+                    <div class="rj-btn-container">
+                        
+                        
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="javascript:void(0);" class="button-link primary " onclick=trackEventsArticle('https://hq.ssrn.com/jourInvite.cfm?jourid=CMBO_1939514&abid=3393938','related-journal'); >
+                    <span>Follow</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+                        <i class="icon icon-gizmo-information" aria-hidden="true"></i>
+
+                        <div class="related-journals-tooltip">
+                            <div class="tooltip-bg"></div>
+                            <i class="icon icon-gizmo-delete" aria-label="Close Tooltip" role="button"></i>
+                            <div class="tooltip-container">
+                                <h4 class="rj-title">Econometric Modeling: International Economics eJournal</h4>
+                                <p class="rj-description">
+                                    Subscribe to this fee journal for more curated articles on this topic
+                                </p>
+                                <div class="rj-statistics">
+                                    <div class="rj-followers">
+                                        <div class="rjs-title">FOLLOWERS</div>
+                                        <div class="rjs-description">      467</div>
+                                    </div>
+                                    <div class="rj-papers">
+                                        <div class="rjs-title">PAPERS</div>
+                                        <div class="rjs-description">     6,208</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+
+            
+
+            
+        
+            
+            
+
+            
+                <div class="more quick-links">
+            
+
+            
+                
+                
+
+                <li class="related-journal">
+                    <p><a href="https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=1504387">International Trade eJournal</a></p>
+                    <div class="rj-btn-container">
+                        
+                        
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="javascript:void(0);" class="button-link primary " onclick=trackEventsArticle('https://hq.ssrn.com/jourInvite.cfm?jourid=CMBO_1504387&abid=3393938','related-journal'); >
+                    <span>Follow</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+                        <i class="icon icon-gizmo-information" aria-hidden="true"></i>
+
+                        <div class="related-journals-tooltip">
+                            <div class="tooltip-bg"></div>
+                            <i class="icon icon-gizmo-delete" aria-label="Close Tooltip" role="button"></i>
+                            <div class="tooltip-container">
+                                <h4 class="rj-title">International Trade eJournal</h4>
+                                <p class="rj-description">
+                                    Subscribe to this fee journal for more curated articles on this topic
+                                </p>
+                                <div class="rj-statistics">
+                                    <div class="rj-followers">
+                                        <div class="rjs-title">FOLLOWERS</div>
+                                        <div class="rjs-description">      435</div>
+                                    </div>
+                                    <div class="rj-papers">
+                                        <div class="rjs-title">PAPERS</div>
+                                        <div class="rjs-description">    26,087</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+
+            
+
+            
+        
+            
+            
+
+            
+
+            
+                
+                
+
+                <li class="related-journal">
+                    <p><a href="https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=2250094">International Political Economy: Trade Policy eJournal</a></p>
+                    <div class="rj-btn-container">
+                        
+                        
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="javascript:void(0);" class="button-link primary " onclick=trackEventsArticle('https://hq.ssrn.com/jourInvite.cfm?jourid=CMBO_2250094&abid=3393938','related-journal'); >
+                    <span>Follow</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+                        <i class="icon icon-gizmo-information" aria-hidden="true"></i>
+
+                        <div class="related-journals-tooltip">
+                            <div class="tooltip-bg"></div>
+                            <i class="icon icon-gizmo-delete" aria-label="Close Tooltip" role="button"></i>
+                            <div class="tooltip-container">
+                                <h4 class="rj-title">International Political Economy: Trade Policy eJournal</h4>
+                                <p class="rj-description">
+                                    Subscribe to this fee journal for more curated articles on this topic
+                                </p>
+                                <div class="rj-statistics">
+                                    <div class="rj-followers">
+                                        <div class="rjs-title">FOLLOWERS</div>
+                                        <div class="rjs-description">       46</div>
+                                    </div>
+                                    <div class="rj-papers">
+                                        <div class="rjs-title">PAPERS</div>
+                                        <div class="rjs-description">     8,100</div>
+                                    </div>
+                                </div>
+                                
+                                    <div class="rj-information">
+                                        <div>This Journal is curated by:</div>
+                                        <div><b>Kenneth Scheve</b> at Stanford University</div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+
+            
+
+            
+        
+            
+            
+
+            
+
+            
+                
+                
+
+                <li class="related-journal">
+                    <p><a href="https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=2380969">Conflict Studies: Effects of Conflict eJournal</a></p>
+                    <div class="rj-btn-container">
+                        
+                        
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="javascript:void(0);" class="button-link primary " onclick=trackEventsArticle('https://hq.ssrn.com/jourInvite.cfm?jourid=CMBO_2380969&abid=3393938','related-journal'); >
+                    <span>Follow</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+                        <i class="icon icon-gizmo-information" aria-hidden="true"></i>
+
+                        <div class="related-journals-tooltip">
+                            <div class="tooltip-bg"></div>
+                            <i class="icon icon-gizmo-delete" aria-label="Close Tooltip" role="button"></i>
+                            <div class="tooltip-container">
+                                <h4 class="rj-title">Conflict Studies: Effects of Conflict eJournal</h4>
+                                <p class="rj-description">
+                                    Subscribe to this fee journal for more curated articles on this topic
+                                </p>
+                                <div class="rj-statistics">
+                                    <div class="rj-followers">
+                                        <div class="rjs-title">FOLLOWERS</div>
+                                        <div class="rjs-description">       43</div>
+                                    </div>
+                                    <div class="rj-papers">
+                                        <div class="rjs-title">PAPERS</div>
+                                        <div class="rjs-description">     1,464</div>
+                                    </div>
+                                </div>
+                                
+                                    <div class="rj-information">
+                                        <div>This Journal is curated by:</div>
+                                        <div><b>Kelly M. Kadera</b> at University of Iowa - Department of Political Science, <b>Brian H. Lai</b> at University of Iowa - Department of Political Science</div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+
+            
+
+            
+        
+            
+            
+
+            
+
+            
+                
+                
+
+                <li class="related-journal">
+                    <p><a href="https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=2242164">Political Economy - Development: Domestic Development Strategies eJournal</a></p>
+                    <div class="rj-btn-container">
+                        
+                        
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="javascript:void(0);" class="button-link primary " onclick=trackEventsArticle('https://hq.ssrn.com/jourInvite.cfm?jourid=CMBO_2242164&abid=3393938','related-journal'); >
+                    <span>Follow</span>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+
+                        <i class="icon icon-gizmo-information" aria-hidden="true"></i>
+
+                        <div class="related-journals-tooltip">
+                            <div class="tooltip-bg"></div>
+                            <i class="icon icon-gizmo-delete" aria-label="Close Tooltip" role="button"></i>
+                            <div class="tooltip-container">
+                                <h4 class="rj-title">Political Economy - Development: Domestic Development Strategies eJournal</h4>
+                                <p class="rj-description">
+                                    Subscribe to this fee journal for more curated articles on this topic
+                                </p>
+                                <div class="rj-statistics">
+                                    <div class="rj-followers">
+                                        <div class="rjs-title">FOLLOWERS</div>
+                                        <div class="rjs-description">       41</div>
+                                    </div>
+                                    <div class="rj-papers">
+                                        <div class="rjs-title">PAPERS</div>
+                                        <div class="rjs-description">    18,214</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            
+
+            
+                </div>
+                
+            
+
+            
+        
+        </ul>
+        
+                <a href="#" class="view-more" aria-label="View more" role="button"> <i class="icon icon-gizmo-navigate-right" aria-hidden="true"></i></a>
+        
+        </div>
+    
+
+<script>
+    $(document).ready(function(){
+        if(navigator.appName == "Netscape" && navigator.appVersion.indexOf('Edge') > -1){
+            $('.related-journals-tooltip').css('top','32px');
+        }
+        if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+            $('.related-journals-tooltip').css('right','5px');
+        }
+    });
+</script>
+
+				</div>
+
+				<div class="row">
+					
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="feedback-tab-container">
+				<div class="feedback-tab" role="button" tabindex="0">
+					<span>Feedback</span>
+					<i class="icon icon-gizmo-comment" aria-hidden="true"></i>
+				</div>
+			</div>
+			
+
+<div id="feedbackModule" class="modal-wrapper">
+	<div class="modal-custom feedback">
+		<i class="icon-gizmo-delete modal-close" aria-label="Close modal" title="Close modal" role="button" tabindex="0"></i>
+		<div class="feedback-title">Feedback to SSRN</div>
+		<form name="formSuggestions" role="suggestions">
+			<div class="feedback-description">
+				<label for="txtFeedback">
+					<span class="feedback-label">Feedback</span>
+					<span class="feedback-required">&nbsp;(required)</span>
+				</label>
+				<textarea id="txtFeedback" name="txtFeedback" maxlength="1000" placeholder="(1,000 Characters Max)" required></textarea>
+			</div>
+			<div class="feedback-email">
+				<label for="txtEmail">
+					<span class="feedback-label">Email</span>
+					<span class="feedback-required">&nbsp;(required)</span>
+				</label>
+				<input type="email" id="txtEmail" name="txtEmail" value="" required>
+			</div>
+			<button class="btn-orange btn-add-to-cart feedback-submit">
+				Submit
+				<i class="icon-gizmo-navigate-right" aria-hidden="true"></i>
+			</button>
+		</form>
+		<div class="modal-divider"></div>
+		<div class="feedback-information">If you need immediate assistance, call 877-SSRNHelp (877 777 6435) in the United States, or +1 212 448 2500 outside of the United States, 8:30AM to 6:00PM U.S. Eastern, Monday - Friday.</div>
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript">
+	
+		var strServer = "papers.ssrn.com";
+		var strSugPageName = "/sol3/papers.cfm";
+		var strIP = "176.165.147.247";
+		var strFullUrl = "papers%2Essrn%2Ecom%2Fsol3%2Fpapers%2Ecfm%3Fabstract%5Fid%3D3393938";
+		var sEmail = "";
+	
+</script>
+
+
+	</div>
+
+	
+	
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+  
+  
+
+	
+	
+		
+	
+
+
+	
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+			
+				
+			
+			
+		
+	
+
+
+	
+	
+	
+
+
+
+
+
+
+	
+	
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+
+
+	<!-- includes piwik Trakcer -->
+	
+
+
+	 
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.ssrn.com/" : "http://piwik.ssrn.com/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+
+
+
+
+
+	piwikTracker.setCustomVariable(1, "User", "Unknown","visit");
+	piwikTracker.trackPageView();
+	piwikTracker.enableLinkTracking();
+
+} catch( err ) {}
+</script><noscript><p><img src="https://piwik.ssrn.com/piwik.php?idsite=7" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+	<!--Includesss footer -->
+
+
+
+
+
+
+
+
+
+
+<!--FOOTER-->
+
+<nav class="footer-integration footer-redesigned ">
+	<div class="container">
+		<div class="row">
+			
+				<div class="footer-col">
+                    
+        
+            
+        
+            <div class="button-wrapper inline">
+                <a href="https://hq.ssrn.com/submissions/CreateNewAbstract.cfm" class="button-link secondary submit-paper-btn"  >
+                    <span>Submit a Paper</span>
+                    
+                        <i class="icon icon-gizmo-navigate-right"></i>
+                    
+                </a>
+            </div>
+        
+    
+        
+    
+					<a class="section-508-link" href="https://www.ssrn.com/index.cfm/en/section-508/">Section 508 Text Only Pages</a>
+				</div>
+			
+			<div class="footer-col">
+				<h4 data-toggle="collapse">SSRN Quick Links <i class="icon-gizmo-navigate-down" aria-hidden="true"></i></h4>
+				<ul class="footer-links collapsable">
+					<li><a href="https://www.elsevier.com/solutions/ssrn" target="_blank">SSRN Solutions</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/rps/">Research Paper Series</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/conferences/">Conference Papers</a></li>
+					<li><a href="https://papers.ssrn.com/sol3/DisplayPipPublishers.cfm">Partners in Publishing</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/Announcements-Jobs/">Jobs &amp; Announcements</a></li>
+					<li><a target="_blank" href="https://communications.elsevier.com/webApp/els_doubleOptInWA?do=0&srv=els_SSRN&sid=153&uif=0&uvis=3">Newsletter Sign Up</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4 data-toggle="collapse">SSRN Rankings <i class="icon-gizmo-navigate-down" aria-hidden="true"></i></h4>
+				<ul class="footer-links collapsable">
+					<li><a href="https://hq.ssrn.com/rankings/Ranking_display.cfm?TRN_gID=10">Top Papers</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/top-authors/">Top Authors</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/top-organizations/">Top Organizations</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4 data-toggle="collapse">About SSRN <i class="icon-gizmo-navigate-down" aria-hidden="true"></i></h4>
+				<ul class="footer-links collapsable">
+					<li><a href="https://www.ssrn.com/index.cfm/en/ssrns-objectives/">SSRN Objectives</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/network-directors/">Network Directors</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/presidents-letter/">Presidential Letter</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/recent-announcements/">Announcements</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/contactus/">Contact us</a></li>
+					<li><a href="https://www.ssrn.com/index.cfm/en/ssrn-faq/">FAQs</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<ul class="footer-social-links">
+			<li><a target="_blank" href="https://www.facebook.com/SSRNcommunity/" aria-label="Facebook" role="link"><i class="icon icon-social-facebook" aria-hidden="true"></i></a></li>
+			<li><a target="_blank" href="https://www.linkedin.com/company/493409?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_493409%2Cidx%3A0" aria-label="Linkedin" role="link"><i class="icon icon-social-linkedin" aria-hidden="true"></i></a></li>
+			<li><a target="_blank" href="https://twitter.com/SSRN" aria-label="Twitter" role="link"><i class="icon icon-social-twitter" aria-hidden="true"></i></a></li>
+			<li style="display:none;"><a target="_blank" href="javascript:void(0);" role="button"><i class="icon icon-social-googleplus" aria-hidden="true"></i></a></li>
+		</ul>
+		<div class="footer-elsevier">
+			<div class="footer-left">
+				<a class="logo-elsevier" target="_blank" href="https://www.elsevier.com/"></a>
+			</div>
+			<div class="footer-left">
+				<div class="footer-links">
+					<a href="https://www.ssrn.com/index.cfm/en/dmca-notice-policy/">Copyright</a>
+					<a href="https://www.ssrn.com/index.cfm/en/terms-of-use/">Terms and Conditions</a>
+					<a href="https://www.elsevier.com/legal/privacy-policy" target="_blank">Privacy Policy</a>
+				</div>
+				<div class="footer-text">
+					<p>We use cookies to help provide and enhance our service and tailor content.<br/>By continuing, you agree to the use of cookies. To learn more, visit <a href="https://www.ssrn.com/index.cfm/en/ssrn-faq/#cookies">our Cookies page</a>.
+					<span class="icon-gizmo-lightning alwaysshowme">
+						<span class="tooltip top" role="tooltip">
+							<span class="tooltip-arrow"></span>
+							<span class="tooltip-inner">This page was processed by aws-apollo5 in <span id="serverTime">  0.204</span> seconds <span id="loadingtime"></span></span>
+						</span>
+					</span>
+					</p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<a class="logo-relx" target="_blank" href="http://www.relx.com/"></a>
+			</div>
+		</div>
+	</div>
+</nav>
+<!--END FOOTER-->
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+	<a href="https://papers.ssrn.com/sol3/updateInformationLog.cfm?process=true"><img src="header/pixel.gif" border="0" alt=" " width="1" height="1"></a>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js?v=397"></script>
+	<script src="https://static.ssrn.com/cfincludes/generic-toastr/generic-toastr.js?v=397"></script>
+	<script src="https://static.ssrn.com/cfincludes/copy2clipboard/copy2clipboard.js?v=397"></script>
+	<script src="https://static.ssrn.com/cfincludes/feedback-module/feedback-module.js?v=397"></script>
+	<script src="https://papers.ssrn.com/sol3/Scripts/versions-groups.js?v=397"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?v=397" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="Scripts/papers.js?v=397" type="text/javascript"></script>
+	<script type="text/javascript" src="//d39af2mgp1pqhg.cloudfront.net/widget-popup.js?v=397"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+</html>

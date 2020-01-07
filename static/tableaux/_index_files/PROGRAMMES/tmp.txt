@@ -1,0 +1,14 @@
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+date: Tue, 26 Nov 2019 20:16:17 GMT
+server: Apache
+cache-control: public, must-revalidate, no-cache="Set-Cookie", s-maxage=900
+expires: Tue, 26 Nov 2019 20:31:17 GMT
+link: </templates/notretemps/images/transparent-16x9.png>; rel=preload; as="image" crossorigin="anonymous", </templates/notretemps/fonts/icomoon.woff?fojqi5>; rel=preload; as="font"; type="font/woff" crossorigin="anonymous", </templates/notretemps/fonts/icomoon.ttf?fojqi5>; rel=preload; as="font"; type="font/ttf" crossorigin="anonymous", </templates/notretemps/fonts/icomoon.svg?fojqi5#icomoon>; rel=preload; as="font"; type="image/svg+xml" crossorigin="anonymous", </templates/notretemps/fonts/montserrat-bold-latin-ext.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/montserrat-bold-latin.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/montserrat-latin-ext.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/montserrat-latin.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/opensans-bold-latin-ext.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/opensans-bold-latin.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/opensans-latin-ext.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </templates/notretemps/fonts/opensans-latin.woff2>; rel=preload; as="font"; type="font/woff2" crossorigin="anonymous", </cache/template/template-dfab3235.css>; rel=preload; as="style", </cache/template/template-2a4d3bfc.js>; rel=preload; as="script"
+strict-transport-security: max-age=15768000
+last-modified: Tue, 26 Nov 2019 20:16:17 GMT
+x-cache: Miss from cloudfront
+via: 1.1 51fcc51a5c680a15c30de0aa3341fd58.cloudfront.net (CloudFront)
+x-amz-cf-pop: CDG3-C1
+x-amz-cf-id: m_1wrn6YekLEQf4FIE31F3x2OJwOzma3oB3I5XSghxMO5_LyuLl8zQ==
+

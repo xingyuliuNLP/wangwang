@@ -1,0 +1,60 @@
+---
+banner: img/banners/perl.jpeg
+title: Séance 7 - Rajouter 4 colonnes dans la table d'URLs
+author: Xingyu&Xiaoou
+date: '2019-11-06'
+slug: séance-7-rajouter-4-colonnes
+categories: [Programmation]
+tags: 
+- BASH
+- Stanford-Segmenter
+- Perl
+- Minigrep
+---
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = NA, highlight = TRUE)
+```
+
+<font size="4"><font size="4">Désormais, au moment de lancement de notre programme, nous devons mettre 3 arguments. Le premier et le deuxième sont respectivement le répertoire de l'input URL et celui de l'output tableau. Maintenant, le troisième est nos mots ciblés dans ce projet qui est donc 'guerre commerciale|trade war|贸易战' pour nous. Ce troisième argument sert à compter sa fréquence dans le texte.</font></font>
+<br>
+<font size="4"><font size="4">Les 4 colonnes rajoutées sont : le contexte de mot-clé, sa fréquence dans chaque fichier dump, l'index des mots présents dans chaque fichier dump et les bigrammes.</font></font>
+<br>
+<br>
+<center><font size="3" color="blue"><center><font size="3" color="blue">Minigrep ou egrep</font></center></font></center><br>
+<font size="4"><font size="4">Après avoir intallé Perl, nous avons deux façons de trouver le contexte des mots ciblés, soit deux lignes autour de la ligne concernant les mots-clés, une avec egrep et une autre avec minigrep</font></font>
+<br>
+```{bash eval=FALSE}
+# ----06/11
+# METHODE 1 : trouver la ligne avant et la ligne après de la ligne contenant notre mot-clé avec egrep
+# egrep -i -C 2 $motif '../DUMP-TEXT/$numerotableau-$compteur.txt' > '../CONTEXTES/$numerotableau-$compteur.txt';
+# METHODE 2 : en utilisant minigrep
+# mettre les motifs dans le fichier parametre-motif.txt
+minigrep/minigrepmultilingue.pl "UTF-8" '../DUMP-TEXT/$numerotableau-$compteur.txt' minigrep/parametre-motif.txt;
+# renommer le fichier obtenu
+mv resultat-extraction.html ../CONTEXTES/$numerotableau-$compteur.html
+```
+<font size="4"><font size="4">Afin d'obtenir des bigrammes, nous avons concaténé tous les mots d'un fichier avec tous les mots de ce fichier sauf le premier en utilisant paste. Cependant, la manière dont on utilise pour récupérer des mots ne s'applique pas au chinois à cause du fait que le chinois n'utilise pas des délimiteurs pour distinguer des mots. Il nous faut donc trouver un autre outil pour la segmentation du corpus chinois. </font></font>
+<br>
+```{bash eval=FALSE}
+# \w+ ne marche que dans UTF-8
+# INDEX DES MOTS
+egrep -o '\w+' '../DUMP-TEXT/$numerotableau-$compteur.txt' | sort | uniq -c|sort -gr > '../DUMP-TEXT/index-$numerotableau-$compteur.txt';
+## BIGRAMS
+egrep -o '\w+' '../DUMP-TEXT/$numerotableau-$compteur.txt' >fic1;
+tail -n +2 fich1 >fic2;
+paste fic1 fic2 | sort | uniq -c | sort -gr > '../DUMP-TEXT/bigrams-$numerotableau-$compteur.txt'
+## COMPTER LE MOTIF
+frqMotif=$(egrep -oc $motif '../DUMP-TEXT/$numerotableau-$compteur.txt');
+```
+<br>
+<br>
+<center><font size="3" color="blue"><center><font size="3" color="blue">Stanford Chinese Segmenter</font></center></font></center><br>
+<font size="4"><font size="4">Grâce aux blogs de nos anciens camarades, nous avons connu un outil de segmentation du chinois à savoir Stanford Chinese Segmenter. En ce qui concerne l'usage de cet outil, tout est clair sur son site https://nlp.stanford.edu/software/segmenter.shtml </font></font>
+```{bash eval=FALSE}
+sh ./stanford-segmenter/segment.sh -k ctb ./DUMP-TEXT/*.txt utf-8 0
+```
+
+
+
+
+

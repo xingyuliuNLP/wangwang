@@ -1,0 +1,67 @@
+---
+banner: img/banners/jieba2.png
+title: Séance 9 - de la segmentation du chinois - JIEBA
+author: Xingyu&Xiaoou
+date: '2019-11-20'
+slug: méthode-2-de-la-segmentation-du-chinois
+categories:
+  - programmation
+tags:
+  - Jieba
+  - Python
+---
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = NA, highlight = TRUE)
+```
+
+<font size="4"><font size="4">Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. </font></font>
+<br>
+<br>
+
+```{python eval=FALSE}
+#!/usr/bin/python
+# _*_ coding: utf-8 _*_
+
+# segment chinese text
+# modules
+import re
+import sys
+import jieba
+
+# functions
+def tokenize(file):
+    # input file
+    with open(file, 'r', encoding='utf-8') as f:
+        content = f.read()
+        # clean text and keep only chinese characters
+        pattern=re.compile(u'[^\u4E00-\u9FA5]')
+        texte=pattern.sub(r'', content)
+        wordlist_temp=list(jieba.cut(texte, cut_all=False))
+        wordlist=[i.rstrip() for i in wordlist_temp if len(i)>=1]
+    return wordlist
+
+def token_file(file):
+    wordlist=tokenize(sys.argv[1])
+    # output file
+    with open(file, 'w', encoding='utf-8') as f:
+        f.write(' '.join(wordlist))
+
+if __name__ == "__main__":
+    token_file(sys.argv[2])
+```
+<br>
+<font size="4"><font size="4">Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.</font></font>
+<br>
+```{bash eval=FALSE}
+python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
+```
+<br>
+<font size="4"><font size="4">Nous avons ensuite fait un test en prenant un de nos dump textes comme l'input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s'affiche en haut tandis que celui de Stanford se trouve en bas. </font></font>
+<br>
+<br>
+![](/projet_encadre/blog/2019-11-20-méthode-2-de-la-segmentation-du-chinois_files/screenshot_515.jpg){width=90%}
+<br>
+<br>
+<font size="4"><font size="4">Du côté positif, tous les deux ont bien extrait des entités nommées communes telles que <br>
+"特朗普" (Trump), "白宫" (maison blanche), "贸易战" (guerre commerciale). <br>
+Cependant, Jieba a montré une meilleure performance sur certaines utilisations subtiles du chinois. Par exemple, pour l'expression "不大(可能)" (peu possible), Jieba a gardé cette forme alors que Standford-Segmenter l'a séparé en "不" (ne pas) et "大" (grand). Nous avons décidé finalement d'utiliser Jieba dans notre script final. Mais il est à noter que dans notre cas où l'on va se focaliser sur une entité nommée, les deux segmenteurs nous permettent d'accomplir nos tâches d'analyse. </font></font>

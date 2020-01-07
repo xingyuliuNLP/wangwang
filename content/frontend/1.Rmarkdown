@@ -1,0 +1,54 @@
++++
+title = "1 article"
+date = 2019-12-21
+toc = true  # Show table of contents? true/false
+type = "docs"  # Do not modify.
+[menu.frontend]
+    parent = "blog"
+    weight = 20
++++
+
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = NA, highlight = TRUE)
+```
+
+## table example
+
+```{bash echo=TRUE}
+pwd # print repertoire actuel
+cd .. # remonte au repertoire parent
+cd / # aller a la racine
+echo "# exemple de l'arborescence de la racine sous Mac"
+ls # exemple de l'arborescence de la racine sous Mac
+cd ~ # aller a home
+echo "# sortie de la commande cat"
+echo "Bonjour" > test.txt
+cat test.txt # visualiser le contenu d'un fichier
+echo "# montrer les metadonnes du contenu"
+wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
+```
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## R
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+fit
+```
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```

@@ -1,0 +1,54 @@
++++
+title = "Cours 2 - Préambule Unix I"
+date = 2019-10-02
+weight = 1
+toc = true  # Show table of contents? true/false
+type = "docs"  # Do not modify.
+[menu.blog]
++++
+
+
+<center><font size="3" color="blue">Système de fichiers</font></center>
+
+Sous windows, il y a plusieurs arborescences tandis que sous unix, on a qu’une arborescence.
+<br>
+
+
+```bash
+pwd # print repertoire actuel
+cd .. # remonte au repertoire parent
+cd / # aller a la racine
+echo "# exemple de l'arborescence de la racine sous Mac"
+ls # exemple de l'arborescence de la racine sous Mac
+cd ~ # aller a home
+echo "# sortie de la commande cat"
+echo "Bonjour" > test.txt
+cat test.txt # visualiser le contenu d'un fichier
+echo "# montrer les metadonnes du contenu"
+wc test.txt # la commande egale wc -mlw, m = caractere l = ligne, w = mots
+```
+
+```
+/Users/rosingle/Documents/siteProjetEncadre/content/blog
+# exemple de l'arborescence de la racine sous Mac
+Applications
+Library
+System
+Users
+Volumes
+bin
+cores
+dev
+etc
+home
+opt
+private
+sbin
+tmp
+usr
+var
+# sortie de la commande cat
+Bonjour
+# montrer les metadonnes du contenu
+       1       1       8 test.txt
+```

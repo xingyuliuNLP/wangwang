@@ -1,0 +1,1121 @@
+
+ <!DOCTYPE html>
+
+<html class="no-js" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+
+	<head profile="http://gmpg.org/xfn/11">
+
+		<link rel="canonical" href="https://www.businessinsider.com/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11" />
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"fc2461609-",applicationID:"25670980"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1158.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+        <meta name="robots" content="max-snippet:-1">
+        <meta name="robots" content="max-image-preview:standard">
+        <meta name="robots" content="max-video-preview:-1">
+
+    <meta name="p:domain_verify" content="7c23b55a90188c0df4c5ef0bf436cce3" />
+
+    <script src="//cdn.hubvisor.io/wrapper/01BYK28ENND8X5G8K0AJ2DPK5Q/hubvisor.js"></script>
+
+    <title>Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel='dns-prefetch' href='//tra.scds.pmdstatic.net' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Business Insider France &raquo; Flux" href="https://www.businessinsider.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Business Insider France &raquo; Flux des commentaires" href="https://www.businessinsider.fr/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.businessinsider.fr\/core\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.businessinsider.fr/core/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='default-icon-styles-css'  href='https://www.businessinsider.fr/content/plugins/svg-vector-icon-plugin/public/../admin/css/wordpress-svg-icon-plugin-style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='https://www.businessinsider.fr/content/plugins/wordpress-popular-posts/public/css/wpp.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-parsely-style-css'  href='https://www.businessinsider.fr/content/plugins/wp-parsely/wp-parsely.css?ver=1578305440' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='lovecraft_googleFonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A400%2C700%2C900%7CPlayfair+Display%3A400%2C700%2C400italic&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='lovecraft_genericons-css'  href='https://www.businessinsider.fr/content/themes/lovecraft/genericons/genericons.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='lovecraft_style-css'  href='https://www.businessinsider.fr/content/themes/lovecraft/style.css?b-modified=1578305440&#038;ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='lovecraft_event-pages-css'  href='https://www.businessinsider.fr/content/themes/lovecraft/page-event.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='rrssb-css-css'  href='https://www.businessinsider.fr/content/plugins/rrssb//rrssb.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.businessinsider.fr/core/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.businessinsider.fr/core/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://tra.scds.pmdstatic.net/sourcepoint/1.1.0/sourcepoint.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"1","sampling_rate":"23","ajax_url":"https:\/\/www.businessinsider.fr\/wp-json\/wordpress-popular-posts\/v1\/popular-posts\/","ID":"","token":"5d59cc65f3","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.businessinsider.fr/content/plugins/wordpress-popular-posts/public/js/wpp-4.2.0.min.js?ver=4.2.2-b-modified-1578305446'></script>
+<script type='text/javascript' src='https://www.businessinsider.fr/content/plugins/rrssb//rrssb.min.js?ver=-b-modified-1578305446'></script>
+<link rel='https://api.w.org/' href='https://www.businessinsider.fr/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.businessinsider.fr/core/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.businessinsider.fr/core/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+
+<!-- BEGIN wp-parsely Plugin Version 1.14 -->
+<meta name="wp-parsely_version" id="wp-parsely_version" content="1.14"/>
+			<script type="application/ld+json">
+		{"@context":"http:\/\/schema.org","@type":"WebPage","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.businessinsider.fr\/le-chinois-caocao-lance-un-nouveau-service-de-vtc-a-paris\/"},"headline":"Business Insider France","url":"https:\/\/www.businessinsider.fr","thumbnailUrl":"https:\/\/www.businessinsider.fr\/content\/uploads\/2019\/09\/paris-150x150.jpg","image":{"@type":"ImageObject","url":"https:\/\/www.businessinsider.fr\/content\/uploads\/2019\/09\/paris-150x150.jpg"},"dateCreated":"2020-01-06T17:16:04Z","datePublished":"2020-01-06T17:16:04Z","dateModified":"2020-01-06T17:16:04Z","articleSection":"\u00c9conomie","author":[{"@type":"Person","name":"Business Insider"}],"creator":["Business Insider"],"keywords":["paris","vtc"],"publisher":{"@type":"Organization","name":"Business Insider France","logo":{"@type":"ImageObject","url":""}}}
+		</script>
+
+			<!-- END wp-parsely Plugin Version 1.14 -->
+
+	      <!-- Customizer CSS -->
+
+	      <style type="text/css">
+	           body a { color:#196d8d; }	           body a:hover { color:#196d8d; }
+	           .blog-title a:hover { color:#196d8d; }	           .main-menu li:hover > a { color:#196d8d; }	           .main-menu > .menu-item-has-children > a:after { border-top-color:#196d8d; }	           .main-menu > .menu-item-has-children > a:hover:after { border-top-color:#196d8d; }
+	           .sticky-post { background:#196d8d; }	           .sticky-post:after { border-right-color:#196d8d; }	           .sticky-post:after { border-left-color:#196d8d; }	           .post-meta a { color:#196d8d; }	           .post-meta a:hover { border-bottom-color:#196d8d; }
+	           .post-content a { color:#196d8d; }	           .post-content a:hover { color:#196d8d; }	           .post-content blockquote:after { color:#196d8d; }	           .post-content input[type="submit"]:hover { background:#196d8d; }	           .post-content input[type="button"]:hover { background:#196d8d; }	           .post-content input[type="reset"]:hover { background:#196d8d; }
+	           .post-content .page-links a:hover { background:#196d8d; }	           .post-tags a:hover { background:#196d8d; }	           .post-tags a:hover:before { border-right-color:#196d8d; }	           .post-navigation h4 a:hover { color:#196d8d; }
+	           .comments-title-link a { color:#196d8d; }	           .comments .pingbacks li a:hover { color:#196d8d; }	           .comment-header h4 a:hover { color:#196d8d; }	           .bypostauthor .comment-author-icon { background:#196d8d; }	           .form-submit #submit:hover { background-color:#196d8d; }	           .comments-nav a:hover { color:#196d8d; }	           .pingbacks-title { border-bottom-color:#196d8d; }
+	           .archive-navigation a:hover { color:#196d8d; }
+			   .widget-title { border-bottom-color:#196d8d; }	           .widget-content .textwidget a:hover { color:#196d8d; }	           .widget_archive li a:hover { color:#196d8d; }	           .widget_categories li a:hover { color:#196d8d; }	           .widget_meta li a:hover { color:#196d8d; }	           .widget_nav_menu li a:hover { color:#196d8d; }	           .widget_rss .widget-content ul a.rsswidget:hover { color:#196d8d; }	           #wp-calendar thead th { color:#196d8d; }	           #wp-calendar tfoot a:hover { color:#196d8d; }	           .widget .tagcloud a:hover { background:#196d8d; }	           .widget .tagcloud a:hover:before { border-right-color:#196d8d; }	           .footer .widget .tagcloud a:hover { background:#196d8d; }	           .footer .widget .tagcloud a:hover:before { border-right-color:#196d8d; }	           .search-button:hover .genericon { color:#196d8d; }	           .wrapper .search-button:hover .genericon { color:#196d8d; }	           .footer .search-button:hover .genericon { color:#196d8d; }
+	           .credits .sep { color:#196d8d; }	           .credits p a:hover { color:#196d8d; }
+	           .nav-toggle.active .bar { background-color:#196d8d; }	           .search-toggle.active .genericon { color:#196d8d; }	           .mobile-menu .current-menu-item:before { color:#196d8d; }	           .mobile-menu .current_page_item:before { color:#196d8d; }
+
+	      </style>
+
+	      <!--/Customizer CSS-->
+
+            <meta name="onesignal" content="wordpress-plugin"/>
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("https://www.businessinsider.fr/core");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '8bcdc9cb-f190-43e0-b25f-4fa57bbd3031';
+oneSignal_options['autoRegister'] = false;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "Business Insider France";
+oneSignal_options['welcomeNotification']['message'] = "Merci et à très vite !";
+oneSignal_options['welcomeNotification']['url'] = "http://www.businessinsider.fr";
+oneSignal_options['path'] = "https://www.businessinsider.fr/content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['persistNotification'] = true;
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = 'Recevez les notifications du live de Business Insider !';
+oneSignal_options['promptOptions']['exampleNotificationTitleDesktop'] = 'Voici un exemple de notification';
+oneSignal_options['promptOptions']['exampleNotificationMessageDesktop'] = 'Les notifications apparaitrons sur votre navigateur';
+oneSignal_options['promptOptions']['exampleNotificationTitleMobile'] = 'Exemple de notification';
+oneSignal_options['promptOptions']['exampleNotificationMessageMobile'] = 'Les notifications apparaitrons sur votre navigateur';
+oneSignal_options['promptOptions']['exampleNotificationCaption'] = 'Vous pouvez vous désabonner quand vous le souhaitez';
+oneSignal_options['promptOptions']['acceptButtonText'] = 'OUI';
+oneSignal_options['promptOptions']['cancelButtonText'] = 'NON';
+oneSignal_options['promptOptions']['siteName'] = 'http://www.businessinsider.fr';
+oneSignal_options['promptOptions']['autoAcceptTitle'] = 'Inscription en cours, merci !';
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'large';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['displayPredicate'] = function() {
+              return OneSignal.isPushNotificationsEnabled()
+                      .then(function(isPushEnabled) {
+                          return !isPushEnabled;
+                      });
+            };
+oneSignal_options['notifyButton']['showCredit'] = false;
+oneSignal_options['notifyButton']['text'] = {};
+oneSignal_options['notifyButton']['text']['message.prenotify'] = 'Cliquez pour recevoir les notifications';
+oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = 'Recevez toutes les actus !';
+oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = 'Vous êtes déjà abonné';
+oneSignal_options['notifyButton']['text']['tip.state.blocked'] = 'Les notifications sont bloquées';
+oneSignal_options['notifyButton']['text']['message.action.subscribed'] = 'Merci !';
+oneSignal_options['notifyButton']['text']['message.action.resubscribed'] = 'Vous êtes abonné !';
+oneSignal_options['notifyButton']['text']['message.action.unsubscribed'] = 'Vous ne recevrez plus de notification';
+oneSignal_options['notifyButton']['text']['dialog.main.title'] = 'Réglez vos notifications';
+oneSignal_options['notifyButton']['text']['dialog.main.button.subscribe'] = 'S&#039;abonner';
+oneSignal_options['notifyButton']['text']['dialog.main.button.unsubscribe'] = 'Se désabonner';
+oneSignal_options['notifyButton']['text']['dialog.blocked.title'] = 'Débloquer les notifications';
+oneSignal_options['notifyButton']['text']['dialog.blocked.message'] = 'Voici comment débloquer la notification';
+oneSignal_options['notifyButton']['colors'] = {};
+oneSignal_options['notifyButton']['colors']['circle.background'] = '#196d8d';
+oneSignal_options['notifyButton']['colors']['pulse.color'] = '#196d8d';
+oneSignal_options['notifyButton']['colors']['dialog.button.background'] = '#196d8d';
+oneSignal_options['notifyButton']['offset'] = {};
+oneSignal_options['notifyButton']['offset']['bottom'] = '30px';
+oneSignal_options['notifyButton']['offset']['left'] = '30px';
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+<style type="text/css">.inv-recaptcha-holder {
+float:right
+}</style>
+<!-- START - Open Graph and Twitter Card Tags 2.2.7.2 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:site_name" content="Business Insider France"/>
+  <meta property="og:title" content="Trump&#039;s trade war is hurting China&#039;s economy, but it&#039;s giving Beijing an opportunity it never dreamed of"/>
+  <meta property="og:url" content="https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference."/>
+  <meta property="og:image" content="https://image.businessinsider.com/5dd6f8cffd9db2191b20d696?width=1200&amp;format=jpeg"/>
+  <meta property="og:image:url" content="https://image.businessinsider.com/5dd6f8cffd9db2191b20d696?width=1200&amp;format=jpeg"/>
+  <meta property="og:image:secure_url" content="https://image.businessinsider.com/5dd6f8cffd9db2191b20d696?width=1200&amp;format=jpeg"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Trump&#039;s trade war is hurting China&#039;s economy, but it&#039;s giving Beijing an opportunity it never dreamed of"/>
+  <meta itemprop="headline" content="Trump&#039;s trade war is hurting China&#039;s economy, but it&#039;s giving Beijing an opportunity it never dreamed of"/>
+  <meta itemprop="description" content="With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference."/>
+  <meta itemprop="image" content="https://image.businessinsider.com/5dd6f8cffd9db2191b20d696?width=1200&amp;format=jpeg"/>
+ <!-- Twitter Cards -->
+  <meta name="twitter:image" content="https://image.businessinsider.com/5dd6f8cffd9db2191b20d696?width=1200&amp;format=jpeg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+  <meta name="description" content="With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference."/>
+ <!-- Misc. tags -->
+ <!-- is_front_page -->
+<!-- END - Open Graph and Twitter Card Tags 2.2.7.2 -->
+	
+
+            <meta name="description" content="Business Insider France est un site d’information sur l’économie, les technologies, les entrepreneurs, l’innovation, les découvertes et bien plus encore. En texte, en images, en vidéos et en graphiques, de l’actualité essentielle et percutante." />
+        <meta name="apple-itunes-app" content="app-id=1151882073">
+    
+<!-- Begin comScore Tag --> <script> var comscore = comscore || []; _comscore.push({ c1: "2", c2: "13194393" }); (function() { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); })(); </script> <noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=13194393&cv=2.0&cj=1" /> </noscript><!-- End comScore Tag-->
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.businessinsider.fr/content/themes/lovecraft/images/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://www.businessinsider.fr/content/themes/lovecraft/images/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.businessinsider.fr/content/themes/lovecraft/images/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.businessinsider.fr/content/themes/lovecraft/images/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.businessinsider.fr/content/themes/lovecraft/images/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.businessinsider.fr/content/themes/lovecraft/images/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Business Insider France"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="https://www.businessinsider.fr/content/themes/lovecraft/images/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://www.businessinsider.fr/content/themes/lovecraft/images/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://www.businessinsider.fr/content/themes/lovecraft/images/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://www.businessinsider.fr/content/themes/lovecraft/images/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://www.businessinsider.fr/content/themes/lovecraft/images/mstile-310x310.png" />
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.min.js"></script>
+
+	</head>
+
+	<body class="home blog" >
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NF9JFR"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NF9JFR');</script>
+		<!-- End Google Tag Manager -->
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJ6L2P"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WJ6L2P');</script>
+		<!-- End Google Tag Manager -->
+
+
+
+<div class="site_header">
+
+		<div class="header-wrapper">
+
+			<div class="header section small-padding">
+
+				<div class="section-inner">
+
+													
+								<h1 class="blog-logo">
+                  <a href='https://www.businessinsider.fr/' title='Business Insider France &mdash; Business Insider est le site d’actualité économique qui connait la plus forte croissance au monde.' rel='home'>
+                    <svg viewBox="0 0 96 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>BI_FRANCE_light_background_color_vertical</title>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="BI_FRANCE_light_background_color_vertical">
+                                <g id="Group" class="logo-color-1">
+                                    <g transform="translate(7.897172, 18.001392)">
+                                        <rect id="Rectangle-path" fill-rule="nonzero" x="0.113521851" y="0.295913294" width="2.01377892" height="11.5245898"></rect>
+                                        <polygon id="Shape" points="7.8922365 11.8032415 9.8270437 11.8032415 9.8270437 4.3067714 17.9722365 11.9820225 17.9722365 0.277418713 16.042365 0.277418713 16.042365 7.64565974 7.8922365 0.0998707368"></polygon>
+                                        <path d="M23.1424165,8.93781446 C24.2084304,9.79322065 25.5325656,10.2633679 26.8997429,10.2718902 C28.2570694,10.2718902 29.1997943,9.80336084 29.1997943,8.76889729 C29.1997943,7.86759471 28.5951671,7.5149647 27.5352185,7.1179477 L25.8212853,6.51872328 C24.240617,5.95402207 23.0387661,5.12793079 23.0387661,3.23161977 C23.0387661,1.20214776 24.8588175,0.0986377647 27.0342416,0.0986377647 C28.3668895,0.0986377647 29.5823136,0.436472109 30.5312082,1.03446356 L30.5312082,3.04667396 C29.5440617,2.30689072 28.4643702,1.80630407 27.0761954,1.80630407 C25.8817481,1.80630407 24.9883805,2.2551059 24.9883805,3.19093169 C24.9883805,4.03798349 25.5485861,4.37581784 26.5357326,4.71611813 L28.4458612,5.39178682 C30.2967609,6.04649498 31.1469409,7.06246396 31.1469409,8.7331411 C31.1469409,10.8365914 29.3096144,11.9968181 26.898509,11.9968181 C25.3141388,11.9968181 23.9679177,11.5504823 23.1387147,10.988247 L23.1424165,8.93781446 Z" id="Shape"></path>
+                                        <rect id="Rectangle-path" fill-rule="nonzero" x="36.3615424" y="0.295913294" width="2.01131105" height="11.5258228"></rect>
+                                        <path d="M44.2513111,0.295913294 L48.793419,0.295913294 C52.2903856,0.295913294 54.5509512,2.54732027 54.5509512,6.05512578 C54.5509512,9.56293129 52.2903856,11.8205031 48.793419,11.8205031 L44.2513111,11.8205031 L44.2513111,0.295913294 Z M48.7181491,10.0770806 C51.2057584,10.0770806 52.5359383,8.51737099 52.5359383,6.05512578 C52.5359383,3.59288058 51.2082262,2.02207418 48.7181491,2.02207418 L46.2589203,2.02207418 L46.2589203,10.0770806 L48.7181491,10.0770806 Z" id="Shape"></path>
+                                        <polygon id="Shape" points="65.9833419 0.295913294 65.9833419 2.02207418 60.7687404 2.02207418 60.7687404 4.79626131 65.445347 4.79626131 65.445347 6.50146167 60.7687404 6.50146167 60.7687404 10.0770806 65.9833419 10.0770806 65.9833419 11.8217361 58.800617 11.8217361 58.800617 0.295913294"></polygon>
+                                        <path d="M73.9965039,7.15123794 L73.9965039,11.826668 L71.9925964,11.826668 L71.9925964,0.295913294 L76.2879177,0.295913294 C78.7372751,0.295913294 80.3204113,1.49436214 80.3204113,3.74823506 C80.3204113,5.67783633 79.4418509,6.78504524 77.5675064,7.06986179 L81.8295116,11.8180372 L79.5492031,11.8180372 L75.4229306,7.15123794 L73.9965039,7.15123794 Z M73.9965039,5.52124888 L76.2484319,5.52124888 C77.5810797,5.52124888 78.3337789,4.82585264 78.3337789,3.75809884 C78.3337789,2.69034503 77.5823136,1.99371582 76.2484319,1.99371582 L73.9965039,1.99371582 L73.9965039,5.52124888 Z" id="Shape"></path>
+                                    </g>
+                                    <path d="M87.9411825,11.0535945 C88.7765553,11.6207617 90.1351157,12.0732624 91.7281234,12.0732624 C94.1552699,12.0732624 96,10.9019389 96,8.78739187 C96,7.10685095 95.1448843,6.08595008 93.285347,5.42507706 L91.3628792,4.74570946 C90.3757326,4.40540917 89.8093573,4.06634185 89.8093573,3.21559113 C89.8093573,2.27113453 90.7027249,1.81740082 91.9070437,1.81740082 C93.30509,1.81740082 94.3921851,2.32785125 95.3830334,3.06393557 L95.3830334,1.04432733 C94.431671,0.440171025 93.2076093,0.0998707368 91.8675578,0.0998707368 C89.6736247,0.0998707368 87.8474036,1.20954559 87.8474036,3.25381326 C87.8474036,5.16122104 89.0517224,5.99224421 90.6434961,6.55941136 L92.3710026,7.16356766 C93.4395887,7.56058467 94.0405141,7.91937954 94.0405141,8.825614 C94.0405141,9.86377647 93.0891517,10.3372377 91.7293573,10.3372377 C90.3519999,10.330894 89.0171529,9.85993406 87.9411825,9.00069603 L87.9411825,11.0535945 Z M75.7437532,11.0535945 C76.579126,11.6207617 77.9376864,12.0732624 79.5306941,12.0732624 C81.9578406,12.0732624 83.8025707,10.9019389 83.8025707,8.78739187 C83.8025707,7.10685095 82.9486889,6.08595008 81.0879177,5.42507706 L79.1654499,4.74570946 C78.1783033,4.40540917 77.611928,4.06634185 77.611928,3.21559113 C77.611928,2.27113453 78.5052956,1.81740082 79.7096144,1.81740082 C81.1076607,1.81740082 82.1959897,2.32785125 83.1856041,3.06393557 L83.1856041,1.04432733 C82.2342416,0.440171025 81.0101799,0.0998707368 79.6701285,0.0998707368 C77.4761954,0.0998707368 75.6499743,1.20954559 75.6499743,3.25381326 C75.6499743,5.16122104 76.8542931,5.99224421 78.4460668,6.55941136 L80.1735733,7.16356766 C81.2421594,7.56058467 81.8430848,7.91937954 81.8430848,8.825614 C81.8430848,9.86377647 80.8917224,10.3372377 79.531928,10.3372377 C78.1545706,10.330894 76.8197236,9.85993406 75.7437532,9.00069603 L75.7437532,11.0535945 Z M71.0412339,0.29961221 L71.0412339,2.03686984 L65.7982519,2.03686984 L65.7982519,4.82708561 L70.5007712,4.82708561 L70.5007712,6.54338272 L65.7982519,6.54338272 L65.7982519,10.1399622 L71.0412339,10.1399622 L71.0412339,11.8944815 L63.8190231,11.8944815 L63.8190231,0.304544099 L71.0412339,0.29961221 Z M48.2850386,11.8772198 L50.2309512,11.8772198 L50.2309512,4.33389679 L58.4217995,12.0560008 L58.4217995,0.278651685 L56.4808226,0.278651685 L56.4808226,7.69374565 L48.2850386,0.0998707368 L48.2850386,11.8772198 Z M42.5225707,0.297146266 L40.5026221,0.297146266 L40.5026221,11.8870836 L42.5213368,11.8870836 L42.5225707,0.297146266 Z M27.2464781,11.0609923 C28.0818509,11.6269265 29.4404113,12.0806602 31.033419,12.0806602 C33.4605656,12.0806602 35.3052956,10.9093368 35.3052956,8.7947897 C35.3052956,7.11424878 34.4514139,6.09458089 32.5906427,5.43370787 L30.6681748,4.75434026 C29.6810283,4.41403997 29.114653,4.07373968 29.114653,3.22422193 C29.114653,2.27976534 30.0080206,1.82603162 31.2123393,1.82603162 C32.6103856,1.82603162 33.6974807,2.33524908 34.688329,3.07256637 L34.688329,1.05172517 C33.7369666,0.447568858 32.5129049,0.108501541 31.1728535,0.108501541 C28.9789203,0.108501541 27.1526992,1.21817639 27.1526992,3.26244407 C27.1526992,5.16985184 28.357018,6.00087501 29.9487918,6.56680919 L31.6762982,7.1709655 C32.7448843,7.5679825 33.3458098,7.92677737 33.3458098,8.83301183 C33.3458098,9.87117431 32.3944473,10.3434026 31.034653,10.3434026 C29.6565236,10.3355013 28.3215365,9.86231934 27.2464781,9.00069603 L27.2464781,11.0609923 Z M17.7131105,12.0831262 C20.5684319,12.0831262 22.4908997,10.459302 22.4908997,7.28686487 L22.4908997,0.297146266 L20.4709512,0.297146266 L20.4709512,7.05753207 C20.4709512,9.28551258 19.4998458,10.324908 17.7131105,10.324908 C15.9263753,10.324908 14.9552699,9.28674555 14.9552699,7.05753207 L14.9552699,0.297146266 L12.9365553,0.297146266 L12.9365553,7.26590435 C12.9365553,10.456836 14.8787661,12.0831262 17.7131105,12.0831262 Z M1.96195373,6.79367605 L4.5248329,6.79367605 C5.88215938,6.79367605 6.62251928,7.43605449 6.62251928,8.49271154 C6.62251928,9.53087402 5.88215938,10.191747 4.5248329,10.191747 L1.96195373,10.191747 L1.96195373,6.79367605 Z M1.96195373,5.16985184 L1.96195373,1.99618176 L4.15588689,1.99618176 C5.53419023,1.99618176 6.27208226,2.46841006 6.27208226,3.56328925 C6.27208226,4.65816844 5.53172237,5.16615293 4.15588689,5.16615293 L1.96195373,5.16985184 Z M6.66200514,5.90963508 C7.53562982,5.60755693 8.21552699,4.70132246 8.21552699,3.45478771 C8.21552699,1.37722979 6.66200514,0.300845182 4.17562982,0.300845182 L0,0.300845182 L0,11.8907825 L4.5655527,11.8907825 C7.05069409,11.8907825 8.60544987,10.7391866 8.60544987,8.56175798 C8.59818056,7.35058105 7.81569375,6.2800946 6.66323907,5.90470319 L6.66200514,5.90963508 Z" id="Shape"></path>
+                                </g>
+                                <g id="Group" transform="translate(22.827763, 36.002784)" fill-rule="nonzero"  class="logo-color-2">
+                                    <polygon id="Shape" points="0.0407197943 7.66908621 0.0407197943 0.217003082 4.80246787 0.217003082 4.80246787 1.3328428 1.30426735 1.3328428 1.30426735 3.54232873 4.57172237 3.54232873 4.57172237 4.65200358 1.30426735 4.65200358 1.30426735 7.66908621"></polygon>
+                                    <path d="M9.50128535,4.64707169 L9.50128535,7.66908621 L8.24020566,7.66908621 L8.24020566,0.217003082 L11.1189717,0.217003082 C12.6613882,0.217003082 13.6584062,0.99377548 13.6584062,2.44991548 C13.6584062,3.70014915 12.9291517,4.41650592 11.7507455,4.59775281 L13.9125964,7.66908621 L12.4787661,7.66908621 L10.4020566,4.64707169 L9.50128535,4.64707169 Z M9.50128535,3.59041464 L11.0930591,3.59041464 C11.9308997,3.59041464 12.4047301,3.14161281 12.4047301,2.44991548 C12.4047301,1.75821816 11.9308997,1.30818335 11.0930591,1.30818335 L9.50128535,1.30818335 L9.50128535,3.59041464 Z" id="Shape"></path>
+                                    <path d="M20.6659126,0.217003082 L23.5323393,7.66908621 L22.245347,7.66908621 L21.4803085,5.60632395 L18.6249871,5.60632395 L17.8599486,7.66908621 L16.5840617,7.66908621 L19.4504884,0.217003082 L20.6659126,0.217003082 Z M19.0260154,4.51391071 L21.0669409,4.51391071 L20.0464781,1.75821816 L19.0260154,4.51391071 Z" id="Shape"></path>
+                                    <polygon id="Shape" points="32.788072 7.66908621 31.8157326 7.66908621 28.0016452 2.24400915 28.0016452 7.66908621 26.7862211 7.66908621 26.7862211 0.217003082 27.9769666 0.217003082 31.5726478 5.3880879 31.5726478 0.217003082 32.788072 0.217003082"></polygon>
+                                    <path d="M39.8338303,0.0961718206 C40.671671,0.0961718206 41.3281234,0.342766232 41.8081234,0.739783236 L41.8081234,2.05043253 C41.2133676,1.49189619 40.6062725,1.22557423 39.84,1.22557423 C38.418509,1.22557423 37.495527,2.34264691 37.495527,3.94427762 C37.495527,5.54590832 38.418509,6.65681615 39.84,6.65681615 C40.6050386,6.65681615 41.2121337,6.40159093 41.8081234,5.84305459 L41.8081234,7.15123794 C41.3219537,7.55195386 40.6667352,7.79484936 39.8338303,7.79484936 C37.7558869,7.79484936 36.2258098,6.24130456 36.2258098,3.94674356 C36.2258098,1.65218256 37.7583548,0.0961718206 39.8338303,0.0961718206 Z" id="Shape"></path>
+                                    <polygon id="Shape" points="50.3037532 0.217003082 50.3037532 1.3328428 46.671054 1.3328428 46.671054 3.29943323 49.9631877 3.29943323 49.9631877 4.40910808 46.671054 4.40910808 46.671054 6.53475191 50.3037532 6.53475191 50.3037532 7.66415432 45.4321851 7.66415432 45.4321851 0.217003082"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                  </a>
+                </h1>
+
+							
+						
+            <section class="regular-menu masthead-vertical-wrapper nav-max">
+              <ul class="verticals">
+                <li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30" data-submenu="menu-item-30-submenu"><a href="https://www.businessinsider.fr/tech/">Tech</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27" data-submenu="menu-item-27-submenu"><a href="https://www.businessinsider.fr/economie/">Économie</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28" data-submenu="menu-item-28-submenu"><a href="https://www.businessinsider.fr/politique/">Politique</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29" data-submenu="menu-item-29-submenu"><a href="https://www.businessinsider.fr/strategie/">Stratégie</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59" data-submenu="menu-item-59-submenu"><a href="https://www.businessinsider.fr/lifestyle/">Lifestyle</a></li>
+<li id="menu-item-153804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153804" data-submenu="menu-item-153804-submenu"><a href="https://www.businessinsider.fr/inscription-newsletter/">Newsletters</a></li>
+<li id="menu-item-164783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-164783" data-submenu="menu-item-164783-submenu"><a href="https://www.businessinsider.fr/innovation-responsable/">Innovation responsable</a></li>
+              </ul>
+            </section>
+
+            <section class="masthead-icons-wrapper">
+
+                                <span class="masthead-icon-container bi-search nav-max">
+                  <a class="masthead-icon search toggle">
+                    <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">A magnifying glass icon.</desc><g class="search-path" fill="none" stroke="#848F91"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg>
+                  </a>
+                </span>
+                <span class="masthead-icon-container bi-nav-toggle nav-min">
+                  <span class="masthead-icon nav-toggle toggle">
+    							    <div class="bar"></div>
+    							    <div class="bar"></div>
+    							    <div class="bar"></div>
+                  </span>
+    						</span>
+                <span class="masthead-icon-container bi-edition nav-max">
+                  <a class="masthead-icon globe toggle">
+                    <svg class="svg-icon globe-icon" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><title id="title">Globe Icon</title><desc id="desc">An icon of the world globe.</desc><circle class="globe-water-path" fill="#FFF" cx="10" cy="10" r="9.5" style="transform: translateZ(0);box-sizing: border-box;"></circle><g class="globe-land-path" fill="#848F91"><path d="M9.7.3h.7c.3 0 .7 0 1 .1.6.1 1.2.2 1.8.4 1.5.5 2.8 1.4 3.9 2.6 1 1 1.7 2.2 2.1 3.6.2.8.4 1.5.4 2.3v1c0 .4-.1.8-.1 1.1-.1.8-.3 1.5-.6 2.2-.5 1.2-1.2 2.3-2.2 3.2-.7.7-1.5 1.3-2.3 1.7-1.6.8-3.3 1.1-5 1-.6 0-1.2-.1-1.8-.3-1.8-.3-3.4-1.2-4.6-2.6-.7-.7-1.3-1.6-1.7-2.5-.6-1.2-.9-2.5-.9-3.9 0-.5 0-1 .1-1.5.1-.7.2-1.3.5-2C1.4 5.3 2.3 4 3.5 2.9c1-1 2.2-1.7 3.6-2.1C7.9.6 8.6.4 9.4.4c.1-.1.2-.1.3-.1zm.1 5.2s0 .1 0 0c.1.1.1.1 0 0l.2.2c0 .1.1.2.2.2h.2s.1 0 .1.1c0 0 0 .1-.1.1h-.1c-.1 0-.3.1-.4.2 0 0-.1.1-.1 0l-.1-.1s0-.1.1-.1.1 0 .2-.1h-.1-.1c-.1 0-.1.1-.2.1h-.1c-.2 0-.3.1-.4.2-.1.2-.2.4-.4.4-.1.1-.1.2-.2.3 0 .1-.1.1-.1.1-.1 0-.1.1-.1.1v.1c-.1.4-.3.7-.7.9-.1.1-.2.2-.2.4 0 .1 0 .2.1.2 0 .2.1.4.1.6v.1h-.1c-.2-.2-.3-.3-.3-.5 0-.1 0-.1-.1-.2 0-.1-.1-.1-.2-.1h-.2s-.1 0-.1-.1c-.1 0-.2 0-.3.1-.1.1-.3.1-.4.1-.4 0-.7.2-.8.6v.1c-.1.1-.1.2-.1.3 0 .2.1.5.2.6.1.1.2.2.3.2h.3c.2 0 .2-.1.3-.3 0-.1.1-.2.2-.2h.4v.1l-.1.1c-.1.2-.1.3-.1.5 0 .1 0 .1.1.1h.3c.2 0 .4.2.3.4v.3c0 .1.1.3.2.3.1.1.2 0 .3 0 .1 0 .3.1.3.4v.3c0 .1 0 .1.1.1h.1v-.1c0-.1 0-.2.1-.3.1 0 .2 0 .3.1 0 0 .1.1.1 0h.2c.1.1.1.1.2 0H9.4c.1 0 .1 0 .1.1s0 .1.1.1h.1c.1 0 .2.1.2.1.1.1.1.2.2.2h.2c.3-.1.6.1.7.4 0 0 0 .1.1.1.1.1.1.1 0 .2v.1c.3 0 .5.1.8.2.2.1.4.2.6.2.1 0 .2.1.3.1.1.1.2.1.2.1.1 0 .2.1.2.2v.2c0 .1-.1.2-.2.3l-.2.2c-.1.1-.1.1-.1.2 0 .3-.1.6-.3.8-.1.1-.1.1-.1.2s-.2.2-.3.2h-.2c-.1 0-.2.1-.3.1-.1 0-.3.1-.3.3 0 .1 0 .1-.1.2-.1 0-.1.1-.2.1-.2.2-.4.4-.7.5-.1 0-.1.1-.2.1-.1.1-.2.2-.3.1-.1 0-.3 0-.3.1-.1.1-.1.1-.2.1s-.2.1-.3.2c0 .1 0 .2.1.2h1c.4 0 .8 0 1.2-.1.9-.1 1.8-.4 2.6-.8 1-.5 1.9-1.2 2.6-2 .5-.5.9-1 1.2-1.6V14v-.5c0-.3.1-.6.3-.8.1-.1.1-.3.1-.5s-.1-.4-.1-.6c0-.1-.1-.2 0-.3 0-.1 0-.2.1-.3.1-.2 0-.3-.2-.3h-.1-.2-.1c-.2.1-.3.1-.5.1s-.3 0-.5.1h-.1l-.3-.3c-.1-.1-.3-.2-.3-.4-.1-.1-.1-.2-.2-.3-.1-.1-.1-.2 0-.2v-.1c-.1-.1-.1-.1 0-.2 0 0 .1-.1.1-.2v-.1c0-.1 0-.2-.1-.3-.2-.3-.1-.5.1-.8.1-.1.2-.2.3-.4.1-.2.2-.3.4-.5V7c0-.2 0-.4.2-.5.1 0 .1-.1.1-.2v-.1h.1s.1 0 .1.1h.1c.1.1.2 0 .3 0 .3.7.4.6.6.7.2 0 .4.2.4.4 0 .1.1.2.2.3.1.1.2.1.3.2.1.1.1 0 .2 0s.1-.1.1-.1v-.1l-.3-.9c0-.1-.1-.2-.2-.3l-.2-.2v-.1.1c0 .1.1.1.1.2.1.1.1.2.2.3l.1.1v-.1c-.1-.1-.1-.2-.2-.3-.4-.1-.5-.2-.5-.3 0 0 0-.1-.1-.1s-.1 0-.1.1-.1.1-.2 0h-.1v.1c0 .1 0 .1-.1.2 0 0-.1 0-.1.1v.2c0 .1-.1.2-.2.2s-.1 0-.2.1h-.1c-.1-.1-.1-.1-.2-.1s-.1-.1-.1-.1c0-.1 0-.1-.1-.2s-.1-.1 0-.1c.1-.1.1-.2 0-.3v-.1-.1V6H17c.1 0 .2-.1.1-.2 0-.1-.1-.2-.2-.3l-.2-.2s-.1 0 0-.1c0 0 0-.1.1 0h.2s.1 0 .1-.1.1-.1.2-.1h.1v-.1-.1H17.7s0-.1-.1-.1c-.4-.5-.8-1-1.2-1.4-.6-.6-1.4-1.1-2.2-1.5H14l-.1.1c-.1 0-.1 0-.1.1-.1.1-.2.2-.3.2h-.2c-.2 0-.2.1-.2.3 0 .1 0 .1-.1.1v.5c0 .1-.2.2-.3.1l-.1-.1-.1-.1h-.2c-.4.1-.8-.1-.9-.5l-.3-.3c-.1-.1-.2-.2-.1-.3 0-.1.1-.2.3-.2h0-.3c-.1 0-.1 0-.1-.1s0-.1.1-.1H11.2c-.1 0-.2-.1-.3-.2-.2-.3-.3-.3-.4-.4-.3-.1-.6-.1-.9-.1C9.1.8 8.5.9 8 1c-1.5.3-2.8 1-3.9 1.9L4 3h.1c.2 0 .4-.1.6-.2.1-.1.3-.1.5-.1.1 0 .2 0 .3-.1.1-.1.3-.1.4 0 .1 0 .2 0 .2-.1s.1-.1.1-.1l.1-.1c.1-.1.2-.2.3-.1h.1l.1-.1h.1v.1H7.2s.1 0 .1-.1c0 0 0-.1.1-.1h.1c.1-.1.2 0 .3.1l.1.1v.1l-.1.1h-.1s-.1.1-.2.1h-.1H7.1l-.1.1c0 .2 0 .2-.1.2H7c-.1.2-.3.2-.4.3-.1 0-.2 0-.2.1-.1 0-.1.1-.2.2 0 0 0 .1-.1.1-.2.2 0 .5.2.7.1 0 .2.1.3.1H7c.3 0 .5.1.5.4 0 .1 0 .2.1.3.1.1.1.1.2 0l.1-.1v-.3c0-.1 0-.2.1-.3.1 0 .2-.1.2-.2.1-.1 0-.2-.1-.3-.1-.1-.1-.2 0-.2l.1-.1v-.3c0-.1 0-.1.1-.1H8.6c.2 0 .3 0 .4.1l.1.1c.1 0 .1.1.1.2s0 .1.1.2c.1 0 .2.1.3 0 .1 0 .1-.1.2-.1 0-.1.1-.1.2-.1s.1.1.1.1c.1.1.2.1.2.2s.1.2.2.2h.2c.3 0 .6.1.6.4v.3c0 .1-.1.3-.3.3-.1 0-.2 0-.2.1-.1.1-.3.1-.5.1h-.4c-.1 0-.2.1-.3.1-.1 0-.3.1-.4.3v.1s.1 0 .1-.1l.1-.1c.2-.1.4-.2.6-.2.1 0 .1 0 .1.1-.1.1-.1.1-.3.1.1 0 .1 0 0 0zM8.3 19.1V19v-.3c-.1-.2 0-.3 0-.5.1-.1.1-.2.1-.4v-.3c0-.1.1-.1.1-.2v-.7c0-.1-.1-.2-.2-.3-.5-.2-.8-.6-1-1-.1-.2-.2-.3-.4-.4 0 0-.1 0 0-.1v-.1-.2H7c.1-.1.1-.1 0-.1s-.1-.1 0-.2.1-.1.1-.2c0 0 0-.1.1-.1s.1-.1.1-.1l.1-.1.1-.1v-.3c0-.2 0-.4.1-.5.1-.1.1-.1.1-.2 0 0 0-.1.1-.1s.1-.1.2-.1c0 0 .1 0 .1-.1v-.1H8c-.1 0-.1 0-.1.1v.1h-.1l-.1-.1c-.5-.2-.7-.3-.9-.3-.1-.1-.2-.1-.2-.3 0-.2-.2-.3-.3-.4-.1 0-.2-.1-.4-.1-.1 0-.2-.1-.3-.2 0-.1-.1-.1-.2-.1h-.5c-.1 0-.1-.1-.2-.1-.2-.1-.3-.2-.5-.2-.2-.1-.3-.2-.3-.4 0-.3-.2-.5-.4-.7l-.1-.1c0-.1 0-.1-.1-.2 0-.2-.1-.3-.1-.5v-.1h-.1V8.9c0 .1.1.1.1.2.1.1.2.3.2.4 0 .1 0 .1.1.2l.1.1v.1h-.1c-.1-.1-.2-.2-.2-.3 0-.1-.1-.2-.2-.3-.1 0-.1-.1-.1-.1 0-.1 0-.2-.1-.3 0-.1 0-.1-.1-.2v-.2c0-.1-.1-.2-.1-.2s-.1 0-.1-.1c-.1 0-.1-.1-.1-.2s0-.2-.1-.3c-.2-.4-.2-.7 0-1.1v-.1c0-.2 0-.4-.1-.6 0-.1-.1-.3-.1-.4 0-.1-.1-.1-.1 0v.1c-.2.1-.4.3-.5.5C1 7.4.7 8.8.8 10.3c0 .7.1 1.3.3 1.9.4 1.8 1.3 3.3 2.7 4.5 1.1 1.1 2.5 1.8 4 2.2.1.1.3.1.5.2z"></path><path d="M9.4 1.9h.2l-.1.1v.2h.5s.1.1.2.1h.2c.1 0 .1 0 .1.1s-.1.1-.2.1v.1h-.1-.1s-.1 0-.1-.1c-.1 0-.1 0-.2-.1h-.1v.2c.1.1.2.1.3.2.1 0 .1.1.2.1v.2h-.1c-.1 0-.3-.1-.4-.1h-.1.1c.1 0 .2.1.3.1v.1h-.1c-.3-.1-.4-.2-.5-.1 0 0-.1 0-.1-.1h-.1-.1S9 3 9 2.9c0 0 0-.1-.1-.1s-.2-.1-.2-.1h-.2c-.1.1-.2 0-.3 0 .1 0 .1-.1.2-.1h.5v-.1c.1 0 .1-.1.2-.1L9 2.3c-.3-.2-.4-.2-.5-.3 0 0-.1 0-.1-.1h-.1s-.1 0-.1-.1l-.1.1H8c-.2.1-.2.1-.3.1h-.1-.1-.4H7h-.1.2-.2-.1v-.1l.1-.1h.4V2s.1 0 .1.1h.1V2v-.1-.1c0-.1.1-.1.2-.1h.2v.2H8.2c.1-.1.1-.1.2-.1H8.7v.1h.4c0-.1.1-.1.3 0-.1-.1 0-.1 0 0 0-.1 0 0 0 0zM16.5 4.7v-.1c.1 0 .1-.1 0-.1 0 0-.1-.1-.2-.1v-.1c0-.1 0-.1-.1-.1 0 0-.1-.1 0-.1V4v-.1h.1V4c0 .1 0 .1.1.1 0 0 .1 0 .1.1s0 .1.1.2.2.3.3.4l.1.1s0 .1.1.1v.2H17c-.1 0-.2-.1-.2 0-.2-.3-.3-.4-.3-.5zM7.3 9.8H7.6c.1 0 .2.1.4.1h.1c0 .1.1.1.1.1h.1c.1 0 .1.1.2.1 0 0 .1 0 .1.1h-.4-.1v-.1-.1H8s-.1 0-.1-.1h-.1c-.1 0-.2 0-.2-.1h-.2-.1-.1c-.1.2-.2.2-.2.2s0-.1.1-.1c0 0 0-.1.2-.1zM8.8 10.6h-.3-.1H8.7s0-.1-.1-.1H9.3c.1 0 .1.1.1.1l.1.1c-.1-.1-.1 0-.2 0h-.1-.1s0 .1-.1.1c-.2-.1-.2-.1-.2-.2z"></path><path d="M16.1 4.2s0-.1 0 0c0-.1 0-.1 0 0l.1-.1c.1 0 .1 0 .1.1v.1c0 .1 0 .1.1.1v.1h-.1-.1c-.1 0-.1 0-.1-.1v-.2s0-.1-.1-.1c0 .1 0 .1.1.1zM9.6 10.7c0-.1 0-.1 0 0v-.1h.1c0 .1 0 .1-.1.1z"></path></g><path class="globe-inner-circle-path" fill="#FFF" d="M10 1.1c-4.9 0-8.9 4-8.9 8.9s4 8.9 8.9 8.9 8.9-4 8.9-8.9-4-8.9-8.9-8.9zm0 16.7c-4.3 0-7.8-3.5-7.8-7.8S5.7 2.2 10 2.2s7.8 3.5 7.8 7.8-3.5 7.8-7.8 7.8z"></path><path class="globe-outer-circle-path" fill="#848F91" d="M10 20C4.5 20 0 15.5 0 10S4.5 0 10 0s10 4.5 10 10-4.5 10-10 10zm0-1.1c4.9 0 8.9-4 8.9-8.9s-4-8.9-8.9-8.9-8.9 4-8.9 8.9 4 8.9 8.9 8.9z"></path></svg>
+                  </a>
+                  <div class="dropdown-menu bi-editions">
+                    <div class="dropdown-menu-wrap">
+                      <h4><span>Edition</span></h4>
+                      <ul>
+                        <li>
+                          <a href="https://www.businessinsider.com/?IR=C" class="external" target="_blank">United States</a>
+                        </li>
+                        <li>
+                          <a href="https://www.businessinsider.com/international?IR=C" class="external" target="_blank">International</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.de/" class="external" target="_blank">Deutschland</a>
+                        </li>
+                        <li>
+                          <a class="active" href="https://www.businessinsider.fr/">France</a>
+                        </li>
+                        <li>
+                          <a href="http://it.businessinsider.com/" class="external" target="_blank">Italy</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.es/" class="external" target="_blank">Spain</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.co.za/" class="external" target="_blank">South Africa</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.com.au/" class="external" target="_blank">Australia</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.in/" class="external" target="_blank">India</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.my/" class="external" target="_blank">Malaysia</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.sg/" class="external" target="_blank">Singapore</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.com.pl/" class="external" target="_blank">Poland</a>
+                        </li>
+                        <li>
+                          <a href="https://www.businessinsider.com/nordic?IR=C" class="external" target="_blank">Nordic</a>
+                        </li>
+                        <li>
+                          <a href="http://www.businessinsider.nl/" class="external" target="_blank">Netherlands</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </span>
+
+            </section>
+
+				</div> <!-- /section-inner -->
+
+			</div> <!-- /header -->
+
+      <div class="regular-search">
+        <form method="get" class="search-form" id="search-form" action="https://www.businessinsider.fr/">
+	<input type="search" class="search-field" placeholder="Recherche" name="s" id="s" /> 
+	<button type="submit" class="search-button"><div class="genericon genericon-search"></button>
+</form>      </div>
+
+		</div> <!-- /header-wrapper -->
+
+</div> <!-- end .site-header -->
+
+<div class="mobile-menu">
+    <div class="mobile-menu-container">
+
+      <ul class="verticals">
+        <li class="mobile-search">
+            <form method="get" class="search-form" id="search-form" action="https://www.businessinsider.fr/">
+	<input type="search" class="search-field" placeholder="Recherche" name="s" id="s" /> 
+	<button type="submit" class="search-button"><div class="genericon genericon-search"></button>
+</form>        </li>
+        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30"><a href="https://www.businessinsider.fr/tech/">Tech</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27"><a href="https://www.businessinsider.fr/economie/">Économie</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28"><a href="https://www.businessinsider.fr/politique/">Politique</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a href="https://www.businessinsider.fr/strategie/">Stratégie</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59"><a href="https://www.businessinsider.fr/lifestyle/">Lifestyle</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153804"><a href="https://www.businessinsider.fr/inscription-newsletter/">Newsletters</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-164783"><a href="https://www.businessinsider.fr/innovation-responsable/">Innovation responsable</a></li>
+        <li class="mobile-menu-editions">
+          <a class="mobile-menu-editions-toggle">
+            <span>Editions</span>
+            <svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="chevron-small-down" fill-rule="nonzero" fill="#888">
+                        <path d="M8.418,0.859 C8.689,0.591 9.127,0.591 9.396,0.859 C9.666,1.127 9.668,1.56 9.396,1.828 L5.488,5.658 C5.218,5.926 4.781,5.926 4.509,5.658 L0.601,1.828 C0.331,1.561 0.331,1.127 0.601,0.859 C0.872,0.591 1.31,0.591 1.579,0.859 L5,4 L8.418,0.859 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </svg>
+          </a>
+              <ul class="mobile-menu-editions-dropdown">
+                <li>
+                  <a href="https://www.businessinsider.com/?IR=C" class="external" target="_blank">United States</a>
+                </li>
+                <li>
+                  <a href="https://www.businessinsider.com/international?IR=C" class="external" target="_blank">International</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.de/" class="external" target="_blank">Deutschland</a>
+                </li>
+                <li>
+                  <a class="active" href="https://www.businessinsider.fr/">France</a>
+                </li>
+                <li>
+                  <a href="http://it.businessinsider.com/" class="external" target="_blank">Italy</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.es/" class="external" target="_blank">Spain</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.co.za/" class="external" target="_blank">South Africa</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.com.au/" class="external" target="_blank">Australia</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.in/" class="external" target="_blank">India</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.my/" class="external" target="_blank">Malaysia</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.sg/" class="external" target="_blank">Singapore</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.com.pl/" class="external" target="_blank">Poland</a>
+                </li>
+                <li>
+                  <a href="https://www.businessinsider.com/nordic?IR=C" class="external" target="_blank">Nordic</a>
+                </li>
+                <li>
+                  <a href="http://www.businessinsider.nl/" class="external" target="_blank">Netherlands</a>
+                </li>
+              </ul>
+        </li>        <li>
+          <a href="/inscription-newsletter">Newsletters</a>
+        </li>
+      </ul>
+
+    </div>
+</div>
+
+<div id="corps" class="wrapper section corps" style="position:relative;">
+
+
+  <div class="phold_top phold_top_banner">
+		<div class="widget widget_phold">
+			<div class="pmdfp_widget" style="margin-bottom:10px">
+        <div class="ads-core-placer" id="Banniere-Haute_5e1439e960e2a" data-ads-core='{"device":"desktop,tablet","type":"Banniere-Haute"}'></div>      </div>
+    </div>
+	</div>
+
+<div class="ads-core-placer" id="Habillage-Interstitiel_5e1439e960e98" data-ads-core='{"type":"Habillage-Interstitiel"}'></div><div class="ads-core-placer" id="Out-Of-Banner_5e1439e960ef4" data-ads-core='{"type":"Out-Of-Banner"}'></div>
+<script>
+var BI = {};
+BI.vaop = [];
+</script>
+
+<div class="section-inner">
+
+  <div class="post-header">
+
+    <h1 class="post-title">Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of</h1>
+
+    <div class="post-tools">
+      <div class="post-meta">
+        <p class="post-author">Linette Lopez</p>
+        <p class="post-date"><span class="wp-svg-clock"></span> 24 Nov 2019, 13:20</p>
+                                                          </div>
+
+      
+<div class="rrssb-container"><ul class="rrssb-buttons rrssb-1"><li class="rrssb-facebook" data-initwidth="20" data-size="61" style="width: 20%;">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/" class="popup external" rel="nofollow" target="_blank">
+        <span class="rrssb-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="29" height="29" viewBox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z" class="cls-2" fill-rule="evenodd"></path></svg>
+        </span>
+        <span class="rrssb-text">facebook</span>
+    </a>
+</li>
+<li class="rrssb-twitter" data-initwidth="20" data-size="49" style="width: 20%;">
+            <a href="http://twitter.com/intent/tweet?text=Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of&amp;url=https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/&amp;via=BIfrance" class="popup" rel="nofollow">
+        <span class="rrssb-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62c-3.122.162-6.22-.646-8.86-2.32 2.702.18 5.375-.648 7.507-2.32-2.072-.248-3.818-1.662-4.49-3.64.802.13 1.62.077 2.4-.154-2.482-.466-4.312-2.586-4.412-5.11.688.276 1.426.408 2.168.387-2.135-1.65-2.73-4.62-1.394-6.965C5.574 7.816 9.54 9.84 13.802 10.07c-.842-2.738.694-5.64 3.434-6.48 2.018-.624 4.212.043 5.546 1.682 1.186-.213 2.318-.662 3.33-1.317-.386 1.256-1.248 2.312-2.4 2.942 1.048-.106 2.07-.394 3.02-.85-.458 1.182-1.343 2.15-2.48 2.71z"></path></svg></span>
+        <span class="rrssb-text">twitter</span>
+    </a>
+</li>
+<li class="rrssb-linkedin" data-initwidth="20" data-size="53" style="width: 20%;">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/&amp;title=Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of&amp;summary=With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference." class="popup" rel="nofollow">
+        <span class="rrssb-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"></path>
+            </svg>
+        </span>
+        <span class="rrssb-text">linkedin</span>
+    </a>
+</li>
+<li class="rrssb-email" data-initwidth="20" data-size="35" style="width: 20%;">
+  <!-- Replace subject with your message using URL Endocding: http://meyerweb.com/eric/tools/dencoder/ -->
+  <a href="mailto:?subject=Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of&amp;body=With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference. https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/" rel="nofollow">
+    <span class="rrssb-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+        <path d="M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z"></path>
+      </svg>
+    </span>
+    <span class="rrssb-text">email</span>
+  </a>
+</li>
+</ul></div>
+    </div>
+
+  </div>
+
+	   <div class="content content-us">
+
+        <div class="content-wrap">
+
+				<div id="post-us" class="single post">
+
+					<div class="post-inner">
+
+            <div class="post-content">
+
+                
+                <section class="post-content typography " data-track-content="" data-post-type="post"><div id="piano-inline-content-wrapper" data-piano-inline-content-wrapper>
+                    <div class="content-header"><p><img src="https://static.businessinsider.com/image/5b509f2d260a2919008b479a-1201/opinion-banner.png" border="0" alt="Opinion banner" data-mce-source="Business Insider"></p></div>
+<ul class="summary-list">
+<li>President Donald Trump says China is desperate to end its trade war with the US, but while China's economy is slowing, policymakers aren't acting desperate.</li>
+<li>There's evidence to suggest that China would rather go toe to toe with the US on trade than deal with it on more pressing domestic issues — such as Xinjiang and Hong Kong.</li>
+<li>"The Chinese are not trying to win," Leland Miller, the founder of Chinese business and economic survey "<a href="https://www.chinabeigebook.com/" class="external" target="_blank">China Beige Book</a>," told Business Insider. "They're trying to stall so they get the best scenario they can across the board."</li>
+<li>Trump's laser focus on getting a deal — instead of scaring the Chinese — is giving them an opportunity to accomplish other goals without US interference.</li>
+</ul>
+<p>President Trump will tell you China is <a href="https://www.whitehouse.gov/briefings-statements/remarks-president-trump-economic-club-new-york-new-york-ny/" class="external" target="_blank">"dying to make a deal"</a> with the US. He will tell you that Beijing is tired of paying tariffs to the US (Americans actually pay them). He will tell you that China's supply chains are breaking, and that its economy is on the verge of collapse (arguable but not certain).</p>
+
+
+<p>"We're the ones that are deciding whether or not we want to make a deal," <a href="https://www.whitehouse.gov/briefings-statements/remarks-president-trump-economic-club-new-york-new-york-ny/" class="external" target="_blank">Trump said in a speech</a> at the Economic Club of New York this month. "We're close."</p>
+<p>Trump's rhetoric on the trade deal represents a gross oversimplification of China's interests. The reality of what Beijing wants is far more complicated than an end to the recent economic hostilities. Instead, it is balancing a variety of interests, some more important than the trade war.</p>
+<p>"The Chinese are not trying to win," Leland Miller, the founder of Chinese business and economic survey "<a href="https://www.chinabeigebook.com/" class="external" target="_blank">China Beige Book</a>," told Business Insider. "They're trying to stall so they get the best scenario they can across the board."</p>
+<p>"Across the board" means a range of domestic, economic, and national-security issues. And "best scenario" means much more than a stable Chinese economy.</p>
+
+
+<p>Beijing's ideal scenario includes a free hand to violate human rights in Xinjiang and Hong Kong; it includes continuing to press for reunification with Taiwan; and it includes achieving the aims of China 2025, the Chinese Communist Party's plan to transition the country's economy to one based on technology.</p>
+<p>Trump's laser focus on trade has given Beijing the latitude to deal with those and other critical issues without fear interference from the White House.</p>
+<p>That is why <a href="https://foreignpolicy.com/2019/10/15/china-trump-trump2020-deal-beijing-best-asset/" class="external" target="_blank">some in China's community of think tanks and scholars</a> believe that, in some ways, Trump benefits China. One former US State Department official with experience in East Asia, who spoke with Business Insider on condition of anonymity, said that, long term, there are four main reasons some in China think Trump is useful.</p>
+<ol>
+<li>He damages alliances.</li>
+<li>He damages US credibility and standing.</li>
+<li>He's taking the US out of the multilateral game.</li>
+<li>He's damaging long-term US economic competitiveness.</li>
+</ol>
+
+<p>On the other hand, Trump's quixotic nature has made him a frustrating counterpart to the Chinese.</p>
+<p>"[Chinese leaders are] at the point where Trump is so unpredictable," Miller said. "I don't buy the idea that the Chinese want him around. They would rather deal with anyone else. The deal they get from him may be better for China, but they can't trust he'll keep it. After this summer there is zero trust."</p>
+<h2>It's not the economy, stupid</h2>
+<p>Trump is correct to say that the Chinese economy is slowing down, but there is little evidence to support his assertion that Beijing is "dying" to make a deal anytime soon.</p>
+<p>For months, Chinese economic data has been trending down, but it's only in the past few week that policymakers have slightly <a href="https://www.scmp.com/economy/china-economy/article/3038528/china-cuts-interest-rate-slightly-latest-fine-tuning-economic" class="external" target="_blank">lowered key interest rates</a> to keep money flowing through the economy. According to the economist Wei Yao, at Société Générale, that's because they were concerned about easier money exacerbating already high pork prices — pork is a staple of the Chinese diet, and high prices pull up inflation — and a housing bubble.</p>
+
+
+<p>In the past few weeks, pork prices have fallen, so policymakers have said that <a href="https://www.reuters.com/article/us-china-economy-banks/china-central-bank-governor-says-will-step-up-credit-support-to-economy-idUSKBN1XT1AP" class="external" target="_blank">more easing on the way</a>. But for the time being, we can continue to expect easing measures to be incremental steps made by a leadership carefully weighing and watching the trade war — not the actions of a desperate government on the verge of bending a knee to its strategic rival.</p>
+<p>Meanwhile, trade-war negotiations seem to have prompted the US to, for now, <a href="https://www.npr.org/2019/11/18/780473704/u-s-firms-get-90-day-extension-to-work-with-huawei-on-rural-networks" class="external" target="_blank">ease up restrictions on Huawei,</a> the <a href="https://www.businessinsider.com/huawei-meng-wanzhou-trump-china-trade-war-2018-12" class="external" target="_blank">Chinese telecom company</a> that has repeatedly drawn the attention of US officials and was accused by the Justice Department of <a href="https://www.businessinsider.com/huawei-cfo-meng-wanzhou-indicted-fraud-ip-theft-security-concerns-2019-1" class="external" target="_blank">violating US sanctions on Iran</a>.</p>
+<p>China has also ignored US ire over its "Made in China 2025," a plan to build up China's tech sector using methods <a href="https://www.scmp.com/economy/china-economy/article/3038590/chinas-new-industrial-policy-dismissed-made-china-2025-rehash" class="external" target="_blank">US officials have said violate the aims of the trade war</a> — methods that allow more state control of China's economy and encourage more intellectual-property theft. While China stopped using the phrase "Made in China 2025" in its official communiques, <a href="https://www.scmp.com/economy/china-economy/article/3038590/chinas-new-industrial-policy-dismissed-made-china-2025-rehash" class="external" target="_blank">this week it introduced an industrial policy</a> with the same aims.</p>
+<p>"The main message I get from this is: We're pursuing a state-led, large firm development goal," Derek Scissors, a senior fellow and China-economy expert at the American Enterprise Institute, told the <a href="https://www.scmp.com/economy/china-economy/article/3038590/chinas-new-industrial-policy-dismissed-made-china-2025-rehash" class="external" target="_blank">South China Morning Post</a>. "They don't say anything about competition in here at all. The messaging is entirely consistent with Made in China 2025."</p>
+
+
+<p>So while yes, China's economy is slowing, it is neither in emergency mode, nor dramatically changing in response to US economic concerns and desires.</p>
+<h2>Holding back the hawks</h2>
+<p>So if the trade war's effect on China's slowing economy is not the most existential threat to China, what is?</p>
+<p>For that, look to the issues Trump is ignoring, such as Hong Kong and Xinjiang. In what has undoubtedly been a <a href="https://www.businessinsider.com/trump-white-house-blew-us-response-to-hong-kong-protests-2019-6" class="external" target="_blank">missed opportunity</a> to stand up for human rights, Trump has been fairly silent about millions of people in Hong Kong who've been protesting <a href="https://www.businessinsider.com/why-are-protests-still-going-on-in-hong-kong-2019-6" class="external" target="_blank">to protect their autonomous political arrangement with China</a>.</p>
+<p>The problem for China, though, is that it seems as if China hawks in Washington are becoming bolder, regardless of the president's desire for a deal.</p>
+
+
+<p>Congress unanimously passed a <a href="https://www.businessinsider.com/senate-unanimously-passes-hong-kong-human-rights-bill-protests-china-2019-11" class="external" target="_blank">law condemning China's actions in Hong Kong</a> and requiring an annual review of Hong Kong's political autonomy upon which the city's status as a special trade partner with the US would be contingent. The law would consider sanctions against those involved in human-rights abuses against Hong Kong citizens and ensure US visa protections for demonstrators.</p>
+<p>But Trump already suggested in a Fox News interview on Friday that he may veto the bill because "we are also in the process of making one of the largest trade deals in history."</p>
+<p>"In almost every facet of foreign policy — national security, human rights — the US side could make things difficult for China," Miller said. "They have massive leverage."</p>
+<p>China, as you might imagine, was livid about the Hong Kong law and summoned William Klein, acting chargé d'affaires of the US Embassy in China, to lodge stern representations and strong protest against US Senate.</p>
+
+
+<p>We have yet to see China stage an equal freak-out about the trade war. Just this week was saw <a href="https://www.nytimes.com/aponline/2019/11/18/world/asia/ap-as-china-xinjiang.html" class="external" target="_blank">China stage a bigger freak-out</a> about The New York Times' stunning and sickening report about violence and <a href="https://www.nytimes.com/interactive/2019/11/16/world/asia/china-xinjiang-documents.html" class="external" target="_blank">genocide in China's Xinjiang province,</a> where the government is targeting the mostly-Muslim Uighur ethnic minority.</p>
+<p>"What the political types say ... is two things," Anne Stevenson-Yang, the founder of China-focused investment firm J Capital Research, said. "One, on economic issues, <a href="https://www.reuters.com/article/us-usa-trade-china-agriculture/trumps-hailing-of-50-billion-in-chinese-farm-purchases-seen-as-meaningless-idUSKBN1WT0TG" class="external" target="_blank">Trump can be bribed</a>, and, two, on human rights, he leaves them alone."</p>
+<p>So, to Beijing, trade war considered, things could be a lot worse.</p>
+                  </div>
+
+                    <section class="category-tagline "><div>
+                          <p>This is an opinion column. The thoughts expressed are those of the author(s).</p>
+                      </div>
+                    </section></section>
+                
+            </div>
+
+						
+<div class="rrssb-container"><ul class="rrssb-buttons rrssb-1"><li class="rrssb-facebook" data-initwidth="20" data-size="61" style="width: 20%;">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/" class="popup external" rel="nofollow" target="_blank">
+        <span class="rrssb-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="29" height="29" viewBox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z" class="cls-2" fill-rule="evenodd"></path></svg>
+        </span>
+        <span class="rrssb-text">facebook</span>
+    </a>
+</li>
+<li class="rrssb-twitter" data-initwidth="20" data-size="49" style="width: 20%;">
+            <a href="http://twitter.com/intent/tweet?text=Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of&amp;url=https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/&amp;via=BIfrance" class="popup" rel="nofollow">
+        <span class="rrssb-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62c-3.122.162-6.22-.646-8.86-2.32 2.702.18 5.375-.648 7.507-2.32-2.072-.248-3.818-1.662-4.49-3.64.802.13 1.62.077 2.4-.154-2.482-.466-4.312-2.586-4.412-5.11.688.276 1.426.408 2.168.387-2.135-1.65-2.73-4.62-1.394-6.965C5.574 7.816 9.54 9.84 13.802 10.07c-.842-2.738.694-5.64 3.434-6.48 2.018-.624 4.212.043 5.546 1.682 1.186-.213 2.318-.662 3.33-1.317-.386 1.256-1.248 2.312-2.4 2.942 1.048-.106 2.07-.394 3.02-.85-.458 1.182-1.343 2.15-2.48 2.71z"></path></svg></span>
+        <span class="rrssb-text">twitter</span>
+    </a>
+</li>
+<li class="rrssb-linkedin" data-initwidth="20" data-size="53" style="width: 20%;">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/&amp;title=Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of&amp;summary=With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference." class="popup" rel="nofollow">
+        <span class="rrssb-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"></path>
+            </svg>
+        </span>
+        <span class="rrssb-text">linkedin</span>
+    </a>
+</li>
+<li class="rrssb-email" data-initwidth="20" data-size="35" style="width: 20%;">
+  <!-- Replace subject with your message using URL Endocding: http://meyerweb.com/eric/tools/dencoder/ -->
+  <a href="mailto:?subject=Trump's trade war is hurting China's economy, but it's giving Beijing an opportunity it never dreamed of&amp;body=With the White House more concerned about trade than anything else, China has been able to accomplish other goals with little US interference. https://www.businessinsider.fr/us/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11/" rel="nofollow">
+    <span class="rrssb-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+        <path d="M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z"></path>
+      </svg>
+    </span>
+    <span class="rrssb-text">email</span>
+  </a>
+</li>
+</ul></div>
+
+					</div> <!-- /post-inner -->
+
+                                            <div id="content_ad_1" class="post" style="display:none"></div>
+                    
+                    <div class="OUTBRAIN" data-src="https://www.businessinsider.fr/le-chinois-caocao-lance-un-nouveau-service-de-vtc-a-paris/" data-widget-id="AR_1"></div>
+                    <script type="text/javascript" async="async"src="//widgets.outbrain.com/outbrain.js"></script>
+				</div> <!-- /post -->
+
+                <hr />
+
+                <div class="home">
+                    <div class="posts" id="posts">
+
+                    </div>
+                </div>
+                <div class="archive-navigation">
+            		<div class="fright">
+            				<p>
+            					<a href="/" id="nexts_link">Suivant →</a>
+            				</p>
+            		</div>
+        		    <div class="clear"></div>
+                </div>
+
+
+
+        </div> <!-- /content-wrap -->
+
+
+
+	</div> <!-- /content -->
+
+	<div class="sidebar">
+
+    <div class="sidebar-stick sidebar-height" data-height="1500">
+		<div class="div_pos_sticky">
+			<div class="widget_ban" id="pave_sidebar">
+				<div class="pmdfp_widget">
+			<div class="ads-core-placer" id="Pave-Haut_5e1439e961436" data-ads-core='{"device":"desktop","type":"Pave-Haut"}'></div>			</div>
+			</div>
+			<div class="widgets" style="margin-top:30px">
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBusinessInsiderFrance%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1153708124705032" width="300" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			</div>
+
+	
+			<div class="widget widget_lovecraft_recent_posts"><div class="widget-content"><h3 class="widget-title">BI vous recommande</h3>		
+			<ul class="lovecraft-widget-list">
+				
+				                        
+                        					
+						<li>
+						
+													
+							<a href="https://www.businessinsider.fr/11-tendances-mode-qui-devraient-disparaitre-en-2020/" title="11 tendances mode qui devraient disparaître en 2020">
+									
+								<div class="post-icon">
+								
+																		
+																		
+										<img width="150" height="150" src="https://www.businessinsider.fr/content/uploads/2020/01/5e0a0d77954bda2d2b56f073-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="https://www.businessinsider.fr/content/uploads/2020/01/5e0a0d77954bda2d2b56f073-150x150.jpeg 150w, https://www.businessinsider.fr/content/uploads/2020/01/5e0a0d77954bda2d2b56f073-88x88.jpeg 88w" sizes="(max-width: 150px) 100vw, 150px" />									
+																		
+								</div>
+								
+								<div class="inner">
+												
+									<p class="title">11 tendances mode qui devraient disparaître en 2020</p>
+								
+								</div>
+								
+								<div class="clear"></div>
+													
+							</a>
+							
+						</li>
+					
+					                        
+                        					
+						<li>
+						
+													
+							<a href="https://www.businessinsider.fr/des-images-satellites-revelent-letendue-des-feux-de-brousse-en-australie/" title="Des images satellites révèlent l&#039;étendue des feux de brousse en Australie">
+									
+								<div class="post-icon">
+								
+																		
+																		
+										<img width="150" height="150" src="https://www.businessinsider.fr/content/uploads/2020/01/5e0e35f5855cc27648778494-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="https://www.businessinsider.fr/content/uploads/2020/01/5e0e35f5855cc27648778494-150x150.jpg 150w, https://www.businessinsider.fr/content/uploads/2020/01/5e0e35f5855cc27648778494-88x88.jpg 88w" sizes="(max-width: 150px) 100vw, 150px" />									
+																		
+								</div>
+								
+								<div class="inner">
+												
+									<p class="title">Des images satellites révèlent l'étendue des feux de brousse en Australie</p>
+								
+								</div>
+								
+								<div class="clear"></div>
+													
+							</a>
+							
+						</li>
+					
+					                        
+                        					
+						<li>
+						
+													
+							<a href="https://www.businessinsider.fr/comment-jouer-aux-jeux-quel-personnage-de-pokemon-ou-disney-etes-vous-sur-instagram/" title="Comment jouer aux jeux &#039;quel personnage de Pokémon ou Disney êtes-vous ?&#039; sur Instagram">
+									
+								<div class="post-icon">
+								
+																		
+																		
+										<img width="150" height="150" src="https://www.businessinsider.fr/content/uploads/2020/01/5e0bbaf3954bda561152ebd2-150x150.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="https://www.businessinsider.fr/content/uploads/2020/01/5e0bbaf3954bda561152ebd2-150x150.jpeg 150w, https://www.businessinsider.fr/content/uploads/2020/01/5e0bbaf3954bda561152ebd2-88x88.jpeg 88w" sizes="(max-width: 150px) 100vw, 150px" />									
+																		
+								</div>
+								
+								<div class="inner">
+												
+									<p class="title">Comment jouer aux jeux 'quel personnage de Pokémon ou Disney êtes-vous ?' sur Instagram</p>
+								
+								</div>
+								
+								<div class="clear"></div>
+													
+							</a>
+							
+						</li>
+					
+					                        
+                        					
+						<li>
+						
+													
+							<a href="https://www.businessinsider.fr/15-choses-que-vous-ignorez-surement-a-propos-des-avions/" title="15 choses que vous ignorez sûrement à propos des avions">
+									
+								<div class="post-icon">
+								
+																		
+																		
+										<img width="150" height="150" src="https://www.businessinsider.fr/content/uploads/2020/01/57ee84d3c4cfe01a008b459b-1-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="https://www.businessinsider.fr/content/uploads/2020/01/57ee84d3c4cfe01a008b459b-1-150x150.jpg 150w, https://www.businessinsider.fr/content/uploads/2020/01/57ee84d3c4cfe01a008b459b-1-88x88.jpg 88w" sizes="(max-width: 150px) 100vw, 150px" />									
+																		
+								</div>
+								
+								<div class="inner">
+												
+									<p class="title">15 choses que vous ignorez sûrement à propos des avions</p>
+								
+								</div>
+								
+								<div class="clear"></div>
+													
+							</a>
+							
+						</li>
+					
+					                        
+                        					
+						<li>
+						
+													
+							<a href="https://www.businessinsider.fr/dubai-abrite-la-plus-grande-structure-imprimee-en-3d-au-monde-construite-avec-laide-de-seulement-3-ouvriers/" title="Dubaï abrite la plus grande structure imprimée en 3D au monde, construite avec l&#039;aide de seulement 3 ouvriers">
+									
+								<div class="post-icon">
+								
+																		
+																		
+										<img width="150" height="150" src="https://www.businessinsider.fr/content/uploads/2019/12/5e0a1f88855cc25ad269ec15-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="https://www.businessinsider.fr/content/uploads/2019/12/5e0a1f88855cc25ad269ec15-150x150.jpg 150w, https://www.businessinsider.fr/content/uploads/2019/12/5e0a1f88855cc25ad269ec15-88x88.jpg 88w" sizes="(max-width: 150px) 100vw, 150px" />									
+																		
+								</div>
+								
+								<div class="inner">
+												
+									<p class="title">Dubaï abrite la plus grande structure imprimée en 3D au monde, construite avec l'aide de seulement 3 ouvriers</p>
+								
+								</div>
+								
+								<div class="clear"></div>
+													
+							</a>
+							
+						</li>
+					
+								
+				</ul>
+				
+								
+		</div><div class="clear"></div></div>
+
+									<div class="widgets" style="margin-top:30px">
+	<!--            <a href="https://www.businessinsider.fr/intelligence">
+				<img src="/content/themes/lovecraft/images/banner-bii-300x600.png" alt="" />
+				</a>-->
+			</div>
+					</div>
+    </div>
+    <div class="sidebar-stick sidebar-height" data-height="1500" data-margin="2650">
+        <div class="widget_ban div_pos_sticky" id="pave_sidebar">
+            <div class="pmdfp_widget">
+                <div class="ads-core-placer" id="Pave-Bas_5e1439e9751d5" data-ads-core='{"device":"desktop","type":"Pave-Bas"}'></div>            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-stick div_pos_sticky" data-height="150000" data-margin="4650">
+      <div class="widget_ban" id="pave_sidebar">
+        <div class="pmdfp_widget">
+          <div class="ads-core-placer" id="Pave-Bas2_5e1439e976297" data-ads-core='{"device":"desktop","type":"Pave-Bas2"}'></div>        </div>
+      </div>
+    </div>
+
+
+</div>
+
+	<div class="clear"></div>
+
+</div>
+
+
+
+<script>
+
+    jQuery(BI.vaop).each(function() {
+        if (this.html && this.html != '') {
+            jQuery("#"+this.anchor+" .embed-placeholder").html(this.html)
+        }
+    })
+
+</script>
+
+
+
+
+<!--></div> <!-- /wrapper -->
+
+</div> <!-- /wrapper -->
+
+
+
+<div class="footer section">
+
+	<section class="social-inner section-inner">
+
+		<div class="footer-logo">
+				<a href='https://www.businessinsider.fr/' title='Business Insider France &mdash; Business Insider est le site d’actualité économique qui connait la plus forte croissance au monde.' rel='home'>
+					<svg viewBox="0 0 113 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>BI_FRANCE_light_background_color_vertical</title>
+							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g id="BI_FRANCE_light_background_color_vertical">
+											<g id="Group" class="logo-color-3">
+													<g transform="translate(7.897172, 18.001392)">
+															<rect id="Rectangle-path" fill-rule="nonzero" x="0.113521851" y="0.295913294" width="2.01377892" height="11.5245898"></rect>
+															<polygon id="Shape" points="7.8922365 11.8032415 9.8270437 11.8032415 9.8270437 4.3067714 17.9722365 11.9820225 17.9722365 0.277418713 16.042365 0.277418713 16.042365 7.64565974 7.8922365 0.0998707368"></polygon>
+															<path d="M23.1424165,8.93781446 C24.2084304,9.79322065 25.5325656,10.2633679 26.8997429,10.2718902 C28.2570694,10.2718902 29.1997943,9.80336084 29.1997943,8.76889729 C29.1997943,7.86759471 28.5951671,7.5149647 27.5352185,7.1179477 L25.8212853,6.51872328 C24.240617,5.95402207 23.0387661,5.12793079 23.0387661,3.23161977 C23.0387661,1.20214776 24.8588175,0.0986377647 27.0342416,0.0986377647 C28.3668895,0.0986377647 29.5823136,0.436472109 30.5312082,1.03446356 L30.5312082,3.04667396 C29.5440617,2.30689072 28.4643702,1.80630407 27.0761954,1.80630407 C25.8817481,1.80630407 24.9883805,2.2551059 24.9883805,3.19093169 C24.9883805,4.03798349 25.5485861,4.37581784 26.5357326,4.71611813 L28.4458612,5.39178682 C30.2967609,6.04649498 31.1469409,7.06246396 31.1469409,8.7331411 C31.1469409,10.8365914 29.3096144,11.9968181 26.898509,11.9968181 C25.3141388,11.9968181 23.9679177,11.5504823 23.1387147,10.988247 L23.1424165,8.93781446 Z" id="Shape"></path>
+															<rect id="Rectangle-path" fill-rule="nonzero" x="36.3615424" y="0.295913294" width="2.01131105" height="11.5258228"></rect>
+															<path d="M44.2513111,0.295913294 L48.793419,0.295913294 C52.2903856,0.295913294 54.5509512,2.54732027 54.5509512,6.05512578 C54.5509512,9.56293129 52.2903856,11.8205031 48.793419,11.8205031 L44.2513111,11.8205031 L44.2513111,0.295913294 Z M48.7181491,10.0770806 C51.2057584,10.0770806 52.5359383,8.51737099 52.5359383,6.05512578 C52.5359383,3.59288058 51.2082262,2.02207418 48.7181491,2.02207418 L46.2589203,2.02207418 L46.2589203,10.0770806 L48.7181491,10.0770806 Z" id="Shape"></path>
+															<polygon id="Shape" points="65.9833419 0.295913294 65.9833419 2.02207418 60.7687404 2.02207418 60.7687404 4.79626131 65.445347 4.79626131 65.445347 6.50146167 60.7687404 6.50146167 60.7687404 10.0770806 65.9833419 10.0770806 65.9833419 11.8217361 58.800617 11.8217361 58.800617 0.295913294"></polygon>
+															<path d="M73.9965039,7.15123794 L73.9965039,11.826668 L71.9925964,11.826668 L71.9925964,0.295913294 L76.2879177,0.295913294 C78.7372751,0.295913294 80.3204113,1.49436214 80.3204113,3.74823506 C80.3204113,5.67783633 79.4418509,6.78504524 77.5675064,7.06986179 L81.8295116,11.8180372 L79.5492031,11.8180372 L75.4229306,7.15123794 L73.9965039,7.15123794 Z M73.9965039,5.52124888 L76.2484319,5.52124888 C77.5810797,5.52124888 78.3337789,4.82585264 78.3337789,3.75809884 C78.3337789,2.69034503 77.5823136,1.99371582 76.2484319,1.99371582 L73.9965039,1.99371582 L73.9965039,5.52124888 Z" id="Shape"></path>
+													</g>
+													<path d="M87.9411825,11.0535945 C88.7765553,11.6207617 90.1351157,12.0732624 91.7281234,12.0732624 C94.1552699,12.0732624 96,10.9019389 96,8.78739187 C96,7.10685095 95.1448843,6.08595008 93.285347,5.42507706 L91.3628792,4.74570946 C90.3757326,4.40540917 89.8093573,4.06634185 89.8093573,3.21559113 C89.8093573,2.27113453 90.7027249,1.81740082 91.9070437,1.81740082 C93.30509,1.81740082 94.3921851,2.32785125 95.3830334,3.06393557 L95.3830334,1.04432733 C94.431671,0.440171025 93.2076093,0.0998707368 91.8675578,0.0998707368 C89.6736247,0.0998707368 87.8474036,1.20954559 87.8474036,3.25381326 C87.8474036,5.16122104 89.0517224,5.99224421 90.6434961,6.55941136 L92.3710026,7.16356766 C93.4395887,7.56058467 94.0405141,7.91937954 94.0405141,8.825614 C94.0405141,9.86377647 93.0891517,10.3372377 91.7293573,10.3372377 C90.3519999,10.330894 89.0171529,9.85993406 87.9411825,9.00069603 L87.9411825,11.0535945 Z M75.7437532,11.0535945 C76.579126,11.6207617 77.9376864,12.0732624 79.5306941,12.0732624 C81.9578406,12.0732624 83.8025707,10.9019389 83.8025707,8.78739187 C83.8025707,7.10685095 82.9486889,6.08595008 81.0879177,5.42507706 L79.1654499,4.74570946 C78.1783033,4.40540917 77.611928,4.06634185 77.611928,3.21559113 C77.611928,2.27113453 78.5052956,1.81740082 79.7096144,1.81740082 C81.1076607,1.81740082 82.1959897,2.32785125 83.1856041,3.06393557 L83.1856041,1.04432733 C82.2342416,0.440171025 81.0101799,0.0998707368 79.6701285,0.0998707368 C77.4761954,0.0998707368 75.6499743,1.20954559 75.6499743,3.25381326 C75.6499743,5.16122104 76.8542931,5.99224421 78.4460668,6.55941136 L80.1735733,7.16356766 C81.2421594,7.56058467 81.8430848,7.91937954 81.8430848,8.825614 C81.8430848,9.86377647 80.8917224,10.3372377 79.531928,10.3372377 C78.1545706,10.330894 76.8197236,9.85993406 75.7437532,9.00069603 L75.7437532,11.0535945 Z M71.0412339,0.29961221 L71.0412339,2.03686984 L65.7982519,2.03686984 L65.7982519,4.82708561 L70.5007712,4.82708561 L70.5007712,6.54338272 L65.7982519,6.54338272 L65.7982519,10.1399622 L71.0412339,10.1399622 L71.0412339,11.8944815 L63.8190231,11.8944815 L63.8190231,0.304544099 L71.0412339,0.29961221 Z M48.2850386,11.8772198 L50.2309512,11.8772198 L50.2309512,4.33389679 L58.4217995,12.0560008 L58.4217995,0.278651685 L56.4808226,0.278651685 L56.4808226,7.69374565 L48.2850386,0.0998707368 L48.2850386,11.8772198 Z M42.5225707,0.297146266 L40.5026221,0.297146266 L40.5026221,11.8870836 L42.5213368,11.8870836 L42.5225707,0.297146266 Z M27.2464781,11.0609923 C28.0818509,11.6269265 29.4404113,12.0806602 31.033419,12.0806602 C33.4605656,12.0806602 35.3052956,10.9093368 35.3052956,8.7947897 C35.3052956,7.11424878 34.4514139,6.09458089 32.5906427,5.43370787 L30.6681748,4.75434026 C29.6810283,4.41403997 29.114653,4.07373968 29.114653,3.22422193 C29.114653,2.27976534 30.0080206,1.82603162 31.2123393,1.82603162 C32.6103856,1.82603162 33.6974807,2.33524908 34.688329,3.07256637 L34.688329,1.05172517 C33.7369666,0.447568858 32.5129049,0.108501541 31.1728535,0.108501541 C28.9789203,0.108501541 27.1526992,1.21817639 27.1526992,3.26244407 C27.1526992,5.16985184 28.357018,6.00087501 29.9487918,6.56680919 L31.6762982,7.1709655 C32.7448843,7.5679825 33.3458098,7.92677737 33.3458098,8.83301183 C33.3458098,9.87117431 32.3944473,10.3434026 31.034653,10.3434026 C29.6565236,10.3355013 28.3215365,9.86231934 27.2464781,9.00069603 L27.2464781,11.0609923 Z M17.7131105,12.0831262 C20.5684319,12.0831262 22.4908997,10.459302 22.4908997,7.28686487 L22.4908997,0.297146266 L20.4709512,0.297146266 L20.4709512,7.05753207 C20.4709512,9.28551258 19.4998458,10.324908 17.7131105,10.324908 C15.9263753,10.324908 14.9552699,9.28674555 14.9552699,7.05753207 L14.9552699,0.297146266 L12.9365553,0.297146266 L12.9365553,7.26590435 C12.9365553,10.456836 14.8787661,12.0831262 17.7131105,12.0831262 Z M1.96195373,6.79367605 L4.5248329,6.79367605 C5.88215938,6.79367605 6.62251928,7.43605449 6.62251928,8.49271154 C6.62251928,9.53087402 5.88215938,10.191747 4.5248329,10.191747 L1.96195373,10.191747 L1.96195373,6.79367605 Z M1.96195373,5.16985184 L1.96195373,1.99618176 L4.15588689,1.99618176 C5.53419023,1.99618176 6.27208226,2.46841006 6.27208226,3.56328925 C6.27208226,4.65816844 5.53172237,5.16615293 4.15588689,5.16615293 L1.96195373,5.16985184 Z M6.66200514,5.90963508 C7.53562982,5.60755693 8.21552699,4.70132246 8.21552699,3.45478771 C8.21552699,1.37722979 6.66200514,0.300845182 4.17562982,0.300845182 L0,0.300845182 L0,11.8907825 L4.5655527,11.8907825 C7.05069409,11.8907825 8.60544987,10.7391866 8.60544987,8.56175798 C8.59818056,7.35058105 7.81569375,6.2800946 6.66323907,5.90470319 L6.66200514,5.90963508 Z" id="Shape"></path>
+											</g>
+											<g id="Group" transform="translate(22.827763, 36.002784)" fill-rule="nonzero"  class="logo-color-4">
+													<polygon id="Shape" points="0.0407197943 7.66908621 0.0407197943 0.217003082 4.80246787 0.217003082 4.80246787 1.3328428 1.30426735 1.3328428 1.30426735 3.54232873 4.57172237 3.54232873 4.57172237 4.65200358 1.30426735 4.65200358 1.30426735 7.66908621"></polygon>
+													<path d="M9.50128535,4.64707169 L9.50128535,7.66908621 L8.24020566,7.66908621 L8.24020566,0.217003082 L11.1189717,0.217003082 C12.6613882,0.217003082 13.6584062,0.99377548 13.6584062,2.44991548 C13.6584062,3.70014915 12.9291517,4.41650592 11.7507455,4.59775281 L13.9125964,7.66908621 L12.4787661,7.66908621 L10.4020566,4.64707169 L9.50128535,4.64707169 Z M9.50128535,3.59041464 L11.0930591,3.59041464 C11.9308997,3.59041464 12.4047301,3.14161281 12.4047301,2.44991548 C12.4047301,1.75821816 11.9308997,1.30818335 11.0930591,1.30818335 L9.50128535,1.30818335 L9.50128535,3.59041464 Z" id="Shape"></path>
+													<path d="M20.6659126,0.217003082 L23.5323393,7.66908621 L22.245347,7.66908621 L21.4803085,5.60632395 L18.6249871,5.60632395 L17.8599486,7.66908621 L16.5840617,7.66908621 L19.4504884,0.217003082 L20.6659126,0.217003082 Z M19.0260154,4.51391071 L21.0669409,4.51391071 L20.0464781,1.75821816 L19.0260154,4.51391071 Z" id="Shape"></path>
+													<polygon id="Shape" points="32.788072 7.66908621 31.8157326 7.66908621 28.0016452 2.24400915 28.0016452 7.66908621 26.7862211 7.66908621 26.7862211 0.217003082 27.9769666 0.217003082 31.5726478 5.3880879 31.5726478 0.217003082 32.788072 0.217003082"></polygon>
+													<path d="M39.8338303,0.0961718206 C40.671671,0.0961718206 41.3281234,0.342766232 41.8081234,0.739783236 L41.8081234,2.05043253 C41.2133676,1.49189619 40.6062725,1.22557423 39.84,1.22557423 C38.418509,1.22557423 37.495527,2.34264691 37.495527,3.94427762 C37.495527,5.54590832 38.418509,6.65681615 39.84,6.65681615 C40.6050386,6.65681615 41.2121337,6.40159093 41.8081234,5.84305459 L41.8081234,7.15123794 C41.3219537,7.55195386 40.6667352,7.79484936 39.8338303,7.79484936 C37.7558869,7.79484936 36.2258098,6.24130456 36.2258098,3.94674356 C36.2258098,1.65218256 37.7583548,0.0961718206 39.8338303,0.0961718206 Z" id="Shape"></path>
+													<polygon id="Shape" points="50.3037532 0.217003082 50.3037532 1.3328428 46.671054 1.3328428 46.671054 3.29943323 49.9631877 3.29943323 49.9631877 4.40910808 46.671054 4.40910808 46.671054 6.53475191 50.3037532 6.53475191 50.3037532 7.66415432 45.4321851 7.66415432 45.4321851 0.217003082"></polygon>
+											</g>
+									</g>
+							</g>
+					</svg>
+				</a>
+		</div>
+
+		<div class="footer-social">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/BusinessInsiderFrance/" target="_blank" class="external"><span class="wp-svg-facebook"></span></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/BIFrance" target="_blank" class="external"><span class="wp-svg-twitter"></span></a>
+				</li>
+				<li>
+					<a href="https://fr.linkedin.com/company/business-insider-france" target="_blank" class="external"><span class="wp-svg-linkedin"></span></a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="footer-app-stores">
+			<a href="https://itunes.apple.com/fr/app/business-insider-france/id1151882073?mt=8" target="_blank" class="external">
+				<img src="/content/themes/lovecraft/images/app-store-badge.png" alt="App Store" />
+			</a>
+			<a href="https://play.google.com/store/apps/details?id=com.prismamedia.businessinsider&hl=fr" target="_blank">
+				<img src="/content/themes/lovecraft/images/google-play-badge.png" alt="Google Play" />
+			</a>
+		</div>
+
+
+	</section>
+
+	<div class="credits-inner section-inner">
+        
+		<p>Copyright &copy; 2016 Business Insider Inc. Tous droits réservés. <a href="http://www.prismamedia.com/cgu-businessinsider/" class="external" target="_blank">Conditions d'utilisations</a> | <a href="http://www.prismamedia.com/charte-pour-la-protection-des-donnees/" class="external" target="_blank">Charte de protection des données</a> | <a href="http://www.prismamediasolutions.com/les-marques/business-insider-france" class="external" target="_blank">Publicité</a><p>
+
+
+    <p class="credits-editions">Editions Internationales
+	    <a href="http://www.businessinsider.com/?IR=C" class="external" target="_blank">US</a>
+			<a href="https://www.businessinsider.com/international?IR=C" class="external" target="_blank">INT</a>
+	    <a href="http://www.businessinsider.de/" class="external" target="_blank">DE</a>
+	    <a href="https://www.businessinsider.fr/">FR</a>
+			<a href="http://it.businessinsider.com/" class="external" target="_blank">IT</a>
+			<a href="http://www.businessinsider.es/" class="external" target="_blank">ES</a>
+			<a href="http://www.businessinsider.co.za/" class="external" target="_blank">ZA</a>
+	    <a href="http://www.businessinsider.com.au/" class="external" target="_blank">AUS</a>
+	    <a href="http://www.businessinsider.in" class="external" target="_blank">ID</a>
+	    <a href="http://www.businessinsider.co.id" class="external" target="_blank">IN</a>
+	    <a href="http://www.businessinsider.my" class="external" target="_blank">MY</a>
+	    <a href="http://www.businessinsider.sg" class="external" target="_blank">SG</a>
+	    <a href="http://www.businessinsider.pl" class="external" target="_blank">PL</a>
+	    <a href="https://www.businessinsider.com/nordic?IR=C" class="external" target="_blank">SE</a>
+	    <a href="http://www.businessinsider.nl" class="external" target="_blank">NL</a>
+	   </p>
+
+	</div> <!-- /section-inner -->
+
+</div> <!-- /credits.section -->
+
+
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        "pageType":"WebSite",
+"urlprisma":"https:\/\/www.businessinsider.fr",
+"siteName":"Business Insider France",
+"name":"",
+"pageCategory":"_homepage",
+"keywords":[],
+"pageSubCategory":"",
+"env":"prod",
+"path":"\/us\/trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11"
+    });
+</script><script type="text/javascript">
+        (function() {
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+                ga('create', 'UA-18383854-106', 'auto', {'allowAnchor': true, 'cookieExpires': 33696000});
+                ga('require', 'displayfeatures');
+                ga('require', 'linkid', 'linkid.js');
+                ga('set', 'dimension14', window.navigator.userAgent||'undefined'); ga("set", "contentGroup1", "single-us");
+                ga('set', 'dimension27', document.referrer||'undefined');
+                ga('set', 'dimension13', "WebSite");
+ga('set', 'dimension12', "_homepage");
+ga('set', 'dimension18', 'no');
+ga('set', 'dimension22', "2020-01-06 18:16:04");
+ga('set', 'dimension17', 'no');
+ga('set', 'dimension21', "https");
+ga('send', 'pageview');
+        })();
+        </script>
+
+
+<!-- START Parse.ly Include: Standard -->
+
+<div id="parsely-root" style="display: none">
+	<div id="parsely-cfg" data-parsely-site="businessinsider.fr"></div>
+</div>
+<script data-cfasync="false">
+	(function (s, p, d) {
+		var h = d.location.protocol, i = p + "-" + s,
+			e = d.getElementById(i), r = d.getElementById(p + "-root"),
+			u = h === "https:" ? "d1z2jf7jlzjs58.cloudfront.net"
+				: "static." + p + ".com";
+		if (e) return;
+		e = d.createElement(s);
+		e.id = i;
+		e.async = true;
+		e.setAttribute('data-cfasync', 'false');
+		e.src = h + "//" + u + "/p.js";
+		r.appendChild(e);
+	})("script", "parsely", document);
+</script>
+
+<!-- END Parse.ly Include: Standard -->
+<link rel='stylesheet' id='wp_svg_custom_pack_style-css'  href='https://www.businessinsider.fr/core/wp-content/uploads/wp-svg-icons/custom-pack/style.css?ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var beloadmore = {"nonce":"5298e50a44","url":"https:\/\/www.businessinsider.fr\/core\/wp-admin\/admin-ajax.php","query":{"us_url":"trump-trade-war-tariffs-china-bijing-political-defense-opportunity-2019-11","custompage":"us"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.businessinsider.fr/content/plugins/BI_infinite_scroll/load-more.js?ver=1.0-b-modified-1578305440'></script>
+<script type='text/javascript' src='https://tra.scds.pmdstatic.net/bundle.php?scripts%5B%5D=advertising-core-config%2F3.5.39%2FpmdAdvertisingConfig-bi.js&#038;scripts%5B%5D=advertising-core%2F4.11.27%2Fcore-ads.js'></script>
+<script type='text/javascript'>
+var renderInvisibleReCaptcha = function() {
+
+    for (var i = 0; i < document.forms.length; ++i) {
+        var form = document.forms[i];
+        var holder = form.querySelector('.inv-recaptcha-holder');
+
+        if (null === holder) continue;
+		holder.innerHTML = '';
+
+         (function(frm){
+			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+            var holderId = grecaptcha.render(holder,{
+                'sitekey': '6LfSVBgUAAAAALXq6QGjJmcO6A5pe1y9rZYnvSZU', 'size': 'invisible', 'badge' : 'inline',
+                'callback' : function (recaptchaToken) {
+					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
+					 HTMLFormElement.prototype.submit.call(frm);
+                },
+                'expired-callback' : function(){grecaptcha.reset(holderId);}
+            });
+
+			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
+				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
+					clickEvt.preventDefault();
+					grecaptcha.execute(holderId);
+				});
+			}
+			else
+			{
+				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
+			}
+
+
+        })(form);
+    }
+};
+</script>
+<script type='text/javascript' async defer src='https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit&#038;hl=fr'></script>
+<script type='text/javascript' src='https://www.businessinsider.fr/content/themes/lovecraft/js/doubletaptogo.js?ver=-b-modified-1578305440'></script>
+<script type='text/javascript' src='https://www.businessinsider.fr/content/themes/lovecraft/js/global.js?ver=-b-modified-1578305440'></script>
+<script type='text/javascript' src='https://www.businessinsider.fr/core/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+
+	<script>
+	 (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+	   t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+	 })(window, document, '_gscq','script','//widgets.getsitecontrol.com/81504/script.js');
+	</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"fc2461609-","applicationID":"25670980","transactionName":"Y1RTbBdSVxFZABUIXloecFsRWlYMFxAID1ZYVBxNFg==","queueTime":0,"applicationTime":898,"atts":"TxNQGl9IRB8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

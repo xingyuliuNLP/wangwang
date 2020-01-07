@@ -1,0 +1,61 @@
++++
+title = "Cours 9 - méthode 2 de de la segmentation du chinois"
+date = 2019-11-06
+weight = 7
+toc = true  # Show table of contents? true/false
+type = "docs"  # Do not modify.
+[menu.blog]
++++
+
+
+
+<font size="4">Pour la segmentation du corpus chinois, la semaine dernière, nous avons utilisé le stanford-segmenter. Ayant pour but de le comparer avec un module Jieba qui se concentre sur la segmentation du texte chinois, nous avons écrit un script python en important ce dernier module pour réaliser la segmentation. </font>
+
+<br>
+<br>
+
+
+```python
+#!/usr/bin/python
+# _*_ coding: utf-8 _*_
+
+# segment chinese text
+# modules
+import re
+import sys
+import jieba
+
+# functions
+def tokenize(file):
+    # input file
+    with open(file, 'r', encoding='utf-8') as f:
+        content = f.read()
+        # clean text and keep only chinese characters
+        pattern=re.compile(u'[^\u4E00-\u9FA5]')
+        texte=pattern.sub(r'', content)
+        wordlist_temp=list(jieba.cut(texte, cut_all=False))
+        wordlist=[i.rstrip() for i in wordlist_temp if len(i)>=1]
+    return wordlist
+
+def token_file(file):
+    wordlist=tokenize(sys.argv[1])
+    # output file
+    with open(file, 'w', encoding='utf-8') as f:
+        f.write(' '.join(wordlist))
+
+if __name__ == "__main__":
+    token_file(sys.argv[2])
+```
+<br>
+<font size="4"><font size="4">Il suffit de taper le nom du fichier contenant des textes chinois comme le premier argument et le nom du fichier de sortie comme le deuxième argument.</font></font>
+<br>
+
+```bash
+python3.7 seg_jieba.py ../DUMP-TEXT/1-16.txt test1.txt
+```
+<br>
+<font size="4"><font size="4">Nous avons ensuite fait un test en prenant un de nos dump textes comme l'input avec les segmenteurs Jieba et Stanford-Segmenter. Les résultats sont affichés ci-après. Le résultat de Jieba s'affiche en haut tandis que celui de Stanford se trouve en bas. </font></font>
+<br>
+<br>
+
+<img src="/blog/_index_files/screenshot_515.jpg">

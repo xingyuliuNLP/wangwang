@@ -1,0 +1,45 @@
+   https://dx.doi.org/1 Copy URL
+
+中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the Economic Effect of the US-China
+Trade War: A CGE Analysis ）
+
+   11 Pages Posted: 13 Jun 2019 Last revised: 9 Jul 2019
+--
+--
+
+   Chinese Abstract:
+   本文运用全球可计算一般均衡模型（CGE）分析中美贸易战对两国经济以及全球贸易产生的影响。基于中美贸易战政策背景，本文对贸易战不同阶段的政策采取
+   短期、长期闭合模拟。模拟结果表明，中美贸易战对两国宏观经济、行业部门带来不同程度冲击；全球大部分国家经济福利受损，但由于贸易转移现象也会使部分
+   国家受益。在对宏观经济指标进行分析外，本次研究最重要的贡献在于构建相关的全球CGE模型行业数据库以及量化关税冲击，从微观角度分析贸易战对我国行
+   业部门的影响。研究中采用的数据库建构、政策模拟方法对相关议题的研究提供了更为全面的实证研究方法，也为贸易政策提供可量化数据支持。
+   English Abstract: This paper uses the global computable general
+--
+--
+   English Abstract: This paper uses the global computable general
+   equilibrium model (CGE) to analyze the economic effect of the US-China
+   trade war. Based on the policy background of the trade war, this paper
+   has simulations on the different stages of the trade war by setting
+   four simulation scenarios. The result indicates that both China and the
+   US will be negatively impacted on their macroeconomics and industrial
+--
+--
+   sectors by the tit-for-tat trade conflicts. Most countries’ economic
+   welfare will be impaired, but some countries such as Canada and Mexico
+   will benefit from the US-China trade war to some extent because of
+   trade transfers. In addition to the analysis of macroeconomics, one of
+   the significant contributions of this study lies in the construction of
+--
+--
+   Note: Downloadable document is in Chinese.
+
+   Keywords: CGE, the US-China Trade War, Closure, Trade Transfer
+
+   Suggested Citation: Suggested Citation
+--
+--
+
+   Suggested Citation: Suggested Citation
+   Wen, Yun and Zhang, Tao, 中美贸易战经济影响的定量分析：基于全球CGE模型应用 (Quantifying the
+   Economic Effect of the US-China Trade War: A CGE Analysis ） (October
+   20, 2018). Available at SSRN: https://ssrn.com/abstract=3393938 or
+   http://dx.doi.org/10.2139/ssrn.3393938
